@@ -2,33 +2,13 @@ import requests
 from bs4 import BeautifulSoup as bs
 import time, random, csv
 from unidecode import unidecode
+from constants import *
 
 def test_print(response, x):
     to_test = [3]
     if x in to_test:
         print(response)
 
-# Send a GET request to the website
-premier_league_url = "https://fbref.com/en/comps/9/Premier-League-Stats"
-la_liga_url = "https://fbref.com/en/comps/12/La-Liga-Stats"
-
-stats_wanted = {
-    "Standard Stats": ["games", "minutes", "goals", "assists", "cards_yellow"],
-    "Shooting": ["shots"],
-    "Goalkeeping": ["saves"],
-    "Passing": ["passes", "key_passes"],
-    "Defensive Actions": ["tackles", "interceptions", "clearances"],
-    "Miscellaneous Stats": ["fouls", "fouls_drawn"]
-}
-year = "2023-2024"
-team_stats_wanted = {
-    "Squad Standard Stats": ["games", "goals", "assists", "cards_yellow"],
-    "Squad Shooting": ["shots"],
-    "Squad Goalkeeping": ["saves"],
-    "Squad Passing": ["passes", "key_passes"],
-    "Squad Defensive Actions": ["tackles", "interceptions", "clearances"],
-    "Squad Miscellaneous Stats": ["fouls", "fouls_drawn"]
-}
 
 # Make sure we bypass 429 and wait a reasonable amount of time between reqs
 def code_test(response):
@@ -68,7 +48,7 @@ class SoccerLeague:
         self.team_names = [unidecode(team.text.strip()) for team in self.team_objs]
         self.team_links = [team.a["href"] for team in self.team_objs]
         self.team_stats = self.gen_team_stats()
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team]) for team in range(len(self.team_objs[:2]))]
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team]) for team in range(len(self.team_objs))]
         self.save_stats()
 
     def gen_tables(self):
@@ -148,7 +128,7 @@ class SoccerLeague:
 
         with open(self.league.replace(" ", "_") + "_Player_Stats.csv", "w") as csvfile:
             # creating a csv dict writer object
-            writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
+            writer = csv.DictWriter(csvfile, fieldnames=get_stats_wanted("fbref"))
             # writing headers (field names)
             writer.writeheader()
             # writing data rows

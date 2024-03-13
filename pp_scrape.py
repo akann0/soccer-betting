@@ -1,5 +1,8 @@
 from selenium import webdriver
-import json
+import json, csv
+from unidecode import unidecode
+from constants import *
+
 
 def check(s):
     print(type(s)   )
@@ -9,6 +12,9 @@ def print_a_player(players):
     for key in players:
         print(players[key])
         return
+    
+def is_multiple_players(player):
+    return player.find("+") != -1
 
 def get_data_scrape():
     # Set up Selenium webdriver
@@ -28,33 +34,66 @@ def get_data_scrape():
     return json.loads(jsonified)
 
 # Save data to a file
-def save_data_file(data):
-    with open('pp_data.json', 'w') as f:
+def save_data_file(data, filename):
+    with open(filename, 'w') as f:
         json.dump(data, f)
 
 # Load data from a file
-def get_data_file():
-    with open('pp_data.json', 'r') as f:
+def get_data_file(filename):
+    with open(filename, 'r') as f:
         return json.load(f)
+    
+def is_soccer(datapoint):
+    soccer_id = "82"
+    if ("attributes") not in datapoint.keys():
+        return False
+    if ("league_id" in datapoint["attributes"].keys()):
+        return str(datapoint["attributes"]["league_id"]) == soccer_id
+    if ("relationships") in datapoint.keys():
+        return str(datapoint["relationships"]["league"]["data"]["id"]) == soccer_id
+    return False
 
 # Get the data
-# data = get_data_scrape()
-data = get_data_file()
+data = get_data_scrape()
+# data = get_data_file("pp_sample_web_data.json")
 
 # Sort the data into relevant lists, depending on category
 players = {}
-lines = []
+lines = {}
 
-for datapoint in data["data"]:
-    if "type" in datapoint.keys():
-        if datapoint["type"] == "projection":
-            lines.append(datapoint)
-
+# Get the players by their id number
 for inc in data["included"]:
     if inc["type"] == "new_player":
-        print("new player")
-        players[inc["id"]] = inc
+        if is_soccer(inc):
+            players[inc["id"]] = inc
 
 print(len(players), len(lines))
 print_a_player(players)
-print(lines[0])
+
+# Get the lines, and save them to a dictionary with player names as keys
+for datapoint in data["data"]:
+    if "type" in datapoint.keys():
+        if datapoint["type"] == "projection":
+            if is_soccer(datapoint):
+                player_id = datapoint["relationships"]["new_player"]["data"]["id"]
+                if player_id in players.keys():
+                    player_name = unidecode(players[player_id]["attributes"]["display_name"])
+                    lines[player_name] = [datapoint] if player_name not in lines.keys() else lines[player_name] + [datapoint]
+
+final_csv = list()
+stat_types = list()
+for player in lines:
+    if is_multiple_players(player):
+        continue
+    dic = {'name': player}
+    for line in lines[player]:
+        if "attributes" in line.keys():
+            if "stat_type" in line["attributes"].keys():
+                dic[line["attributes"]["stat_type"]] = line["attributes"]["line_score"]
+                stat_types = stat_types + [line["attributes"]["stat_type"]] if line["attributes"]["stat_type"] not in stat_types else stat_types
+    final_csv.append(dic)
+
+with open("pp_lines.csv", "w") as f:
+    writer = csv.DictWriter(f, fieldnames=["name"] + stat_types)
+    writer.writeheader()
+    writer.writerows(final_csv)
