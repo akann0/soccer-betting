@@ -5,7 +5,7 @@ from unidecode import unidecode
 from constants import *
 
 def test_print(response, x):
-    to_test = [3]
+    to_test = [5]
     if x in to_test:
         print(response)
 
@@ -48,7 +48,7 @@ class SoccerLeague:
         self.team_names = [unidecode(team.text.strip()) for team in self.team_objs]
         self.team_links = [team.a["href"] for team in self.team_objs]
         self.team_stats = self.gen_team_stats()
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team]) for team in range(len(self.team_objs))]
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in range(1, 3)] #TODO: change back once Arsenal glitch is gone
         self.save_stats()
 
     def gen_tables(self):
@@ -109,6 +109,7 @@ class SoccerLeague:
     def save_stats(self):
         self.save_league_stats()
         self.save_player_stats()
+        self.save_last_five_stats()
 
     def save_league_stats(self):
         with open(self.league.replace(" ", "_") + "_Team_Stats.csv", "w") as csvfile:
@@ -129,6 +130,20 @@ class SoccerLeague:
         with open(self.league.replace(" ", "_") + "_Player_Stats.csv", "w") as csvfile:
             # creating a csv dict writer object
             writer = csv.DictWriter(csvfile, fieldnames=get_stats_wanted("fbref"))
+            # writing headers (field names)
+            writer.writeheader()
+            # writing data rows
+            writer.writerows(league_stats)
+
+    def save_last_five_stats(self):
+        league_stats = []
+        for team in self.teams:
+            for player in team.player_objs:
+                league_stats.append(player.l5_table)
+
+        with open(self.league.replace(" ", "_") + "_Last_Five_Stats.csv", "w") as csvfile:
+            # creating a csv dict writer object
+            writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
             # writing headers (field names)
             writer.writeheader()
             # writing data rows
@@ -178,7 +193,7 @@ class SoccerTeam():
         self.year = year
 
 
-    def __init__(self, url, stats):
+    def __init__(self, url, stats, league):
         self.constants()
         self.url = url
         self.stats = stats
@@ -192,7 +207,7 @@ class SoccerTeam():
         self.player_names = [unidecode(player.text) for player in self.players]
         self.player_links = [player.a["href"] for player in self.players]
         self.player_stats = self.gen_player_stats()
-        self.player_objs = [SoccerPlayer("https://fbref.com" + self.players[player].a["href"], self.player_stats[player], False) for player in range(len(self.players))]
+        self.player_objs = [SoccerPlayer("https://fbref.com" + self.players[player].a["href"], self.player_stats[player], self.team, league, False) for player in range(len(self.players))]
         
 
     def gen_table(self):
@@ -252,7 +267,7 @@ class SoccerTeam():
         player_stats = []
         dex = 0
         for player in self.player_names:
-            player_stats.append({"name": player.strip()})
+            player_stats.append({"name": player.strip(), "team": self.team})
             player_stats_index_map[player] = len(player_stats) - 1
 
 
@@ -288,14 +303,17 @@ class SoccerTeam():
 
 class SoccerPlayer():
     def constants(self):
-        self.stats_wanted = stats_wanted
+        self.stats_wanted = get_stats_wanted("fbref")
         self.year = year
 
 
-    def __init__(self, url, stats, scrape=True):
+    def __init__(self, url, stats, team, league, scrape=True, matchlog=True):
         self.constants()
         self.url = url
+        self.player = url.split("/")[-1].replace("-", " ")
         self.stats = stats
+        self.team = team
+        self.league = league    
         if scrape:
             self.response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             code_test(self.response)
@@ -303,6 +321,12 @@ class SoccerPlayer():
             self.tables = self.gen_tables()
             self.player = url.split("/")[-1].replace("-", " ")
             self.stats = self.gen_stats()
+        if matchlog:
+            self.matchlog_table = self.get_matchlog_table()
+            self.l5_table = self.gen_l5_table()
+            test_print("Found table", 5)
+            # test_print(self.matchlog_table, 5)
+
 
     def gen_tables(self):
         return {table.get_text().split(":")[0]: table.find_parent('table', {'class': 'stats_table'}) for table in self.soup.find_all("caption")}
@@ -315,7 +339,7 @@ class SoccerPlayer():
 
     def gen_stats(self):
         stats = {"name": self.player}
-        stats_wanted = list(self.stats_wanted.keys())
+        stats_wanted = self.stats_wanted.copy()
         for table in self.tables:
             if table not in stats_wanted:
                 continue
@@ -335,7 +359,7 @@ class SoccerPlayer():
 
                             
 
-        print("Stats: ", stats)
+        test_print("Stats: " + str(stats), 4)
         return stats
     
     def __str__(self):
@@ -382,12 +406,53 @@ class SoccerPlayer():
         stat_response = requests.get(stat_url)
         return stat_response
 
-    def get_stat_table(self, stat_name):
-        stat_index = self.stats.index(stat_name)
-        stat_link = stat_name.a["href"]
-        stat_url = "https://fbref.com" + stat_link
-        stat_response = requests.get(stat_url)
+
+    # TODO: Find a way to encorporate the passing table so that kp's can be included in analysis
+    def get_matchlog_table(self):
+        #add matchlog/ right before the last / in self.url
+        matchlog_url = self.url[:self.url.rfind("/")] + "/matchlogs/2023-2024/" + self.url[self.url.rfind("/") + 1:] + "-Match-Logs"
+        stat_response = requests.get(matchlog_url)
+        code_test(stat_response)
         stat_soup = bs(stat_response.content, "html.parser")
+        for table in stat_soup.find_all("caption"):
+            test_print(table.get_text(), 5)
+            if ("Match Logs" in table.get_text()):
+                return table.find_parent('table', {'class': 'stats_table'})
+        print("No matchlog table found for " + self.player)
+        return None
+
+    
+    def gen_l5_table(self):
+        last_five_games_totals = {"name": self.player, "team": self.team, "league": self.league}
+        for stat in self.stats_wanted:
+            if stat in ["name", "team"]:
+                continue
+            last_five_games_totals[stat] = 0
+        if self.matchlog_table is None:
+            return last_five_games_totals
+        games = 5
+        for row in self.matchlog_table.find_all("tr"):
+            if games == 0:
+                break
+            for col in row.find_all("td"):
+                if col.get("data-stat") == "team" and col.get_text() != self.team:
+                    break
+                if col.get("data-stat") == "game_started" and col.get_text() in ["Y", "Y*"]:
+                    games -= 1
+                if col.get("data-stat") in last_five_games_totals.keys():
+                    if col.get("data-stat") in ["name", "team", "league"]:
+                        continue
+
+                    print(col.get("data-stat") + ": " + col.get_text())
+                    last_five_games_totals[col.get("data-stat")] += int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
+
+        last_five_games_totals["games"] = 5 - games #The variable is a countdown hence the subtraction
+
+        test_print("Last 5 games totals for :" + self.url[self.url.rfind("/") + 1:] + str(last_five_games_totals), 5)
+        return last_five_games_totals
+               
+
+        
 
 
 # Create an instance of the SoccerLeague class

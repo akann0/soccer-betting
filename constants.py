@@ -20,7 +20,7 @@ team_stats_wanted = {
 }
 
 def get_stats_wanted(type = 'pp'):
-    return list(pp_to_fbref_stats.keys()) if type == 'pp' else ["name", "games", "minutes"] + list(fbref_to_pp_stats.keys()) 
+    return list(pp_to_fbref_stats.keys()) if type == 'pp' else ["name", "team", "games", "minutes"] + list(fbref_to_pp_stats.keys()) 
 
 fbref_to_pp_stats = {
     "gk_saves": "Goalie Saves",
@@ -53,5 +53,112 @@ pp_to_fbref_stats = {
     "Fouls": "fouls",
     "Goals": "goals",
     "Assists": "assists"
+}
+
+"""
+['name',
+ 'Pitcher Fantasy Score',
+ 'Hits Allowed',
+ 'Pitcher Strikeouts',
+ 'Pitching Outs',
+ 'Earned Runs Allowed',
+ 'Walks Allowed',
+ 'Hits+Runs+RBIS',
+ 'Hitter Strikeouts',
+ 'Hitter Fantasy Score',
+ 'Total Bases',
+ 'Runs',
+ 'Walks',
+ """
+
+
+"""
+ 'home runs',
+ 'home runs_Over',
+ 'home runs_Under',
+ 'hits',
+ 'hits_Over',
+ 'hits_Under',
+ 'total bases',
+ 'total bases_Over',
+ 'total bases_Under',
+ 'rbis',
+ 'rbis_Over',
+ 'rbis_Under',
+ 'runs',
+ 'runs_Over',
+ 'runs_Under',
+ 'hits + runs + rbis',
+ 'hits + runs + rbis_Over',
+ 'hits + runs + rbis_Under',
+ 'strikeouts',
+ 'strikeouts_Over',
+ 'strikeouts_Under',
+ 'singles',
+ 'singles_Over',
+ 'singles_Under',
+ 'doubles',
+ 'doubles_Under',
+ 'walks',
+ 'walks_Over',
+ 'walks_Under',
+ 'doubles_Over',
+ 'stolen bases',
+ 'stolen bases_Over',
+ 'stolen bases_Under',
+ 'triples',
+ 'triples_Over',
+ 'triples_Under',
+ 'strikeouts thrown',
+ 'strikeouts thrown_Over',
+ 'strikeouts thrown_Under',
+ 'outs',
+ 'outs_Over',
+ 'outs_Under']
+"""
+
+pp_to_dk_stats = {
+    "Rebounds": "rebounds",
+    "Points": "points",
+    "Pts+Asts": "points + assists",
+    "Pts+Rebs": "points + rebounds",
+    "Pts+Rebs+Asts": "points + rebounds + assists",
+    "Assists": "assists",
+    "Rebs+Asts": "rebounds + assists",
+    "Fantasy Score": "fantasy score",
+    "3-PT Made": "three pointers made",
+    'Hits Allowed': 'hits',
+    'Pitcher Strikeouts': 'strikeouts thrown',
+    'Pitching Outs': 'outs',
+    # 'Earned Runs Allowed': 'earned runs',
+    'Walks Allowed': 'walks',
+    'Hits+Runs+RBIS': 'hits + runs + rbis',
+    'Hitter Strikeouts': 'hitter strikeouts',
+    'Total Bases': 'total bases',
+    'Runs': 'runs',
+    'Walks': 'walks'
+}
+
+dk_to_pp_stats = {
+    "rebounds": "Rebounds",
+    "points": "Points",
+    "points + assists": "Pts+Asts",
+    "points + rebounds": "Pts+Rebs",
+    "points + rebounds + assists": "Pts+Rebs+Asts",
+    "assists": "Assists",
+    "rebounds + assists": "Rebs+Asts",
+    "fantasy score": "Fantasy Score",
+    "three pointers made": "3-PT Made",
+    'hits': 'Hits Allowed',
+    'strikeouts thrown': 'Pitcher Strikeouts',
+    'outs': 'Pitching Outs',
+    # 'earned runs': 'Earned Runs Allowed',
+    'walks': 'Walks Allowed',
+    'hits + runs + rbis': 'Hits+Runs+RBIS',
+    'hitter strikeouts': 'Hitter Strikeouts',
+    'total bases': 'Total Bases',
+    'runs': 'Runs',
+    'walks': 'Walks'
+    
 }
 

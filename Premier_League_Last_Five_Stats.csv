@@ -1,0 +1,69 @@
+name,team,league,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow
+Virgil van Dijk,Liverpool,Premier League,5,387,0,0,5,0,0,8,0,1,242,13,0,0,2,1
+Luis Diaz,Liverpool,Premier League,5,382,0,0,5,0,0,13,0,4,152,1,0,2,0,0
+Alexis Mac Allister,Liverpool,Premier League,5,354,0,0,13,0,0,0,0,0,247,5,0,0,0,2
+Dominik Szoboszlai,Liverpool,Premier League,5,450,0,0,7,0,0,10,0,3,318,3,0,1,0,0
+Mohamed Salah,Liverpool,Premier League,5,430,0,0,6,0,0,14,0,6,132,1,0,2,4,0
+Alisson,Liverpool,Premier League,5,450,18,0,0,0,0,0,0,0,0,0,0,0,0,0
+Darwin Nunez,Liverpool,Premier League,5,568,0,0,6,0,0,35,0,14,133,0,0,5,3,1
+Trent Alexander Arnold,Liverpool,Premier League,5,420,0,0,9,0,0,5,0,2,325,4,0,0,1,2
+Joe Gomez,Liverpool,Premier League,5,529,0,0,12,0,0,4,0,0,375,7,0,0,0,1
+Ibrahima Konate,Liverpool,Premier League,5,469,0,0,7,0,0,2,0,0,329,2,0,0,0,1
+Wataru Endo,Liverpool,Premier League,5,465,0,0,6,0,0,4,0,1,209,7,0,1,1,3
+Diogo Jota,Liverpool,Premier League,5,467,0,0,6,0,0,18,0,6,144,2,0,3,0,3
+Cody Gakpo,Liverpool,Premier League,5,365,0,0,5,0,0,15,0,5,72,2,0,2,0,0
+Andrew Robertson,Liverpool,Premier League,5,450,0,0,10,0,0,1,0,1,406,6,0,1,0,0
+Curtis Jones,Liverpool,Premier League,5,358,0,0,8,0,0,4,0,1,194,4,0,0,0,1
+Ryan Gravenberch,Liverpool,Premier League,5,470,0,0,7,0,0,9,0,4,175,9,0,0,1,0
+Caoimhin Kelleher,Liverpool,Premier League,5,450,8,0,0,0,0,0,0,0,0,0,0,0,0,0
+Joel Matip,Liverpool,Premier League,5,436,0,0,4,0,0,3,0,0,336,7,0,0,0,0
+Conor Bradley,Liverpool,Premier League,5,457,0,0,6,0,0,4,0,2,90,3,0,1,5,1
+Jarell Quansah,Liverpool,Premier League,5,443,0,0,4,0,0,1,0,1,181,8,0,0,1,1
+Kostas Tsimikas,Liverpool,Premier League,5,449,0,0,6,0,0,3,0,1,238,5,0,0,2,0
+Harvey Elliott,Liverpool,Premier League,5,651,0,0,8,0,0,29,0,9,282,3,0,1,1,1
+Bobby Clark,Liverpool,Premier League,5,480,0,0,0,0,0,0,0,0,0,0,0,2,4,4
+Ben Doak,Liverpool,Premier League,2,105,0,0,0,0,0,3,0,1,4,1,0,0,0,0
+Jayden Danns,Liverpool,Premier League,5,489,0,0,0,0,0,6,0,5,7,0,0,5,2,1
+Owen Beck,Liverpool,Premier League,0,8,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+Thiago Alcantara,Liverpool,Premier League,0,6,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+James McConnell,Liverpool,Premier League,5,426,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Kaide Gordon,Liverpool,Premier League,5,490,0,0,0,0,0,0,0,0,1,0,0,1,3,2
+Adrian,Liverpool,Premier League,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stefan Bajcetic,Liverpool,Premier League,0,44,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+Luke Chambers,Liverpool,Premier League,5,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lewis Koumas,Liverpool,Premier League,5,446,0,0,0,0,0,0,0,0,0,0,0,5,1,0
+Fabian Mrozek,Liverpool,Premier League,5,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Amara Nallo,Liverpool,Premier League,5,450,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Trey Nyoni,Liverpool,Premier League,5,420,0,0,0,0,0,0,0,0,0,0,0,1,0,2
+Marcelo Pitaluga,Liverpool,Premier League,5,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calum Scanlon,Liverpool,Premier League,5,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Phil Foden,Manchester City,Premier League,5,459,0,0,5,0,0,14,0,5,248,2,0,1,3,0
+Rodri,Manchester City,Premier League,5,435,0,0,12,0,0,12,0,6,456,3,0,2,1,1
+Julian Alvarez,Manchester City,Premier League,5,449,0,0,3,0,0,15,0,6,164,2,0,2,1,2
+Ederson,Manchester City,Premier League,5,450,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+Kyle Walker,Manchester City,Premier League,5,449,0,0,3,0,0,2,0,0,337,0,0,0,0,0
+Ruben Dias,Manchester City,Premier League,5,450,0,0,7,0,0,3,0,2,378,5,0,0,0,0
+Erling Haaland,Manchester City,Premier League,5,412,0,0,0,0,0,18,0,9,39,1,0,6,1,0
+Bernardo Silva,Manchester City,Premier League,5,464,0,0,6,0,0,1,0,1,288,0,0,1,1,2
+Manuel Akanji,Manchester City,Premier League,5,450,0,0,8,0,0,1,0,0,357,5,0,0,0,0
+Nathan Ake,Manchester City,Premier League,5,439,0,0,7,0,0,6,0,2,319,5,0,1,0,0
+Josko Gvardiol,Manchester City,Premier League,5,461,0,0,6,0,0,3,0,1,333,2,0,0,0,1
+Jeremy Doku,Manchester City,Premier League,5,424,0,0,12,0,0,12,0,4,188,5,0,1,1,1
+John Stones,Manchester City,Premier League,5,437,0,0,2,0,0,1,0,1,200,4,0,0,0,1
+Mateo Kovacic,Manchester City,Premier League,5,456,0,0,5,0,0,5,0,1,290,1,0,0,0,0
+Jack Grealish,Manchester City,Premier League,5,444,0,0,7,0,0,11,0,2,159,5,0,0,1,2
+Kevin De Bruyne,Manchester City,Premier League,5,512,0,0,4,0,0,16,0,5,337,0,0,1,10,1
+Rico Lewis,Manchester City,Premier League,5,431,0,0,3,0,0,4,0,2,167,4,0,1,0,1
+Matheus Nunes,Manchester City,Premier League,5,539,0,0,7,0,0,3,0,2,284,2,0,0,2,0
+Stefan Ortega,Manchester City,Premier League,5,533,13,0,0,0,0,0,0,0,0,0,0,0,0,0
+Oscar Bobb,Manchester City,Premier League,5,553,0,0,5,0,0,8,0,1,158,3,0,1,1,0
+Kalvin Phillips,Manchester City,Premier League,1,183,0,0,3,0,0,4,0,0,70,3,0,0,0,1
+Sergio Gomez,Manchester City,Premier League,2,225,0,0,1,0,0,3,0,1,28,2,0,0,1,0
+Aymeric Laporte,Manchester City,Premier League,0,12,0,0,0,0,0,1,0,1,11,0,0,0,0,0
+Cole Palmer,Manchester City,Premier League,0,38,0,0,0,0,0,2,0,1,5,0,0,1,0,0
+James Mcatee,Manchester City,Premier League,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Scott Carson,Manchester City,Premier League,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Micah Hamilton,Manchester City,Premier League,5,426,0,0,0,0,0,0,0,0,0,0,0,0,4,0
+Maximo Perrone,Manchester City,Premier League,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mahamadou Susoho,Manchester City,Premier League,5,485,0,0,0,0,0,0,0,0,0,0,0,1,0,3
+Jacob Wright,Manchester City,Premier League,5,405,0,0,0,0,0,0,0,0,0,0,0,1,0,1
