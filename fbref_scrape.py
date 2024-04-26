@@ -5,7 +5,7 @@ from unidecode import unidecode
 from constants import *
 
 def test_print(response, x):
-    to_test = [5]
+    to_test = [0, ]
     if x in to_test:
         print(response)
 
@@ -20,7 +20,7 @@ def code_test(response):
     if code == 429:
         print("Error: Too many requests, retry after:")
         print(str(int(response.headers["Retry-After"]) / 60) + " minutes")
-    time.sleep(random.random() * 1.5 + 0.75)
+    time.sleep(random.random() * 1.5 + 1)
 
 
 #Create an class type Soccer League
@@ -48,7 +48,8 @@ class SoccerLeague:
         self.team_names = [unidecode(team.text.strip()) for team in self.team_objs]
         self.team_links = [team.a["href"] for team in self.team_objs]
         self.team_stats = self.gen_team_stats()
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in range(1, 3)] #TODO: change back once Arsenal glitch is gone
+        self.relativize_team_stats()
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in [8, 15]] #TODO: change back once Arsenal glitch is gone
         self.save_stats()
 
     def gen_tables(self):
@@ -109,7 +110,8 @@ class SoccerLeague:
     def save_stats(self):
         self.save_league_stats()
         self.save_player_stats()
-        self.save_last_five_stats()
+        # self.save_last_five_stats()
+        self.save_player_matchlogs()
 
     def save_league_stats(self):
         with open(self.league.replace(" ", "_") + "_Team_Stats.csv", "w") as csvfile:
@@ -139,9 +141,27 @@ class SoccerLeague:
         league_stats = []
         for team in self.teams:
             for player in team.player_objs:
+                dict = {}
+                for stat in player.l5_table.keys():
+                    dict["L5_" + stat] = player.l5_table[stat]
                 league_stats.append(player.l5_table)
 
         with open(self.league.replace(" ", "_") + "_Last_Five_Stats.csv", "w") as csvfile:
+            # creating a csv dict writer object
+            writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
+            # writing headers (field names)
+            writer.writeheader()
+            # writing data rows
+            writer.writerows(league_stats)
+
+    def save_player_matchlogs(self):
+        league_stats = []
+        for team in self.teams:
+            for player in team.player_objs:
+                for matchlog in player.relevant_matchlogs:
+                    league_stats.append(matchlog)
+
+        with open(self.league.replace(" ", "_") + "_Player_Matchlogs.csv", "w") as csvfile:
             # creating a csv dict writer object
             writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
             # writing headers (field names)
@@ -153,7 +173,7 @@ class SoccerLeague:
         team_stats_index_map = {}
         team_stats = []
         dex = 0
-        for team in self.team_names:
+        for team in self.team_names: #creates the entire array of dicts, with zero values, so that we can map by index rather than checking for team name
             team_stats.append({"name": team.strip()})
             team_stats_index_map[team] = len(team_stats) - 1
             team_stats_index_map["vs " + team] = len(team_stats) - 1
@@ -162,6 +182,11 @@ class SoccerLeague:
         test_print(team_stats_index_map, 1)
         
         stats_wanted = list(self.stats_wanted.keys())
+        self.totals = {}
+        for stat in get_stats_wanted('fbref'):
+            test_print(stat, 1)
+            self.totals[stat] = 0
+            self.totals[stat + "_against"] = 0
         for table in self.tables:
             if table not in stats_wanted:
                 continue
@@ -179,11 +204,24 @@ class SoccerLeague:
                     if col.get("data-stat") in self.stats_wanted[table]:
                         if "Against" in table:
                             team_stats[dex][col.get("data-stat") + "_against"] = int(col.get_text().replace(",", ""))
+                            self.totals[col.get("data-stat") + "_against"] += int(col.get_text().replace(",", ""))
                         else:
                             team_stats[dex][col.get("data-stat")] = int(col.get_text().replace(",", ""))
+                            self.totals[col.get("data-stat")] += int(col.get_text().replace(",", ""))
 
         test_print("Team Stats: " + str(team_stats), 2)
         return team_stats
+    
+    def relativize_team_stats(self):
+        for team in self.team_stats:
+            for stat in team:
+                if stat in ["name", "team"]:
+                    continue
+                if "against" in stat:
+                    team[stat] = team[stat] * len(self.team_stats) / self.totals[stat]
+                else:
+                    team[stat] = team[stat] * len(self.team_stats) / self.totals[stat + "_against"]
+        return None
 
 
 class SoccerTeam():
@@ -323,7 +361,8 @@ class SoccerPlayer():
             self.stats = self.gen_stats()
         if matchlog:
             self.matchlog_table = self.get_matchlog_table()
-            self.l5_table = self.gen_l5_table()
+            # self.l5_table = self.gen_l5_table()
+            self.relevant_matchlogs = self.gen_relevant_matchlogs()
             test_print("Found table", 5)
             # test_print(self.matchlog_table, 5)
 
@@ -443,14 +482,46 @@ class SoccerPlayer():
                     if col.get("data-stat") in ["name", "team", "league"]:
                         continue
 
-                    print(col.get("data-stat") + ": " + col.get_text())
+                    test_print(col.get("data-stat") + ": " + col.get_text(), 5)
                     last_five_games_totals[col.get("data-stat")] += int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
 
         last_five_games_totals["games"] = 5 - games #The variable is a countdown hence the subtraction
 
         test_print("Last 5 games totals for :" + self.url[self.url.rfind("/") + 1:] + str(last_five_games_totals), 5)
         return last_five_games_totals
-               
+    
+    def gen_relevant_matchlogs(self):
+        relevant_matchlogs = []
+        player_game_count = 1
+        for row in self.matchlog_table.find_all("tr").reverse():
+
+            # creates a new dictionary with empty values, to be replaced
+            relevant_matchlog = {
+                "game_started": "N",
+                "game_count": player_game_count,
+            }
+            player_game_count += 1
+
+
+            for stat in self.stats_wanted:
+                if stat in ["name", "team"]:
+                    continue
+                relevant_matchlog[stat] = 0
+            
+            for col in row.find_all("td"):
+                #ignore international games
+                if col.get("data-stat") == "team" and col.get_text() != self.team:
+                    break
+
+                if col.get("data-stat") in self.stats_wanted:
+                    if col.get("data-stat") in ["name", "team", "league"]:
+                        continue
+
+                    relevant_matchlogs[col.get("data-stat")] += int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
+
+            relevant_matchlogs.append(relevant_matchlog)
+
+        return relevant_matchlogs              
 
         
 

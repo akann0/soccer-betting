@@ -92,17 +92,23 @@ def get_data(sport_id = "82"):
         dic = {'name': player}
         for line in lines[player]:
             if "attributes" in line.keys():
+                # GOAL: add the opponent to the dictionary
+                print(line["attributes"].keys())
+                print(line["attributes"])
+                if "description" in line["attributes"].keys():
+                    dic["opponent"] = unidecode(line["attributes"]["description"])
+
                 if "stat_type" in line["attributes"].keys():
                     dic[line["attributes"]["stat_type"]] = line["attributes"]["line_score"]
                     stat_types = stat_types + [line["attributes"]["stat_type"]] if line["attributes"]["stat_type"] not in stat_types else stat_types
         final_csv.append(dic)
 
-    with open("pp_lines_cbb.csv", "w") as f:
-        writer = csv.DictWriter(f, fieldnames=["name"] + stat_types)
+    with open("pp_lines.csv", "w") as f:
+        writer = csv.DictWriter(f, fieldnames=["name", "opponent"] + stat_types)
         writer.writeheader()
         writer.writerows(final_csv)
 
     return final_csv
 
-# get_data()
+get_data()
 
