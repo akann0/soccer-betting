@@ -1,0 +1,35 @@
+game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+N,1,0,17,0,0,1,0,0,0,0,0,10,0,0,0,0,0,Sat,Premier League,Matchweek 1,Home,W 2-1,Arsenal,Nott'ham Forest,"LM,LW",0,0,0,12,1,0.0,0.0,0.0,3,0,7,70.0,1,5,1,1,1,Match Report
+Y,2,0,45,0,0,0,0,0,0,0,0,21,0,0,0,0,0,Sat,Premier League,Matchweek 3,Home,D 2-2,Arsenal,Fulham,FW,0,0,0,25,1,0.0,0.0,0.7,6,0,15,71.4,1,14,1,0,0,Match Report
+N,3,0,67,0,0,2,0,0,1,0,1,27,2,0,1,0,0,Sun,Premier League,Matchweek 5,Away,W 1-0,Arsenal,Everton,LW,0,0,0,35,1,0.1,0.1,0.1,2,0,22,81.5,6,24,1,1,1,Match Report
+Y,4,0,45,0,0,0,0,0,0,0,0,9,0,0,0,0,0,Sun,Premier League,Matchweek 8,Home,W 1-0,Arsenal,Manchester City,LW,0,0,0,12,0,0.0,0.0,0.0,1,0,9,100.0,1,9,0,0,0,Match Report
+N,5,0,13,0,0,0,0,0,1,0,1,2,0,0,1,0,0,Sat,Premier League,Matchweek 9,Away,D 2-2,Arsenal,Chelsea,LW,0,0,0,4,0,0.2,0.2,0.0,0,0,1,50.0,0,3,0,0,0,Match Report
+N,6,0,25,0,0,1,0,0,0,0,0,14,0,0,0,0,0,Sat,Premier League,Matchweek 10,Home,W 5-0,Arsenal,Sheffield Utd,LW,0,0,0,19,1,0.0,0.0,0.0,1,0,9,64.3,3,13,5,1,0,Match Report
+N,7,0,12,0,0,0,0,0,2,0,0,9,0,0,0,0,0,Sat,Premier League,Matchweek 11,Away,L 0-1,Arsenal,Newcastle Utd,FW,0,0,0,11,0,0.0,0.0,0.0,1,0,5,55.6,0,5,0,0,0,Match Report
+Y,8,0,80,0,0,0,0,0,3,0,2,37,0,0,1,1,0,Sat,Premier League,Matchweek 12,Home,W 3-1,Arsenal,Burnley,FW,0,0,0,47,4,0.5,0.5,0.7,3,1,24,64.9,8,26,3,2,1,Match Report
+Y,9,0,90,0,0,1,0,0,2,0,0,36,0,0,0,0,0,Sat,Premier League,Matchweek 13,Away,W 1-0,Arsenal,Brentford,"LM,LW",0,0,0,43,1,0.3,0.3,0.0,4,0,20,55.6,4,28,2,1,0,Match Report
+Y,10,0,90,0,0,3,0,0,5,0,2,46,3,0,0,0,0,Sat,Premier League,Matchweek 14,Home,W 2-1,Arsenal,Wolves,"LM,LW,CM",0,0,0,66,3,0.8,0.8,0.0,4,0,35,76.1,4,32,0,2,0,Match Report
+N,11,0,27,0,0,0,0,0,4,0,0,18,0,0,0,0,0,Tue,Premier League,Matchweek 15,Away,W 4-3,Arsenal,Luton Town,LW,0,0,0,29,2,0.2,0.2,0.0,1,0,10,55.6,2,16,0,0,0,Match Report
+N,12,0,21,0,0,0,0,0,0,0,0,4,1,0,0,0,0,Sat,Premier League,Matchweek 16,Away,L 0-1,Arsenal,Aston Villa,LW,0,0,0,6,0,0.0,0.0,0.0,0,0,2,50.0,0,4,0,0,0,Match Report
+N,13,0,9,0,0,0,0,0,0,0,0,5,0,0,0,0,0,Sun,Premier League,Matchweek 17,Home,W 2-0,Arsenal,Brighton,LW,0,0,0,6,0,0.0,0.0,0.1,1,0,4,80.0,0,4,1,1,1,Match Report
+N,14,0,23,0,0,0,0,0,0,0,0,13,0,0,0,0,0,Sat,Premier League,Matchweek 18,Away,D 1-1,Arsenal,Liverpool,LW,0,0,0,17,0,0.0,0.0,0.0,0,0,8,61.5,2,10,2,3,0,Match Report
+Y,15,0,78,0,0,3,0,0,5,0,1,48,0,0,0,0,0,Thu,Premier League,Matchweek 19,Home,L 0-2,Arsenal,West Ham,"LM,CM",0,0,0,64,1,0.8,0.8,0.0,4,0,35,72.9,6,41,3,1,0,Match Report
+N,16,0,24,0,0,0,0,0,0,0,0,11,0,0,0,0,0,Sun,Premier League,Matchweek 20,Away,L 1-2,Arsenal,Fulham,WB,0,0,0,13,0,0.0,0.0,0.0,1,0,5,45.5,1,9,2,0,0,Match Report
+Y,17,0,68,0,0,0,0,0,5,0,1,24,0,0,1,0,0,Sat,Premier League,Matchweek 21,Home,W 5-0,Arsenal,Crystal Palace,LW,0,0,0,33,0,1.1,1.1,0.0,1,1,19,79.2,3,28,3,1,1,Match Report
+N,18,0,13,0,0,0,0,0,1,0,0,9,0,0,0,0,0,Tue,Premier League,Matchweek 22,Away,W 2-1,Arsenal,Nott'ham Forest,LW,0,0,0,13,0,0.0,0.0,0.0,2,0,8,88.9,0,9,2,2,2,Match Report
+N,19,0,17,0,0,1,0,0,1,0,1,4,0,0,1,0,0,Sun,Premier League,Matchweek 23,Home,W 3-1,Arsenal,Liverpool,LW,0,0,0,7,0,0.0,0.0,0.0,1,1,2,50.0,0,3,1,1,1,Match Report
+Y,20,0,66,0,0,2,0,0,5,0,2,36,0,0,1,0,0,Sun,Premier League,Matchweek 24,Away,W 6-0,Arsenal,West Ham,FW,0,0,0,50,1,0.7,0.7,0.0,3,2,27,75.0,9,40,2,6,3,Match Report
+Y,21,0,68,0,0,1,0,0,3,0,1,14,0,0,1,0,0,Sat,Premier League,Matchweek 25,Away,W 5-0,Arsenal,Burnley,FW,0,0,0,26,1,0.3,0.3,0.0,1,1,7,50.0,0,13,0,1,0,Match Report
+N,22,0,27,0,0,1,0,0,0,0,0,7,0,0,0,0,0,Sat,Premier League,Matchweek 26,Home,W 4-1,Arsenal,Newcastle Utd,LW,0,0,0,9,1,0.0,0.0,0.0,1,0,2,28.6,0,5,2,2,1,Match Report
+N,23,0,17,0,0,0,0,0,0,0,0,10,0,0,0,0,0,Mon,Premier League,Matchweek 27,Away,W 6-0,Arsenal,Sheffield Utd,LW,0,0,0,10,0,0.0,0.0,0.0,0,0,9,90.0,0,7,1,1,1,Match Report
+Y,24,0,78,0,0,0,0,0,2,0,2,37,0,0,0,0,0,Sat,Premier League,Matchweek 28,Home,W 2-1,Arsenal,Brentford,LW,0,0,0,48,0,0.2,0.2,0.2,3,0,32,86.5,2,37,3,4,3,Match Report
+N,25,0,19,0,0,0,0,0,1,0,1,10,0,0,0,0,0,Sun,Premier League,Matchweek 30,Away,D 0-0,Arsenal,Manchester City,LW,0,0,0,12,0,0.1,0.1,0.0,0,0,8,80.0,1,8,2,1,1,Match Report
+Y,26,0,90,0,0,0,0,0,2,0,0,32,0,0,0,0,0,Wed,Premier League,Matchweek 31,Home,W 2-0,Arsenal,Luton Town,LW,0,0,0,42,1,0.1,0.1,0.0,2,0,25,78.1,2,36,6,4,3,Match Report
+N,27,0,27,0,0,0,0,0,2,0,2,5,0,0,1,0,0,Sat,Premier League,Matchweek 32,Away,W 3-0,Arsenal,Brighton,LW,0,0,0,14,1,0.4,0.4,0.0,2,0,3,60.0,1,6,2,2,1,Match Report
+Y,28,0,66,0,0,2,0,0,2,0,1,28,0,0,0,0,0,Sun,Premier League,Matchweek 33,Home,L 0-2,Arsenal,Aston Villa,LW,0,0,0,37,1,0.5,0.5,0.1,3,0,25,89.3,2,23,4,1,0,Match Report
+Y,29,0,71,0,0,2,0,0,1,0,1,26,0,0,1,0,1,Sat,Premier League,Matchweek 34,Away,W 2-0,Arsenal,Wolves,LW,0,0,0,37,0,0.1,0.1,0.1,3,0,18,69.2,4,23,4,2,1,Match Report
+Y,30,0,71,0,0,2,0,0,5,0,1,29,0,0,1,0,1,Tue,Premier League,Matchweek 29,Home,W 5-0,Arsenal,Chelsea,LW,0,0,0,38,1,0.5,0.5,0.1,3,0,26,89.7,5,25,5,0,0,Match Report
+Y,31,0,63,0,0,1,0,0,1,0,0,16,0,0,0,0,0,Sun,Premier League,Matchweek 35,Away,W 3-2,Arsenal,Tottenham,LW,0,0,0,23,0,0.0,0.0,0.0,1,0,12,75.0,1,12,3,3,3,Match Report
+Y,32,0,80,0,0,1,0,0,4,0,1,30,0,0,1,0,0,Sat,Premier League,Matchweek 36,Home,W 3-0,Arsenal,Bournemouth,LW,0,0,0,38,0,0.4,0.4,0.0,3,0,24,80.0,2,26,1,2,0,Match Report
+Y,33,0,65,0,0,3,0,0,1,0,1,12,2,0,1,0,0,Sun,Premier League,Matchweek 37,Away,W 1-0,Arsenal,Manchester Utd,LW,0,0,0,24,2,0.5,0.5,0.3,2,0,8,66.7,3,17,1,0,0,Match Report
+Y,34,0,77,0,0,0,0,0,1,0,0,34,0,0,0,0,0,Sun,Premier League,Matchweek 38,Home,W 2-1,Arsenal,Everton,LW,0,0,0,42,3,0.0,0.0,0.2,2,0,28,82.4,2,30,3,1,0,Match Report

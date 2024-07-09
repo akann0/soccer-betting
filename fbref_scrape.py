@@ -3,12 +3,13 @@ from bs4 import BeautifulSoup as bs
 import time, random, csv
 from unidecode import unidecode
 from constants import *
+import os
 
 TEAMS_TO_FIND = 1
 PLAYERS_PER_TEAM = 1
 
 def test_print(response, x):
-    to_test = [0, 13, 12]
+    to_test = [0, 14]
     if x in to_test:
         if isinstance(response, list):
             for i in range(min(len(response), 10)):
@@ -29,22 +30,23 @@ def requests_test(response, url=""):
     if code == 429:
         print("Error: Too many requests, retry after:")
         print(str(int(response.headers["Retry-After"]) / 60) + " minutes")
-    time.sleep(random.random() * 1.5 + 1)
+    time.sleep(random.random() * 5 + 5)
 
 
 #Create an class type Soccer League
 class SoccerLeague:
-    def constants(self):
+    def constants(self, teams):
         self.stats_wanted = team_stats_wanted
         for key in self.stats_wanted.copy():
             self.stats_wanted[key + " Against"] = [stat for stat in self.stats_wanted[key]]
         self.year = year
+        self.list_teams = teams
 
         test_print(self.stats_wanted, 2)
 
 
-    def __init__(self, url):
-        self.constants()
+    def __init__(self, url, teams):
+        self.constants(teams)
 
         self.url = url
         self.response = requests.get(url, headers={'User-Agent': 'Safari/537.36'})
@@ -64,9 +66,12 @@ class SoccerLeague:
         
         self.team_stats = self.gen_team_stats()
         #self.relativize_team_stats()
+
+        if self.list_teams == None:
+            self.list_teams = range(len(self.team_names))
         
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in range(min(TEAMS_TO_FIND, len(self.team_objs)))] #TODO: change back once Arsenal glitch is gone
-        # self.save_stats()
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
+        self.save_stats()
 
     def gen_tables(self):
         ans = {}
@@ -178,19 +183,21 @@ class SoccerLeague:
             writer.writerows(league_stats)
 
     def save_player_matchlogs(self):
-        league_stats = []
+        folder_name = self.league.replace(" ", "_") + "_Player_Matchlogs"
+        try:
+            os.mkdir(folder_name)
+        except FileExistsError:
+            pass
         for team in self.teams:
             for player in team.player_objs:
-                for matchlog in player.matchlogs:
-                    league_stats.append(matchlog)
+                with open(folder_name + "/" + player.player.replace(" ", "_") + "_Matchlogs.csv", "w") as csvfile:
+                    # creating a csv dict writer object
+                    writer = csv.DictWriter(csvfile, fieldnames=player.matchlogs[0].keys())
+                    # writing headers (field names)
+                    writer.writeheader()
+                    # writing data rows
+                    writer.writerows(player.matchlogs)
 
-        with open(self.league.replace(" ", "_") + "_Player_Matchlogs.csv", "w") as csvfile:
-            # creating a csv dict writer object
-            writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
-            # writing headers (field names)
-            writer.writeheader()
-            # writing data rows
-            writer.writerows(league_stats)
 
     def gen_team_stats(self):
         team_stats_index_map = {}
@@ -523,7 +530,6 @@ class SoccerPlayer():
         matchlogs = []
         player_game_count = 1
         games = self.matchlog_table.find_all("tr")
-        games.reverse()
 
         for row in games:
             matchlog = self.gen_matchlog(row, player_game_count)
@@ -531,7 +537,7 @@ class SoccerPlayer():
                 player_game_count += 1
                 matchlogs.append(matchlog)
 
-        test_print(matchlogs, 12)
+        test_print([matchlogs, len(matchlogs)], 12)
         return matchlogs
 
     # given a row in the matchlog table, generate the relevant matchlog in dictionary form
@@ -539,11 +545,23 @@ class SoccerPlayer():
     # TEST_NUMBER = 13
     def gen_matchlog(self, row, player_game_count):
         # can be adjusted as needed
+        # TEST_NUMBER = 14
         def is_valid_matchlog(row):
+            # test_print(["row", row.get("class")], 14)
+
+            # in theory, gets rid of the rows that aren't games, including rows from browser view (benched games)
+            if row.get("class") != None:
+                # test_print("False", 14)
+                return False
+            
             ans = False
             for col in row.find_all("td"):
                 # automatically returns false for internatinonal games
                 if col.get("data-stat") == "team" and col.get_text() != self.team:
+                    return False
+                # automatically return false for games out of league (ie FA Cup)
+                if col.get("data-stat") == "comp" and col.get_text() != self.league:
+                    test_print([col.get_text(), self.league], 14)
                     return False
                 # if the day of the week is valid, then the matchlog is valid, if not then will return false
                 if col.get("data-stat") == "dayofweek" and col.get_text() in ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"]:
@@ -561,33 +579,29 @@ class SoccerPlayer():
             "game_count": player_game_count,
         }
 
-        for stat in self.stats_wanted:
-            if stat in ["name", "team"]:
-                continue
-            matchlog[stat] = 0
+        # for stat in self.stats_wanted:
+        #     if stat in ["name", "team"]:
+        #         continue
+        #     matchlog[stat] = 0
 
-        list_of_stats_tracked = list()
-
+        # TODO: we must encorporate fouls, fouled, clearances, and key passes
         for col in row.find_all("td"):
             # test_print(["col", col], 13)
-            list_of_stats_tracked.append(col.get("data-stat"))
-            #ignore international games
-            if col.get("data-stat") == "team" and col.get_text() != self.team:
-                return None
-
-            # if col.get("data-stat") in ["name", "team", "league", "game_started"]:
-            #     matchlog[col.get("data-stat")] = col.get_text()
-            # matchlog[col.get("data-stat")] += int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
-            matchlog[col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text().isdigit() else col.get_text()
+            if col.get("data-stat") in self.matchlog_stats:
+                if col.get("data-stat") == "game_started" and col.get_text() in ["Y", "Y*"]:
+                    matchlog["game_started"] = "Y"
+                elif col.get("data-stat") == "result":
+                    matchlog["result"] = unidecode(col.get_text())
+                else:
+                    matchlog[col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text().isdigit() else col.get_text()
 
         test_print(matchlog, 13)
-        test_print(["stats tracked", list_of_stats_tracked], 13)
         return matchlog
 
 
-# Create an instance of the SoccerLeague class
-premier_league = SoccerLeague(premier_league_url)
-premier_league.save_league_stats()
+# # Create an instance of the SoccerLeague class
+# premier_league = SoccerLeague(premier_league_url)
+# premier_league.save_league_stats()
 
 
 

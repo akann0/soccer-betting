@@ -1,0 +1,31 @@
+game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,0,62,0,0,3,0,0,2,0,1,10,1,0,0,0,0,Sun,Premier League,Matchweek 5,Home,D 0-0,Bournemouth,Chelsea,LW,0,0,0,27,0,0.2,0.2,0.0,1,0,3,30.0,0,9,1,2,1,Match Report
+N,2,0,28,0,0,0,0,0,1,0,0,11,0,0,0,0,0,Sun,Premier League,Matchweek 6,Away,L 1-3,Bournemouth,Brighton,"RW,LW",0,0,0,15,0,0.1,0.1,0.0,4,0,9,81.8,1,10,2,3,2,Match Report
+N,3,0,32,0,0,2,0,0,1,0,0,19,0,0,0,0,0,Sat,Premier League,Matchweek 7,Home,L 0-4,Bournemouth,Arsenal,RW,0,0,0,22,0,0.1,0.1,0.0,1,0,12,63.2,1,15,1,1,1,Match Report
+Y,4,0,56,0,0,1,0,0,1,0,0,7,0,0,0,0,0,Sat,Premier League,Matchweek 8,Away,L 0-3,Bournemouth,Everton,LW,0,0,0,18,1,0.0,0.0,0.1,1,0,5,71.4,0,6,0,0,0,Match Report
+N,5,0,16,0,0,1,0,0,0,0,0,9,0,0,0,0,0,Sat,Premier League,Matchweek 9,Home,L 1-2,Bournemouth,Wolves,LW,0,0,0,12,1,0.0,0.0,0.1,2,0,6,66.7,1,6,0,1,1,Match Report
+N,6,0,22,0,0,0,0,0,0,0,0,4,1,0,0,0,1,Sat,Premier League,Matchweek 10,Home,W 2-1,Bournemouth,Burnley,RW,0,0,0,8,1,0.0,0.0,0.0,0,0,2,50.0,0,2,0,0,0,Match Report
+N,7,0,10,0,0,1,0,0,1,0,1,3,0,0,0,0,0,Sat,Premier League,Matchweek 12,Home,W 2-0,Bournemouth,Newcastle Utd,LW,0,0,0,6,0,0.2,0.2,0.1,1,0,2,66.7,0,4,2,1,0,Match Report
+N,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sun,Premier League,Matchweek 14,Home,D 2-2,Bournemouth,Aston Villa,RW,0,0,0,0,0,0.0,0.0,0.0,0,0,0,,0,0,0,0,0,Match Report
+N,9,0,12,0,0,1,0,0,1,0,0,7,0,0,0,0,1,Wed,Premier League,Matchweek 15,Away,W 2-0,Bournemouth,Crystal Palace,RW,0,0,0,12,1,0.0,0.0,0.0,0,0,2,28.6,0,4,0,0,0,Match Report
+N,10,0,3,0,0,0,0,0,0,0,0,4,0,0,0,0,0,Sat,Premier League,Matchweek 16,Away,W 3-0,Bournemouth,Manchester Utd,LW,0,0,0,6,0,0.0,0.0,0.0,0,0,3,75.0,1,1,0,1,0,Match Report
+Y,11,0,81,0,0,7,0,0,2,0,0,63,0,0,0,0,0,Sat,Premier League,Matchweek 18,Away,W 3-2,Bournemouth,Nott'ham Forest,LB,0,0,0,78,2,0.3,0.3,0.1,4,0,43,68.3,2,33,3,2,1,Match Report
+Y,12,0,90,0,0,3,0,0,2,0,0,48,3,0,0,0,0,Tue,Premier League,Matchweek 19,Home,W 3-0,Bournemouth,Fulham,LB,0,0,0,63,2,0.2,0.2,0.0,1,1,33,68.8,2,38,6,3,2,Match Report
+Y,13,0,45,0,0,1,0,0,1,0,0,25,1,0,0,0,0,Sun,Premier League,Matchweek 20,Away,L 1-3,Bournemouth,Tottenham,LB,0,0,0,34,0,0.1,0.1,0.1,2,0,19,76.0,3,11,2,1,0,Match Report
+N,14,0,20,0,0,2,0,0,0,0,0,9,1,0,0,0,0,Sun,Premier League,Matchweek 23,Home,D 1-1,Bournemouth,Nott'ham Forest,LW,0,0,0,12,0,0.0,0.0,0.0,0,0,2,22.2,0,5,1,1,1,Match Report
+N,15,0,22,0,0,2,0,0,0,0,0,11,0,0,0,0,0,Sat,Premier League,Matchweek 24,Away,L 1-3,Bournemouth,Fulham,LW,0,0,0,15,0,0.0,0.0,0.0,2,0,8,72.7,3,5,0,1,1,Match Report
+N,16,0,13,0,0,0,0,0,1,0,0,8,1,0,0,0,0,Sat,Premier League,Matchweek 25,Away,D 2-2,Bournemouth,Newcastle Utd,"RW,RM",0,0,0,13,0,0.0,0.0,0.0,0,0,4,50.0,0,9,2,0,0,Match Report
+N,17,0,23,0,0,1,0,0,1,0,0,15,0,0,0,0,0,Sat,Premier League,Matchweek 26,Home,L 0-1,Bournemouth,Manchester City,"RW,LB,LW",0,0,0,21,0,0.0,0.0,0.1,2,0,10,66.7,1,9,3,2,1,Match Report
+N,18,0,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Sun,Premier League,Matchweek 27,Away,W 2-0,Bournemouth,Burnley,LB,0,0,0,3,0,0.0,0.0,0.0,0,0,1,100.0,0,1,0,1,0,Match Report
+N,19,0,45,0,0,0,0,0,5,0,1,49,0,0,1,1,0,Sat,Premier League,Matchweek 28,Home,D 2-2,Bournemouth,Sheffield Utd,LB,0,0,0,57,1,0.7,0.7,0.4,7,1,36,73.5,6,37,7,3,3,Match Report
+Y,20,0,90,0,0,4,0,0,1,0,0,66,1,0,0,0,0,Wed,Premier League,Matchweek 17,Home,W 4-3,Bournemouth,Luton Town,LB,0,0,0,80,1,0.1,0.1,0.0,2,0,49,74.2,7,31,3,2,1,Match Report
+N,21,0,17,0,0,1,0,0,0,0,0,6,0,0,0,0,0,Sat,Premier League,Matchweek 30,Home,W 2-1,Bournemouth,Everton,LW,0,0,0,11,0,0.0,0.0,0.0,0,0,3,50.0,0,6,1,2,1,Match Report
+Y,22,0,62,0,0,0,0,0,0,0,0,23,1,0,0,0,0,Tue,Premier League,Matchweek 31,Home,W 1-0,Bournemouth,Crystal Palace,"LW,LB",0,0,0,29,0,0.0,0.0,0.1,1,0,15,65.2,1,16,1,2,0,Match Report
+N,23,0,32,0,0,0,0,0,0,0,0,12,1,0,0,0,0,Sat,Premier League,Matchweek 32,Away,L 1-2,Bournemouth,Luton Town,RW,0,0,0,20,1,0.0,0.0,0.1,1,0,8,66.7,0,12,3,1,0,Match Report
+Y,24,0,69,0,0,1,0,0,1,0,0,26,1,0,0,0,0,Sat,Premier League,Matchweek 33,Home,D 2-2,Bournemouth,Manchester Utd,RW,0,0,0,32,3,0.1,0.1,0.0,4,0,16,61.5,0,10,0,1,1,Match Report
+Y,25,0,81,0,0,2,0,0,2,0,1,22,1,0,0,0,0,Sun,Premier League,Matchweek 34,Away,L 1-3,Bournemouth,Aston Villa,"RW,AM",0,0,0,33,0,0.3,0.3,0.0,1,0,14,63.6,0,17,3,2,0,Match Report
+N,26,0,17,0,0,0,0,0,0,0,0,3,1,0,0,0,0,Wed,Premier League,Matchweek 29,Away,W 1-0,Bournemouth,Wolves,LW,0,0,0,8,0,0.0,0.0,0.0,0,0,1,33.3,0,4,0,0,0,Match Report
+Y,27,0,90,0,0,2,0,0,0,0,0,23,5,0,0,1,0,Sun,Premier League,Matchweek 35,Home,W 3-0,Bournemouth,Brighton,LB,0,0,0,37,3,0.0,0.0,0.3,4,1,16,69.6,2,9,0,2,1,Match Report
+Y,28,0,90,0,0,5,0,0,1,0,0,43,3,0,0,0,0,Sat,Premier League,Matchweek 36,Away,L 0-3,Bournemouth,Arsenal,LB,0,0,0,55,1,0.0,0.0,0.0,1,0,31,72.1,3,25,1,4,1,Match Report
+Y,29,0,66,0,0,2,0,0,3,0,1,21,0,0,0,0,1,Sat,Premier League,Matchweek 37,Home,L 1-2,Bournemouth,Brentford,LW,0,0,0,34,0,0.1,0.1,0.0,0,0,11,52.4,0,19,4,3,1,Match Report
+N,30,0,32,0,0,2,0,0,3,0,2,10,0,0,0,0,0,Sun,Premier League,Matchweek 38,Away,L 1-2,Bournemouth,Chelsea,RW,0,0,0,22,0,0.2,0.2,0.0,3,0,7,70.0,1,11,1,5,1,Match Report

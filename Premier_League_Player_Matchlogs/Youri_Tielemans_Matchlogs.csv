@@ -1,0 +1,33 @@
+game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+N,1,0,45,0,0,0,0,0,0,0,0,24,0,0,0,0,0,Sat,Premier League,Matchweek 1,Away,L 1-5,Aston Villa,Newcastle Utd,"CM,LW",0,0,0,25,0,0.0,0.0,0.1,1,0,21,87.5,4,18,1,1,0,Match Report
+N,2,0,28,0,0,0,0,0,0,0,0,30,0,0,0,0,0,Sun,Premier League,Matchweek 2,Home,W 4-0,Aston Villa,Everton,CM,0,0,0,32,2,0.0,0.0,0.0,0,0,29,96.7,3,23,0,0,0,Match Report
+N,3,0,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Sun,Premier League,Matchweek 3,Away,W 3-1,Aston Villa,Burnley,CM,0,0,0,1,0,0.0,0.0,0.0,0,0,1,100.0,0,1,0,0,0,Match Report
+N,4,0,19,0,0,1,0,0,0,0,0,10,0,0,0,0,0,Sun,Premier League,Matchweek 4,Away,L 0-3,Aston Villa,Liverpool,CM,0,0,0,12,0,0.0,0.0,0.0,0,0,9,90.0,0,9,0,2,1,Match Report
+N,5,0,33,0,0,0,0,0,1,0,0,24,1,0,0,0,0,Sat,Premier League,Matchweek 5,Home,W 3-1,Aston Villa,Crystal Palace,"CM,DM",0,0,0,28,0,0.1,0.1,0.0,2,2,17,70.8,3,13,1,0,0,Match Report
+N,6,0,10,0,0,1,0,0,0,0,0,11,0,0,0,0,0,Sun,Premier League,Matchweek 6,Away,W 1-0,Aston Villa,Chelsea,FW,0,0,0,12,1,0.0,0.0,0.0,0,0,8,72.7,1,9,1,0,0,Match Report
+N,7,0,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,Sat,Premier League,Matchweek 7,Home,W 6-1,Aston Villa,Brighton,DM,0,0,0,3,0,0.0,0.0,0.0,1,0,3,100.0,1,2,0,0,0,Match Report
+N,8,0,9,0,0,0,0,0,0,0,0,11,0,0,0,0,0,Sun,Premier League,Matchweek 8,Away,D 1-1,Aston Villa,Wolves,DM,0,0,0,12,0,0.0,0.0,0.0,1,0,11,100.0,2,8,1,0,0,Match Report
+N,9,0,6,0,0,1,0,0,0,0,0,8,0,0,0,1,0,Sun,Premier League,Matchweek 9,Home,W 4-1,Aston Villa,West Ham,FW,0,0,0,9,0,0.0,0.0,0.3,1,1,7,87.5,2,5,1,0,0,Match Report
+N,10,0,12,0,0,1,0,0,0,0,0,15,0,0,0,0,0,Sun,Premier League,Matchweek 10,Home,W 3-1,Aston Villa,Luton Town,CM,0,0,0,16,0,0.0,0.0,0.0,1,0,13,86.7,2,11,0,0,0,Match Report
+N,11,0,32,0,0,0,0,0,1,0,0,44,0,0,0,0,0,Sun,Premier League,Matchweek 11,Away,L 0-2,Aston Villa,Nott'ham Forest,CM,0,0,0,46,0,0.1,0.1,0.0,1,0,40,90.9,14,37,3,1,1,Match Report
+Y,12,0,90,0,0,1,0,0,1,0,1,39,2,0,0,0,0,Sun,Premier League,Matchweek 12,Home,W 3-1,Aston Villa,Fulham,"AM,FW",0,0,0,48,3,0.1,0.1,0.4,3,1,22,56.4,2,22,2,2,0,Match Report
+N,13,0,45,0,0,2,0,0,0,0,0,31,1,0,0,1,0,Sun,Premier League,Matchweek 13,Away,W 2-1,Aston Villa,Tottenham,FW,0,0,0,38,0,0.0,0.0,0.2,2,1,27,87.1,5,20,0,2,0,Match Report
+Y,14,0,90,0,0,6,0,0,0,0,0,60,3,0,0,0,0,Sun,Premier League,Matchweek 14,Away,D 2-2,Aston Villa,Bournemouth,CM,0,0,0,70,0,0.0,0.0,0.0,1,0,46,76.7,7,37,0,0,0,Match Report
+Y,15,0,84,0,0,0,0,0,1,0,0,33,0,0,0,1,0,Wed,Premier League,Matchweek 15,Home,W 1-0,Aston Villa,Manchester City,FW,0,0,0,36,1,0.0,0.0,0.2,2,1,24,72.7,4,20,2,2,2,Match Report
+Y,16,0,55,0,0,2,0,0,0,0,0,16,0,0,0,0,0,Sat,Premier League,Matchweek 16,Home,W 1-0,Aston Villa,Arsenal,FW,0,0,0,24,1,0.0,0.0,0.0,2,1,12,75.0,4,13,0,2,1,Match Report
+N,17,0,27,0,0,0,0,0,0,0,0,14,0,0,0,0,1,Sun,Premier League,Matchweek 21,Away,D 0-0,Aston Villa,Everton,LM,0,0,0,16,0,0.0,0.0,0.0,0,0,12,85.7,5,10,0,0,0,Match Report
+Y,18,0,62,0,0,1,0,0,0,0,0,27,0,0,0,0,0,Tue,Premier League,Matchweek 22,Home,L 1-3,Aston Villa,Newcastle Utd,LM,0,0,0,33,3,0.0,0.0,0.0,1,0,23,85.2,5,22,0,0,0,Match Report
+Y,19,0,80,0,0,0,0,0,2,0,1,46,1,0,1,0,0,Sat,Premier League,Matchweek 23,Away,W 5-0,Aston Villa,Sheffield Utd,AM,0,0,0,55,2,0.2,0.2,0.2,3,2,37,80.4,4,25,2,1,0,Match Report
+N,20,0,18,0,0,2,0,0,0,0,0,21,1,0,0,0,0,Sun,Premier League,Matchweek 24,Home,L 1-2,Aston Villa,Manchester Utd,DM,0,0,0,23,0,0.0,0.0,0.0,3,0,18,85.7,2,16,0,1,1,Match Report
+Y,21,0,89,0,0,2,0,0,1,0,1,33,0,0,0,1,0,Sat,Premier League,Matchweek 25,Away,W 2-1,Aston Villa,Fulham,AM,0,0,0,43,0,0.4,0.4,0.2,4,1,26,78.8,9,27,0,3,0,Match Report
+Y,22,0,80,0,0,3,0,0,1,0,0,25,0,0,0,0,0,Sat,Premier League,Matchweek 26,Home,W 4-2,Aston Villa,Nott'ham Forest,"AM,FW",0,0,0,34,0,0.2,0.2,0.1,1,0,21,84.0,3,20,1,3,2,Match Report
+Y,23,0,78,0,0,0,0,0,0,0,0,28,0,0,0,0,0,Sat,Premier League,Matchweek 27,Away,W 3-2,Aston Villa,Luton Town,AM,0,0,0,33,2,0.0,0.0,0.1,1,0,19,67.9,3,13,0,3,2,Match Report
+Y,24,0,57,0,0,1,0,0,2,0,0,10,0,0,0,0,0,Sun,Premier League,Matchweek 28,Home,L 0-4,Aston Villa,Tottenham,CM,0,0,0,18,2,0.1,0.1,0.0,0,0,7,70.0,0,8,1,0,0,Match Report
+Y,25,0,90,0,0,6,0,0,1,0,1,91,0,0,0,0,1,Sun,Premier League,Matchweek 29,Away,D 1-1,Aston Villa,West Ham,CM,0,0,0,101,1,0.0,0.0,0.0,4,1,83,91.2,12,70,3,0,0,Match Report
+Y,26,0,90,0,0,1,0,0,0,0,0,44,0,0,0,0,1,Sat,Premier League,Matchweek 30,Home,W 2-0,Aston Villa,Wolves,"CM,RM",0,0,0,46,0,0.0,0.0,0.3,6,0,38,86.4,9,24,1,0,0,Match Report
+N,27,0,28,0,0,0,0,0,0,0,0,20,1,0,0,0,0,Wed,Premier League,Matchweek 31,Away,L 1-4,Aston Villa,Manchester City,DM,0,0,0,23,1,0.0,0.0,0.0,0,0,19,95.0,1,16,0,1,1,Match Report
+Y,28,0,89,0,0,1,0,0,0,0,0,70,1,0,0,1,0,Sat,Premier League,Matchweek 32,Home,D 3-3,Aston Villa,Brentford,CM,0,0,0,77,1,0.0,0.0,0.2,6,3,63,90.0,12,44,2,1,1,Match Report
+Y,29,0,90,0,0,4,0,0,1,0,0,55,2,0,0,1,0,Sun,Premier League,Matchweek 33,Away,W 2-0,Aston Villa,Arsenal,DM,0,0,0,63,0,0.0,0.0,0.2,2,2,43,78.2,0,26,1,1,1,Match Report
+Y,30,0,90,0,0,2,0,0,1,0,0,67,1,0,0,0,0,Sun,Premier League,Matchweek 34,Home,W 3-1,Aston Villa,Bournemouth,"DM,CM",0,0,0,73,0,0.0,0.0,0.0,0,0,57,85.1,5,41,0,2,1,Match Report
+Y,31,0,26,0,0,2,0,0,0,0,0,7,0,0,0,0,0,Sat,Premier League,Matchweek 35,Home,D 2-2,Aston Villa,Chelsea,CM,0,0,0,10,1,0.0,0.0,0.0,0,0,6,85.7,2,4,0,0,0,Match Report
+Y,32,0,64,0,0,1,0,0,1,0,1,31,1,0,1,0,0,Mon,Premier League,Matchweek 37,Home,D 3-3,Aston Villa,Liverpool,DM,0,0,0,36,2,0.2,0.2,0.0,0,0,27,87.1,2,21,0,1,1,Match Report

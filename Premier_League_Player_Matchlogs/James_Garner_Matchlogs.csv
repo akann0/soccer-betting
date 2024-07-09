@@ -1,0 +1,38 @@
+game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,0,82,0,0,1,0,0,0,0,0,35,1,0,0,0,0,Sat,Premier League,Matchweek 1,Home,L 0-1,Everton,Fulham,RM,0,0,0,42,1,0.0,0.0,0.0,4,0,23,65.7,1,27,0,4,3,Match Report
+Y,2,0,90,0,0,2,0,0,1,0,0,32,0,0,0,0,0,Sun,Premier League,Matchweek 2,Away,L 0-4,Everton,Aston Villa,"CM,RM",0,0,0,39,1,0.0,0.0,0.2,1,0,26,81.3,3,20,3,1,1,Match Report
+Y,3,0,90,0,0,3,0,0,2,0,1,34,1,0,0,0,1,Sat,Premier League,Matchweek 3,Home,L 0-1,Everton,Wolves,RM,0,0,0,44,1,0.1,0.1,0.3,4,0,26,76.5,3,31,2,0,0,Match Report
+Y,4,0,74,0,0,2,0,0,0,0,0,17,0,0,0,0,0,Sat,Premier League,Matchweek 4,Away,D 2-2,Everton,Sheffield Utd,RM,0,0,0,23,2,0.0,0.0,0.0,1,0,9,52.9,3,15,0,3,0,Match Report
+N,5,0,11,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Sun,Premier League,Matchweek 5,Home,L 0-1,Everton,Arsenal,CM,0,0,0,4,0,0.0,0.0,0.0,0,0,0,0.0,0,2,0,0,0,Match Report
+Y,6,0,90,0,0,3,0,0,2,0,0,33,0,0,0,1,0,Sat,Premier League,Matchweek 6,Away,W 3-1,Everton,Brentford,RM,0,0,0,41,2,0.0,0.0,0.7,6,3,26,78.8,5,22,3,0,0,Match Report
+Y,7,0,90,0,0,0,0,0,4,0,0,47,0,0,0,0,0,Sat,Premier League,Matchweek 7,Home,L 1-2,Everton,Luton Town,"CM,RM",0,0,0,57,2,0.7,0.7,0.6,6,0,33,70.2,6,37,0,2,0,Match Report
+Y,8,0,90,0,0,6,0,0,4,0,2,44,1,0,1,0,0,Sat,Premier League,Matchweek 8,Home,W 3-0,Everton,Bournemouth,CM,0,0,0,67,2,0.2,0.2,0.0,2,1,35,79.5,5,35,3,2,0,Match Report
+Y,9,0,90,0,0,3,0,0,1,0,0,27,0,0,0,0,0,Sat,Premier League,Matchweek 9,Away,L 0-2,Everton,Liverpool,"CM,RB",0,0,0,39,1,0.0,0.0,0.0,0,0,14,51.9,1,5,0,1,1,Match Report
+Y,10,0,90,0,0,4,0,0,0,0,0,33,3,0,0,0,0,Sun,Premier League,Matchweek 10,Away,W 1-0,Everton,West Ham,CM,0,0,0,45,1,0.0,0.0,0.0,0,0,27,81.8,2,24,2,0,0,Match Report
+Y,11,0,90,0,0,4,0,0,1,0,0,25,2,0,0,0,0,Sat,Premier League,Matchweek 11,Home,D 1-1,Everton,Brighton,CM,0,0,0,40,0,0.1,0.1,0.0,2,0,19,76.0,1,10,0,0,0,Match Report
+Y,12,0,90,0,0,3,0,0,1,0,0,35,0,0,0,0,1,Sat,Premier League,Matchweek 12,Away,W 3-2,Everton,Crystal Palace,CM,0,0,0,48,1,0.0,0.0,0.0,3,0,27,77.1,3,20,0,2,2,Match Report
+Y,13,0,90,0,0,2,0,0,2,0,0,49,1,0,0,0,0,Sun,Premier League,Matchweek 13,Home,L 0-3,Everton,Manchester Utd,CM,0,0,0,58,0,0.1,0.1,0.2,6,0,41,83.7,10,24,0,0,0,Match Report
+Y,14,0,90,0,0,1,0,0,1,0,1,46,3,0,0,0,0,Sat,Premier League,Matchweek 14,Away,W 1-0,Everton,Nott'ham Forest,CM,0,0,0,56,1,0.0,0.0,0.0,6,0,36,78.3,9,21,2,2,2,Match Report
+Y,15,0,90,0,0,4,0,0,0,0,0,30,2,0,0,0,0,Sun,Premier League,Matchweek 16,Home,W 2-0,Everton,Chelsea,CM,0,0,0,38,1,0.0,0.0,0.0,1,0,14,46.7,2,13,0,0,0,Match Report
+Y,16,0,90,0,0,1,0,0,1,0,1,28,1,0,0,0,1,Sat,Premier League,Matchweek 17,Away,W 2-0,Everton,Burnley,"CM,LM",0,0,0,42,2,0.0,0.0,0.3,2,0,21,75.0,1,17,1,1,0,Match Report
+Y,17,0,90,0,0,3,0,0,3,0,2,47,4,0,0,0,0,Sat,Premier League,Matchweek 18,Away,L 1-2,Everton,Tottenham,"DM,AM,CM",0,0,0,58,1,0.3,0.3,0.2,4,0,39,83.0,7,25,1,1,1,Match Report
+Y,18,0,90,0,0,2,0,0,0,0,0,26,2,0,0,0,0,Wed,Premier League,Matchweek 19,Home,L 1-3,Everton,Manchester City,"AM,CM",0,0,0,40,5,0.0,0.0,0.0,2,0,20,76.9,2,20,0,0,0,Match Report
+Y,19,0,90,0,0,5,0,0,0,0,0,46,2,0,0,0,0,Sat,Premier League,Matchweek 20,Away,L 0-3,Everton,Wolves,CM,0,0,0,60,0,0.0,0.0,0.0,1,0,42,91.3,2,21,2,0,0,Match Report
+Y,20,0,90,0,0,3,0,0,2,0,1,26,1,0,0,0,0,Sun,Premier League,Matchweek 21,Home,D 0-0,Everton,Aston Villa,DM,0,0,0,37,2,0.2,0.2,0.1,2,0,16,61.5,1,16,1,4,1,Match Report
+Y,21,0,90,0,0,4,0,0,1,0,0,31,6,0,0,0,0,Tue,Premier League,Matchweek 22,Away,D 0-0,Everton,Fulham,CM,0,0,0,51,2,0.1,0.1,0.1,6,0,25,80.6,1,21,1,0,0,Match Report
+Y,22,0,90,0,0,4,0,0,0,0,0,49,1,0,0,0,1,Sat,Premier League,Matchweek 23,Home,D 2-2,Everton,Tottenham,CM,0,0,0,61,4,0.0,0.0,0.2,4,2,39,79.6,4,24,0,2,2,Match Report
+Y,23,0,90,0,0,5,0,0,0,0,0,24,2,0,0,0,1,Sat,Premier League,Matchweek 24,Away,L 0-2,Everton,Manchester City,DM,0,0,0,38,1,0.0,0.0,0.0,2,0,21,87.5,2,12,0,1,1,Match Report
+Y,24,0,90,0,0,1,0,0,3,0,1,65,3,0,0,0,0,Mon,Premier League,Matchweek 25,Home,D 1-1,Everton,Crystal Palace,CM,0,0,0,75,2,0.2,0.2,0.1,8,1,55,84.6,2,36,1,3,1,Match Report
+Y,25,0,90,0,0,0,0,0,0,0,0,41,1,0,0,0,0,Sat,Premier League,Matchweek 26,Away,D 1-1,Everton,Brighton,CM,0,0,0,46,0,0.0,0.0,0.0,1,0,37,90.2,2,26,0,0,0,Match Report
+Y,26,0,90,0,0,0,0,0,2,0,0,60,0,0,0,1,0,Sat,Premier League,Matchweek 27,Home,L 1-3,Everton,West Ham,"CM,RM",0,0,0,66,1,0.1,0.1,0.6,4,1,49,81.7,7,30,3,2,1,Match Report
+Y,27,0,74,0,0,1,0,0,1,0,1,40,4,0,0,0,0,Sat,Premier League,Matchweek 28,Away,L 0-2,Everton,Manchester Utd,CM,0,0,0,50,1,0.0,0.0,0.4,6,0,34,85.0,1,30,0,0,0,Match Report
+Y,28,0,90,0,0,2,0,0,0,0,0,43,1,0,0,0,0,Sat,Premier League,Matchweek 30,Away,L 1-2,Everton,Bournemouth,CM,0,0,0,56,1,0.0,0.0,0.0,1,0,30,69.8,3,18,1,1,0,Match Report
+N,29,0,30,0,0,0,0,0,1,0,0,14,0,0,0,0,0,Tue,Premier League,Matchweek 31,Away,D 1-1,Everton,Newcastle Utd,CM,0,0,0,19,1,0.0,0.0,0.0,0,0,12,85.7,1,8,1,1,0,Match Report
+Y,30,0,90,0,0,4,0,0,0,0,0,25,0,0,0,0,0,Sat,Premier League,Matchweek 32,Home,W 1-0,Everton,Burnley,CM,0,0,0,35,0,0.0,0.0,0.0,1,0,15,60.0,0,11,1,2,0,Match Report
+Y,31,0,45,0,0,1,0,0,0,0,0,27,1,0,0,0,1,Mon,Premier League,Matchweek 33,Away,L 0-6,Everton,Chelsea,CM,0,0,0,31,1,0.0,0.0,0.1,1,0,21,77.8,1,6,0,0,0,Match Report
+N,32,0,24,0,0,0,0,0,0,0,0,8,0,0,0,0,0,Sun,Premier League,Matchweek 34,Home,W 2-0,Everton,Nott'ham Forest,CM,0,0,0,8,0,0.0,0.0,0.0,1,0,4,50.0,0,4,1,0,0,Match Report
+Y,33,0,90,0,0,2,0,0,0,0,0,15,2,0,0,0,0,Wed,Premier League,Matchweek 29,Home,W 2-0,Everton,Liverpool,CM,0,0,0,23,1,0.0,0.0,0.0,0,0,9,60.0,0,10,1,3,1,Match Report
+Y,34,0,90,0,0,1,0,0,2,0,0,40,0,0,0,0,0,Sat,Premier League,Matchweek 35,Home,W 1-0,Everton,Brentford,CM,0,0,0,46,1,0.1,0.1,0.0,5,0,35,87.5,2,36,2,1,1,Match Report
+Y,35,0,54,0,0,3,0,0,2,0,0,28,0,0,0,0,1,Fri,Premier League,Matchweek 36,Away,D 1-1,Everton,Luton Town,CM,0,0,0,34,0,0.1,0.1,0.0,2,0,22,78.6,2,11,0,0,0,Match Report
+Y,36,0,90,0,0,0,0,0,4,0,0,50,0,0,0,0,0,Sat,Premier League,Matchweek 37,Home,W 1-0,Everton,Sheffield Utd,RM,0,0,0,60,1,0.3,0.3,0.2,3,0,42,84.0,5,38,3,1,0,Match Report
+Y,37,0,90,0,0,3,0,0,0,0,0,22,0,0,0,0,0,Sun,Premier League,Matchweek 38,Away,L 1-2,Everton,Arsenal,RM,0,0,0,33,2,0.0,0.0,0.0,0,0,14,63.6,0,10,1,1,1,Match Report

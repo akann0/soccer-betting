@@ -1,0 +1,35 @@
+game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,0,71,0,0,1,0,0,3,0,2,18,1,0,1,0,0,Sun,Premier League,Matchweek 1,Home,D 2-2,Brentford,Tottenham,FW,0,0,0,31,4,0.3,0.3,0.1,2,0,12,66.7,3,12,2,1,1,Match Report
+Y,2,0,78,0,0,0,0,0,7,0,3,11,0,0,1,0,0,Sat,Premier League,Matchweek 2,Away,W 3-0,Brentford,Fulham,FW,0,0,0,21,0,1.4,1.4,0.0,1,1,10,90.9,0,14,1,2,1,Match Report
+Y,3,0,90,0,0,0,0,0,2,0,0,15,0,0,0,0,0,Sat,Premier League,Matchweek 3,Home,D 1-1,Brentford,Crystal Palace,FW,0,0,0,27,1,0.3,0.3,0.0,0,0,9,60.0,0,13,1,1,0,Match Report
+Y,4,0,90,0,0,1,0,0,3,0,0,13,0,0,0,0,0,Sat,Premier League,Matchweek 4,Home,D 2-2,Brentford,Bournemouth,FW,0,0,0,28,1,0.4,0.4,0.0,2,0,11,84.6,1,13,2,1,0,Match Report
+Y,5,0,90,0,0,1,0,0,5,0,1,24,0,0,0,0,1,Sat,Premier League,Matchweek 5,Away,L 0-1,Brentford,Newcastle Utd,FW,0,0,0,35,1,0.3,0.3,0.0,5,0,14,58.3,2,22,3,4,4,Match Report
+Y,6,0,90,0,0,0,0,0,1,0,0,11,0,0,0,0,0,Sat,Premier League,Matchweek 6,Home,L 1-3,Brentford,Everton,FW,0,0,0,17,0,0.1,0.1,0.1,2,0,9,81.8,2,6,0,1,0,Match Report
+Y,7,0,90,0,0,1,0,0,2,0,0,11,1,0,0,0,0,Sun,Premier League,Matchweek 7,Away,D 1-1,Brentford,Nott'ham Forest,FW,0,0,0,20,1,0.4,0.4,0.2,3,1,8,72.7,0,8,1,1,0,Match Report
+Y,8,0,69,0,0,1,0,0,2,0,0,13,2,0,0,1,0,Sat,Premier League,Matchweek 8,Away,L 1-2,Brentford,Manchester Utd,FW,0,0,0,24,0,0.1,0.1,0.1,2,0,8,61.5,0,16,3,3,2,Match Report
+Y,9,0,90,0,0,2,0,0,3,0,2,19,1,0,1,0,0,Sat,Premier League,Matchweek 9,Home,W 3-0,Brentford,Burnley,LW,0,0,0,31,2,1.2,1.2,0.4,8,1,14,73.7,3,17,4,0,0,Match Report
+Y,10,0,75,0,0,2,0,0,0,0,0,8,0,0,0,0,0,Sat,Premier League,Matchweek 10,Away,W 2-0,Brentford,Chelsea,FW,0,0,0,15,0,0.0,0.0,0.0,0,0,6,75.0,1,9,1,5,4,Match Report
+Y,11,0,88,0,0,1,0,0,2,0,0,15,0,0,0,0,0,Sat,Premier League,Matchweek 11,Home,W 3-2,Brentford,West Ham,LW,0,0,0,24,1,0.2,0.2,0.1,2,0,9,60.0,1,10,1,1,0,Match Report
+Y,12,0,71,0,0,0,0,0,1,0,0,14,0,0,0,0,0,Sun,Premier League,Matchweek 12,Away,L 0-3,Brentford,Liverpool,FW,0,0,0,21,1,0.1,0.1,0.0,1,0,11,78.6,0,13,1,3,1,Match Report
+Y,13,0,71,0,0,0,0,0,1,0,0,12,0,0,0,0,0,Sat,Premier League,Matchweek 13,Home,L 0-1,Brentford,Arsenal,FW,0,0,0,15,0,0.3,0.3,0.2,2,0,9,75.0,2,9,0,0,0,Match Report
+Y,14,0,90,0,0,1,0,0,3,0,1,32,0,0,0,0,0,Sat,Premier League,Matchweek 14,Home,W 3-1,Brentford,Luton Town,"LW,FW",0,0,0,41,0,0.1,0.1,0.1,2,0,25,78.1,3,23,3,2,0,Match Report
+N,15,0,51,0,0,1,0,0,1,0,0,3,1,0,0,0,1,Wed,Premier League,Matchweek 15,Away,L 1-2,Brentford,Brighton,FW,0,0,0,8,0,0.1,0.1,0.0,0,0,3,100.0,0,4,1,0,0,Match Report
+Y,16,0,90,0,0,0,0,0,2,0,2,12,0,0,0,0,0,Sat,Premier League,Matchweek 16,Away,L 0-1,Brentford,Sheffield Utd,"LW,FW",0,0,0,21,0,0.2,0.2,0.0,0,0,9,75.0,0,12,0,2,0,Match Report
+Y,17,0,75,0,0,4,0,0,2,0,1,8,0,0,0,0,0,Sun,Premier League,Matchweek 17,Home,L 1-2,Brentford,Aston Villa,"FW,CM",0,0,0,17,0,0.2,0.2,0.0,1,1,2,25.0,1,10,2,2,0,Match Report
+Y,18,0,85,0,0,0,0,0,2,0,1,18,0,0,1,0,0,Wed,Premier League,Matchweek 19,Home,L 1-4,Brentford,Wolves,RW,0,0,0,28,1,0.3,0.3,0.4,3,0,12,66.7,2,19,1,1,0,Match Report
+Y,19,0,90,0,0,1,0,0,1,0,0,13,0,0,0,0,0,Sat,Premier League,Matchweek 20,Away,L 1-3,Brentford,Crystal Palace,FW,0,0,0,20,0,0.6,0.6,0.0,1,0,10,76.9,2,13,3,1,0,Match Report
+N,20,0,28,0,0,0,0,0,0,0,0,9,0,0,0,0,0,Sat,Premier League,Matchweek 25,Home,L 1-4,Brentford,Liverpool,FW,0,0,0,10,0,0.0,0.0,0.1,2,0,8,88.9,1,6,0,2,1,Match Report
+Y,21,0,67,0,0,1,0,0,0,0,0,13,0,0,0,0,1,Tue,Premier League,Matchweek 18,Away,L 0-1,Brentford,Manchester City,FW,0,0,0,20,1,0.0,0.0,0.2,2,0,12,92.3,2,10,1,1,0,Match Report
+N,22,0,18,0,0,0,0,0,1,0,1,8,0,0,1,0,0,Mon,Premier League,Matchweek 26,Away,L 2-4,Brentford,West Ham,FW,0,0,0,9,0,0.1,0.1,0.0,1,0,5,62.5,1,7,1,0,0,Match Report
+Y,23,0,86,0,0,2,0,0,5,0,2,13,1,0,1,0,0,Sat,Premier League,Matchweek 27,Home,D 2-2,Brentford,Chelsea,FW,0,0,0,28,1,0.7,0.7,0.1,2,1,9,69.2,2,18,0,1,0,Match Report
+Y,24,0,77,0,0,1,0,0,3,0,1,9,0,0,1,0,1,Sat,Premier League,Matchweek 28,Away,L 1-2,Brentford,Arsenal,FW,0,0,0,19,1,0.4,0.4,0.0,2,0,5,55.6,1,6,1,0,0,Match Report
+Y,25,0,78,0,0,0,0,0,1,0,1,5,1,0,0,0,0,Sat,Premier League,Matchweek 29,Away,L 1-2,Brentford,Burnley,FW,0,0,0,15,2,0.4,0.4,0.0,0,0,4,80.0,1,7,1,1,0,Match Report
+Y,26,0,70,0,0,1,0,0,4,0,0,17,0,0,0,0,1,Sat,Premier League,Matchweek 30,Home,D 1-1,Brentford,Manchester Utd,FW,0,0,0,29,0,0.6,0.6,0.3,3,0,14,82.4,4,14,2,3,1,Match Report
+Y,27,0,72,0,0,1,0,0,1,0,0,11,0,0,0,0,0,Wed,Premier League,Matchweek 31,Home,D 0-0,Brentford,Brighton,FW,0,0,0,18,0,0.2,0.2,0.3,1,0,7,63.6,3,12,1,2,1,Match Report
+Y,28,0,80,0,0,0,0,0,1,0,1,20,0,0,1,0,1,Sat,Premier League,Matchweek 32,Away,D 3-3,Brentford,Aston Villa,FW,0,0,0,29,1,0.7,0.7,0.2,1,0,13,65.0,2,16,1,3,2,Match Report
+Y,29,0,89,0,0,0,0,0,1,0,1,15,0,0,0,0,0,Sat,Premier League,Matchweek 33,Home,W 2-0,Brentford,Sheffield Utd,"LW,FW",0,0,0,23,2,0.1,0.1,0.0,1,0,11,73.3,1,11,1,1,0,Match Report
+Y,30,0,81,0,0,2,0,0,2,0,2,20,0,0,2,0,0,Sat,Premier League,Matchweek 34,Away,W 5-1,Brentford,Luton Town,FW,0,0,0,29,0,0.6,0.6,0.3,6,2,11,55.0,3,21,2,4,2,Match Report
+Y,31,0,67,0,0,3,0,0,0,0,0,16,1,0,0,0,0,Sat,Premier League,Matchweek 35,Away,L 0-1,Brentford,Everton,LW,0,0,0,26,2,0.0,0.0,0.0,2,0,9,56.3,0,10,1,0,0,Match Report
+N,32,0,25,0,0,0,0,0,0,0,0,9,0,0,0,0,0,Sat,Premier League,Matchweek 36,Home,D 0-0,Brentford,Fulham,"LW,AM",0,0,0,13,0,0.0,0.0,0.0,0,0,6,66.7,2,11,1,1,0,Match Report
+N,33,0,28,0,0,0,0,0,1,0,1,8,0,0,1,1,0,Sat,Premier League,Matchweek 37,Away,W 2-1,Brentford,Bournemouth,"FW,LW,RM",0,0,0,11,0,0.1,0.1,0.4,3,2,8,100.0,1,7,1,0,0,Match Report
+Y,34,0,83,0,0,0,0,0,4,0,1,19,0,0,1,1,1,Sun,Premier League,Matchweek 38,Home,L 2-4,Brentford,Newcastle Utd,"LW,AM",0,0,0,28,1,0.3,0.3,0.2,1,1,14,73.7,1,23,1,2,0,Match Report
