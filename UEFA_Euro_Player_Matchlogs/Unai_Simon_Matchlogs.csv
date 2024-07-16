@@ -1,0 +1,5 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,match_report
+Y,1,Sat,UEFA Euro,Group stage,Neutral,W 3-0,es Spain,hr Croatia,GK,90,Match Report
+Y,2,Thu,UEFA Euro,Group stage,Neutral,W 1-0,es Spain,it Italy,GK,90,Match Report
+Y,3,Sun,UEFA Euro,Round of 16,Neutral,W 4-1,es Spain,ge Georgia,GK,90,Match Report
+Y,4,Fri,UEFA Euro,Quarter-finals,Neutral,W 2-1,es Spain,de Germany,GK,120,Match Report

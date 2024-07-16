@@ -3,13 +3,14 @@ from bs4 import BeautifulSoup as bs
 import time, random, csv
 from unidecode import unidecode
 from constants import *
-import os
+import os, sys
 
 TEAMS_TO_FIND = 1
-PLAYERS_PER_TEAM = 1
+PLAYERS_PER_TEAM = 15
 
+#Anything with x=0 should only print if something doesn't work as expected
 def test_print(response, x):
-    to_test = [0, 14]
+    to_test = [0]
     if x in to_test:
         if isinstance(response, list):
             for i in range(min(len(response), 10)):
@@ -34,19 +35,31 @@ def requests_test(response, url=""):
 
 
 #Create an class type Soccer League
+
 class SoccerLeague:
-    def constants(self, teams):
+    # TEST_NUMBER = 2
+    def constants(self, constants):
         self.stats_wanted = team_stats_wanted
         for key in self.stats_wanted.copy():
             self.stats_wanted[key + " Against"] = [stat for stat in self.stats_wanted[key]]
-        self.year = year
-        self.list_teams = teams
+
+        self.year = "2023-2024"
+        self.list_teams = range(TEAMS_TO_FIND)
+        self.file_location = ""
+        
+        if "year" in constants:
+            test_print(["year in constants", constants["year"]], 2)
+            self.year = constants["year"]
+        if "list_teams" in constants:
+            self.list_teams = constants["list_teams"]
+        if "file_location" in constants:
+            self.location = constants["file_location"]
 
         test_print(self.stats_wanted, 2)
 
 
-    def __init__(self, url, teams):
-        self.constants(teams)
+    def __init__(self, url, constants):
+        self.constants(constants)
 
         self.url = url
         self.response = requests.get(url, headers={'User-Agent': 'Safari/537.36'})
@@ -65,26 +78,37 @@ class SoccerLeague:
         self.team_links = [team.a["href"] for team in self.team_objs]
         
         self.team_stats = self.gen_team_stats()
-        #self.relativize_team_stats()
+        self.relativize_team_stats()
 
         if self.list_teams == None:
             self.list_teams = range(len(self.team_names))
         
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self.league) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], [self.league, self.year]) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
         self.save_stats()
 
+    # TEST_NUMBER = 6
     def gen_tables(self):
         ans = {}
         for caption in self.soup.find_all("caption"):
             key = caption.get_text().split(":")[0].split(" " + self.year)[0].split(" Table")[0]
             key += (" Against" if key in ans else "")
             ans[key] = caption.find_parent('table', {'class': 'stats_table'})
+        test_print(ans.keys(), 6)
         return ans
         
         # return {table.get_text().split(":")[0] : table.find_parent('table', {'class': 'stats_table'}) for table in self.soup.find_all("caption")}
 
     def gen_table(self):
-        return self.tables['Squad Standard Stats']
+        for key in self.tables.keys():
+            if "Squad Standard Stats" in key:
+                if "Against" in key:
+                    continue
+                return self.tables[key]
+        test_print("No Squad Standard Stats Table found", 0)
+        if len(self.tables) > 0:
+            return self.tables[0]
+        test_print("No tables found", 0)
+        return None
     
     # given the table in self.table, generate the teams in the league
     # TEST_NUMBER = 20
@@ -135,7 +159,11 @@ class SoccerLeague:
     def get_url(self):
         return self.url
     
+    
     def save_stats(self):
+        if self.location != "":
+            os.chdir(self.location)
+        
         self.save_league_stats()
         self.save_player_stats()
         # self.save_last_five_stats()
@@ -152,6 +180,7 @@ class SoccerLeague:
 
     
     def save_player_stats(self):
+
         league_stats = []
         for team in self.teams:
             for player in team.player_objs:
@@ -242,6 +271,7 @@ class SoccerLeague:
         test_print("Team Stats: " + str(team_stats), 2)
         return team_stats
     
+    # TODO: fix 
     def relativize_team_stats(self):
         for team in self.team_stats:
             for stat in team:
@@ -258,7 +288,6 @@ class SoccerTeam():
     def constants(self):
         self.stats_wanted = team_stats_wanted
         self.player_stats_wanted = stats_wanted
-        self.year = year
 
 
     def __init__(self, url, stats, league):
@@ -280,7 +309,13 @@ class SoccerTeam():
 
     def gen_table(self):
         test_print(self.tables.keys(), 3)
-        return self.tables['Standard Stats']
+        if "Standard Stats" in self.tables:
+            return self.tables['Standard Stats']
+        for table in self.tables:
+            if "Standard Stats" in table:
+                return self.tables[table]
+        test_print("No Standard Stats Table found", 0)
+        return self.tables[0] if len(self.tables) > 0 else None
     
     def gen_tables(self):
         return {table.get_text().split(":")[0].split(year)[0].strip(): table.find_parent('table', {'class': 'stats_table'}) for table in self.soup.find_all("caption")}
@@ -330,6 +365,7 @@ class SoccerTeam():
     def get_url(self):
         return self.url
 
+    # TEST_NUMBER = 30
     def gen_player_stats(self):
         player_stats_index_map = {}
         player_stats = []
@@ -366,7 +402,7 @@ class SoccerTeam():
                     if col.get("data-stat") in self.player_stats_wanted[table]:
                         player_stats[dex][col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text() != "" else 0
 
-        test_print("player Stats: " + str(player_stats), 3)
+        test_print("player Stats: " + str(player_stats), 30)
         return player_stats
 
 class SoccerPlayer():
@@ -383,7 +419,8 @@ class SoccerPlayer():
         test_print(self.player, 11)
         self.stats = stats
         self.team = team
-        self.league = league    
+        self.league = league[0]  
+        self.year = league[1]
         if scrape:
             self.response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             requests_test(self.response, self.url)
@@ -483,7 +520,7 @@ class SoccerPlayer():
     # TEST_NUMBER = 5
     def get_matchlog_table(self):
         #add matchlog/ right before the last / in self.url
-        matchlog_url = self.url[:self.url.rfind("/")] + "/matchlogs/2023-2024/" + self.url[self.url.rfind("/") + 1:] + "-Match-Logs"
+        matchlog_url = self.url[:self.url.rfind("/")] + "/matchlogs/" + self.year + "/" + self.url[self.url.rfind("/") + 1:] + "-Match-Logs"
         stat_response = requests.get(matchlog_url)
         requests_test(stat_response, matchlog_url)
         stat_soup = bs(stat_response.content, "html.parser")
@@ -555,14 +592,20 @@ class SoccerPlayer():
                 return False
             
             ans = False
-            for col in row.find_all("td"):
+            for col in row.find_all(["th", "td"]):
                 # automatically returns false for internatinonal games
-                if col.get("data-stat") == "team" and col.get_text() != self.team:
-                    return False
+                # if col.get("data-stat") == "team" and col.get_text() != self.team:
+                #     return False
                 # automatically return false for games out of league (ie FA Cup)
                 if col.get("data-stat") == "comp" and col.get_text() != self.league:
-                    test_print([col.get_text(), self.league], 14)
+                    # test_print([col.get_text(), self.league], 14)
                     return False
+                #if the date is not in the current year, then the matchlog is invalid
+                if col.get("data-stat") == "date":
+                    test_print(col.get_text(), 14)
+                    if (self.year == 'nat_tm') and ("2024" not in col.get_text()): #TODO: get rid of magic number
+                        return False
+
                 # if the day of the week is valid, then the matchlog is valid, if not then will return false
                 if col.get("data-stat") == "dayofweek" and col.get_text() in ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"]:
                     ans = True
@@ -602,6 +645,8 @@ class SoccerPlayer():
 # # Create an instance of the SoccerLeague class
 # premier_league = SoccerLeague(premier_league_url)
 # premier_league.save_league_stats()
+
+# euros = SoccerLeague("https://fbref.com/en/comps/676/stats/UEFA-Euro-Stats", [6, 7, 12, 20], "nat_tm")
 
 
 

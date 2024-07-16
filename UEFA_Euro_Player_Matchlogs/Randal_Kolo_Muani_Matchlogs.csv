@@ -1,0 +1,5 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+N,1,Mon,UEFA Euro,Group stage,Neutral,W 1-0,fr France,at Austria,RW,20,0,0,0,0,0,0,0,0,11,0,0,0,0.0,0.0,0.0,0,0,5,9,55.6,2,10,2,1,1,Match Report
+N,2,Tue,UEFA Euro,Group stage,Neutral,D 1-1,fr France,pl Poland,RW,5,0,0,0,0,0,0,0,0,1,0,0,1,0.0,0.0,0.0,0,0,0,0,,0,0,0,0,0,Match Report
+N,3,Mon,UEFA Euro,Round of 16,Neutral,W 1-0,fr France,be Belgium,FW,29,0,0,0,0,1,0,0,0,8,0,1,0,0.1,0.1,0.0,2,0,4,5,80.0,0,9,1,1,0,Match Report
+Y,4,Fri,UEFA Euro,Quarter-finals,Neutral,D 0 (5)-0 (3),fr France,pt Portugal,FW,85,0,0,0,0,1,0,0,0,26,1,0,1,0.2,0.2,0.0,2,0,12,16,75.0,0,14,1,2,0,Match Report

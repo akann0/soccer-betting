@@ -1,0 +1,30 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+N,1,Sat,Premier League,Matchweek 2,Home,L 0-3,Fulham,Brentford,CB,24,0,0,0,0,0,0,0,0,22,0,0,1,0.0,0.0,0.0,0,0,18,20,90.0,1,15,0,0,0,Match Report
+Y,2,Sat,Premier League,Matchweek 3,Away,D 2-2,Fulham,Arsenal,CB,82,0,0,0,0,0,0,2,1,44,1,2,0,0.0,0.0,0.0,0,0,21,35,60.0,0,23,0,1,0,Match Report
+N,3,Sat,Premier League,Matchweek 5,Home,W 1-0,Fulham,Luton Town,LW,1,0,0,0,0,0,0,0,0,3,0,0,0,0.0,0.0,0.0,0,0,2,3,66.7,0,1,0,0,0,Match Report
+N,4,Sat,Premier League,Matchweek 8,Home,W 3-1,Fulham,Sheffield Utd,CB,20,0,0,0,0,0,0,0,0,21,1,0,0,0.0,0.0,0.0,0,0,18,21,85.7,1,13,1,1,1,Match Report
+Y,5,Mon,Premier League,Matchweek 9,Away,L 0-2,Fulham,Tottenham,CB,90,0,0,0,0,0,0,0,0,72,1,0,2,0.0,0.0,0.0,0,0,57,66,86.4,1,50,0,1,1,Match Report
+Y,6,Sun,Premier League,Matchweek 10,Away,D 1-1,Fulham,Brighton,CB,90,0,0,0,0,0,0,0,0,58,6,2,1,0.0,0.0,0.0,0,0,41,47,87.2,0,35,0,0,0,Match Report
+Y,7,Sat,Premier League,Matchweek 11,Home,L 0-1,Fulham,Manchester Utd,CB,90,0,0,0,0,1,0,0,0,72,1,2,1,0.0,0.0,0.0,0,0,37,57,64.9,0,35,1,0,0,Match Report
+Y,8,Sun,Premier League,Matchweek 12,Away,L 1-3,Fulham,Aston Villa,CB,90,0,0,0,0,0,0,0,0,84,2,4,3,0.0,0.0,0.0,0,0,64,73,87.7,2,65,0,1,1,Match Report
+Y,9,Mon,Premier League,Matchweek 13,Home,W 3-2,Fulham,Wolves,CB,90,0,0,0,0,0,0,0,0,94,1,3,1,0.0,0.0,0.0,3,0,76,84,90.5,1,63,1,1,0,Match Report
+Y,10,Sun,Premier League,Matchweek 14,Away,L 3-4,Fulham,Liverpool,CB,90,0,0,0,0,0,0,0,0,46,1,4,1,0.0,0.0,0.0,0,0,23,36,63.9,0,22,0,0,0,Match Report
+Y,11,Wed,Premier League,Matchweek 15,Home,W 5-0,Fulham,Nott'ham Forest,CB,90,0,0,0,0,0,0,0,0,92,1,1,0,0.0,0.0,0.0,0,0,84,90,93.3,4,74,0,1,0,Match Report
+Y,12,Sun,Premier League,Matchweek 16,Home,W 5-0,Fulham,West Ham,CB,90,0,0,0,0,0,0,0,0,99,2,0,2,0.0,0.0,0.0,0,0,80,92,87.0,3,51,0,1,1,Match Report
+Y,13,Sat,Premier League,Matchweek 18,Home,L 0-2,Fulham,Burnley,CB,90,0,0,0,0,0,0,1,0,97,0,1,1,0.0,0.0,0.0,0,0,90,95,94.7,9,67,0,1,1,Match Report
+Y,14,Tue,Premier League,Matchweek 19,Away,L 0-3,Fulham,Bournemouth,CB,90,0,0,0,0,0,0,0,0,92,2,0,3,0.0,0.0,0.0,1,0,74,83,89.2,6,61,1,1,1,Match Report
+Y,15,Sun,Premier League,Matchweek 20,Home,W 2-1,Fulham,Arsenal,CB,90,0,0,0,0,0,0,1,0,75,3,2,1,0.0,0.0,0.0,0,0,59,63,93.7,4,44,2,1,1,Match Report
+N,16,Sat,Premier League,Matchweek 25,Home,L 1-2,Fulham,Aston Villa,CB,16,0,0,0,0,0,0,0,0,18,1,0,0,0.0,0.0,0.0,0,0,14,16,87.5,0,12,0,0,0,Match Report
+Y,17,Sat,Premier League,Matchweek 26,Away,W 2-1,Fulham,Manchester Utd,CB,90,1,0,0,0,2,1,0,0,51,1,0,2,0.2,0.2,0.0,1,1,32,39,82.1,1,25,1,0,0,Match Report
+Y,18,Sat,Premier League,Matchweek 27,Home,W 3-0,Fulham,Brighton,CB,90,0,0,0,0,0,0,0,0,42,1,0,0,0.0,0.0,0.0,0,0,31,35,88.6,1,24,0,0,0,Match Report
+Y,19,Sat,Premier League,Matchweek 28,Away,L 1-2,Fulham,Wolves,CB,90,0,0,0,0,0,0,0,0,80,2,2,2,0.0,0.0,0.0,1,0,62,69,89.9,2,59,0,2,2,Match Report
+Y,20,Sat,Premier League,Matchweek 29,Home,W 3-0,Fulham,Tottenham,CB,90,0,0,0,0,1,0,0,0,57,2,1,1,0.1,0.1,0.0,1,1,39,50,78.0,0,31,0,0,0,Match Report
+Y,21,Sat,Premier League,Matchweek 30,Away,D 3-3,Fulham,Sheffield Utd,CB,90,0,0,0,0,1,0,1,0,97,2,0,2,0.0,0.0,0.0,1,0,73,86,84.9,6,57,2,0,0,Match Report
+Y,22,Tue,Premier League,Matchweek 31,Away,L 1-3,Fulham,Nott'ham Forest,CB,90,0,0,0,0,0,0,0,0,106,4,0,1,0.0,0.0,0.0,0,0,87,95,91.6,9,76,4,0,0,Match Report
+Y,23,Sat,Premier League,Matchweek 32,Home,L 0-1,Fulham,Newcastle Utd,CB,90,0,0,0,0,0,0,0,0,70,1,1,0,0.0,0.0,0.0,1,0,60,65,92.3,3,51,0,0,0,Match Report
+Y,24,Sun,Premier League,Matchweek 33,Away,W 2-0,Fulham,West Ham,CB,90,0,0,0,0,0,0,0,0,75,4,0,0,0.0,0.0,0.0,1,0,49,59,83.1,1,37,0,0,0,Match Report
+Y,25,Sun,Premier League,Matchweek 34,Home,L 1-3,Fulham,Liverpool,CB,90,0,0,0,0,0,0,0,0,72,1,1,1,0.0,0.0,0.0,1,0,51,63,81.0,2,36,0,2,2,Match Report
+Y,26,Sat,Premier League,Matchweek 35,Home,D 1-1,Fulham,Crystal Palace,CB,90,0,0,0,0,0,0,0,0,80,3,1,0,0.0,0.0,0.0,2,0,59,72,81.9,0,44,0,0,0,Match Report
+Y,27,Sat,Premier League,Matchweek 36,Away,D 0-0,Fulham,Brentford,CB,90,0,0,0,0,0,0,1,0,59,1,1,3,0.0,0.0,0.0,2,0,38,47,80.9,4,31,2,0,0,Match Report
+Y,28,Sat,Premier League,Matchweek 37,Home,L 0-4,Fulham,Manchester City,CB,90,0,0,0,0,0,0,0,0,74,1,0,2,0.0,0.0,0.0,0,0,60,67,89.6,0,41,0,0,0,Match Report
+Y,29,Sun,Premier League,Matchweek 38,Away,W 4-2,Fulham,Luton Town,CB,90,0,0,0,0,0,0,0,0,49,3,0,1,0.0,0.0,0.0,0,0,41,46,89.1,1,36,0,0,0,Match Report

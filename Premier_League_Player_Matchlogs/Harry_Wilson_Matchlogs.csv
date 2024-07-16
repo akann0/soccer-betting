@@ -1,0 +1,36 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sat,Premier League,Matchweek 1,Away,W 1-0,Fulham,Everton,RW,90,0,0,0,0,1,0,0,0,34,1,0,1,0.1,0.1,0.4,5,1,27,29,93.1,4,33,3,1,1,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Home,L 0-3,Fulham,Brentford,"RW,RM",90,0,0,0,0,2,2,0,0,47,0,0,2,0.0,0.0,0.0,4,0,29,38,76.3,6,30,1,1,0,Match Report
+Y,3,Sat,Premier League,Matchweek 3,Away,D 2-2,Fulham,Arsenal,RW,70,0,0,0,0,1,0,0,0,23,0,0,2,0.0,0.0,0.0,2,0,13,16,81.3,1,11,0,1,0,Match Report
+Y,4,Sat,Premier League,Matchweek 4,Away,L 1-5,Fulham,Manchester City,RW,80,0,0,0,0,0,0,0,0,16,0,0,0,0.0,0.0,0.0,0,0,7,12,58.3,0,7,1,2,0,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Home,W 1-0,Fulham,Luton Town,RW,80,0,0,0,0,2,1,0,0,50,0,0,0,0.1,0.1,0.1,3,0,40,45,88.9,2,37,0,0,0,Match Report
+N,6,Sat,Premier League,Matchweek 6,Away,D 0-0,Fulham,Crystal Palace,RW,12,0,0,0,0,1,0,0,0,17,2,1,0,0.0,0.0,0.0,0,0,8,12,66.7,1,8,1,2,1,Match Report
+Y,7,Mon,Premier League,Matchweek 7,Home,L 0-2,Fulham,Chelsea,RW,53,0,0,0,0,0,0,0,0,35,0,1,1,0.0,0.0,0.0,0,0,20,28,71.4,4,24,2,0,0,Match Report
+N,8,Sat,Premier League,Matchweek 8,Home,W 3-1,Fulham,Sheffield Utd,RW,13,0,0,0,0,1,0,0,0,14,1,0,0,0.0,0.0,0.0,2,1,11,12,91.7,0,13,0,1,1,Match Report
+N,9,Mon,Premier League,Matchweek 9,Away,L 0-2,Fulham,Tottenham,RW,29,0,0,0,0,2,0,0,0,15,2,0,0,0.3,0.3,0.5,2,0,8,10,80.0,2,9,1,1,1,Match Report
+N,10,Sun,Premier League,Matchweek 10,Away,D 1-1,Fulham,Brighton,RW,33,0,1,0,0,0,0,1,0,13,1,0,0,0.0,0.0,0.2,3,1,7,9,77.8,0,8,1,3,2,Match Report
+Y,11,Sat,Premier League,Matchweek 11,Home,L 0-1,Fulham,Manchester Utd,RW,89,0,0,0,0,4,1,1,0,35,1,0,1,0.2,0.2,0.1,4,0,15,22,68.2,4,25,3,3,0,Match Report
+N,12,Sun,Premier League,Matchweek 12,Away,L 1-3,Fulham,Aston Villa,RW,45,0,0,0,0,1,0,0,0,35,1,1,1,0.1,0.1,0.0,2,1,20,28,71.4,2,19,0,2,1,Match Report
+N,13,Mon,Premier League,Matchweek 13,Home,W 3-2,Fulham,Wolves,RW,15,0,0,0,0,0,0,0,0,13,0,1,0,0.0,0.0,0.0,2,1,3,10,30.0,0,10,1,2,1,Match Report
+Y,14,Sun,Premier League,Matchweek 14,Away,L 3-4,Fulham,Liverpool,RW,61,1,0,0,0,1,1,0,0,31,2,1,2,0.2,0.2,0.0,0,0,12,16,75.0,3,15,0,1,0,Match Report
+N,15,Wed,Premier League,Matchweek 15,Home,W 5-0,Fulham,Nott'ham Forest,LW,28,0,1,0,0,1,0,0,0,14,0,0,1,0.1,0.1,0.1,2,1,10,12,83.3,1,10,2,0,0,Match Report
+N,16,Sun,Premier League,Matchweek 16,Home,W 5-0,Fulham,West Ham,RW,45,1,1,0,0,2,2,0,0,34,0,0,1,0.4,0.4,0.8,2,1,24,28,85.7,1,26,0,2,2,Match Report
+Y,17,Sat,Premier League,Matchweek 17,Away,L 0-3,Fulham,Newcastle Utd,RW,90,0,0,0,0,0,0,0,0,31,0,1,2,0.0,0.0,0.0,1,0,20,23,87.0,2,14,1,1,0,Match Report
+Y,18,Sat,Premier League,Matchweek 18,Home,L 0-2,Fulham,Burnley,RW,90,0,0,0,0,2,1,0,0,51,1,1,3,0.1,0.1,0.0,4,0,30,38,78.9,3,26,2,1,0,Match Report
+N,19,Tue,Premier League,Matchweek 19,Away,L 0-3,Fulham,Bournemouth,"RW,RM",18,0,0,0,0,0,0,0,0,10,0,0,0,0.0,0.0,0.0,0,0,5,8,62.5,0,5,0,1,0,Match Report
+N,20,Sun,Premier League,Matchweek 20,Home,W 2-1,Fulham,Arsenal,RW,11,0,0,0,0,1,0,0,0,5,1,0,0,0.0,0.0,0.0,1,0,2,2,100.0,0,0,0,0,0,Match Report
+Y,21,Sat,Premier League,Matchweek 21,Away,L 0-1,Fulham,Chelsea,RW,63,0,0,0,0,2,1,1,0,34,3,1,3,0.1,0.1,0.0,3,0,12,19,63.2,3,17,3,0,0,Match Report
+N,22,Sat,Premier League,Matchweek 24,Home,W 3-1,Fulham,Bournemouth,RW,28,0,0,0,0,0,0,1,0,10,0,0,0,0.0,0.0,0.0,0,0,3,7,42.9,0,5,1,0,0,Match Report
+N,23,Sat,Premier League,Matchweek 25,Home,L 1-2,Fulham,Aston Villa,RW,27,0,0,0,0,1,0,1,0,18,0,0,0,0.0,0.0,0.5,4,0,12,15,80.0,2,13,1,0,0,Match Report
+Y,24,Sat,Premier League,Matchweek 26,Away,W 2-1,Fulham,Manchester Utd,RW,80,0,0,0,0,1,0,1,0,36,2,0,1,0.1,0.1,0.0,3,0,23,29,79.3,5,20,2,2,2,Match Report
+Y,25,Sat,Premier League,Matchweek 27,Home,W 3-0,Fulham,Brighton,RW,83,1,1,0,0,4,1,0,0,34,1,2,2,0.4,0.4,0.1,4,1,14,20,70.0,1,18,2,1,0,Match Report
+Y,26,Sat,Premier League,Matchweek 28,Away,L 1-2,Fulham,Wolves,RW,69,0,0,0,0,3,0,0,0,31,0,0,1,0.5,0.5,0.0,3,0,19,25,76.0,3,20,2,0,0,Match Report
+N,27,Sat,Premier League,Matchweek 29,Home,W 3-0,Fulham,Tottenham,AM,19,0,0,0,0,1,1,0,0,14,0,0,0,0.1,0.1,0.2,1,0,8,11,72.7,1,9,1,1,0,Match Report
+Y,28,Tue,Premier League,Matchweek 31,Away,L 1-3,Fulham,Nott'ham Forest,RW,32,0,0,0,0,1,0,0,0,18,0,0,0,0.2,0.2,0.0,0,0,12,15,80.0,2,12,2,0,0,Match Report
+N,29,Sat,Premier League,Matchweek 32,Home,L 0-1,Fulham,Newcastle Utd,LW,26,0,0,0,0,0,0,0,0,25,1,0,0,0.0,0.0,0.1,1,0,12,22,54.5,2,12,0,1,0,Match Report
+N,30,Sun,Premier League,Matchweek 33,Away,W 2-0,Fulham,West Ham,RW,17,0,0,0,0,0,0,0,0,12,1,0,2,0.0,0.0,0.0,0,0,6,8,75.0,0,6,2,1,1,Match Report
+N,31,Sun,Premier League,Matchweek 34,Home,L 1-3,Fulham,Liverpool,LW,20,0,0,0,0,1,1,0,0,13,0,0,1,0.0,0.0,0.0,1,0,5,9,55.6,0,7,1,1,0,Match Report
+N,32,Sat,Premier League,Matchweek 35,Home,D 1-1,Fulham,Crystal Palace,AM,6,0,0,0,0,1,0,0,0,4,0,0,0,0.1,0.1,0.0,0,0,2,3,66.7,0,3,0,0,0,Match Report
+N,33,Sat,Premier League,Matchweek 36,Away,D 0-0,Fulham,Brentford,RW,1,0,0,0,0,0,0,0,0,3,0,0,0,0.0,0.0,0.0,0,0,2,3,66.7,0,3,1,0,0,Match Report
+N,34,Sat,Premier League,Matchweek 37,Home,L 0-4,Fulham,Manchester City,RW,17,0,0,0,0,0,0,0,0,10,0,0,0,0.0,0.0,0.0,0,0,7,10,70.0,1,4,2,0,0,Match Report
+Y,35,Sun,Premier League,Matchweek 38,Away,W 4-2,Fulham,Luton Town,RW,90,1,2,0,0,3,1,0,0,43,0,0,0,0.2,0.2,0.5,6,2,30,38,78.9,4,26,2,2,2,Match Report

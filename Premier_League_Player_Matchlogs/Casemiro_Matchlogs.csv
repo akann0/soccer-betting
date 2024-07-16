@@ -1,0 +1,26 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Mon,Premier League,Matchweek 1,Home,W 1-0,Manchester Utd,Wolves,DM,90,0,0,0,0,0,0,0,0,81,2,1,4,0.0,0.0,0.1,3,0,51,63,81.0,10,44,0,0,0,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Away,L 0-2,Manchester Utd,Tottenham,DM,90,0,0,0,0,5,2,0,0,53,3,1,1,0.4,0.4,0.0,2,0,29,36,80.6,5,27,1,1,0,Match Report
+Y,3,Sat,Premier League,Matchweek 3,Home,W 3-2,Manchester Utd,Nott'ham Forest,DM,90,1,0,0,0,4,2,0,0,108,5,1,0,1.0,1.0,0.0,2,0,77,91,84.6,16,70,2,2,1,Match Report
+Y,4,Sun,Premier League,Matchweek 4,Away,L 1-3,Manchester Utd,Arsenal,DM,90,0,0,0,0,0,0,0,0,71,1,0,4,0.0,0.0,0.0,0,0,54,63,85.7,4,47,1,1,0,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Home,L 1-3,Manchester Utd,Brighton,DM,63,0,0,0,0,0,0,0,0,52,2,0,4,0.0,0.0,0.1,2,0,36,46,78.3,5,30,2,0,0,Match Report
+Y,6,Sat,Premier League,Matchweek 6,Away,W 1-0,Manchester Utd,Burnley,DM,90,0,0,0,0,1,0,0,0,49,3,1,6,0.1,0.1,0.1,2,0,30,38,78.9,5,16,1,0,0,Match Report
+Y,7,Sat,Premier League,Matchweek 7,Home,L 0-1,Manchester Utd,Crystal Palace,DM,90,0,0,0,0,4,0,1,0,89,4,0,2,0.2,0.2,0.0,2,0,59,74,79.7,9,54,1,2,2,Match Report
+Y,8,Sat,Premier League,Matchweek 8,Home,W 2-1,Manchester Utd,Brentford,DM,45,0,0,0,0,1,0,0,0,30,1,1,0,0.1,0.1,0.1,1,0,22,27,81.5,1,14,0,0,0,Match Report
+Y,9,Thu,Premier League,Matchweek 22,Away,W 4-3,Manchester Utd,Wolves,DM,72,0,0,0,0,4,1,1,0,65,5,3,3,0.4,0.4,0.0,0,0,40,45,88.9,3,37,0,0,0,Match Report
+Y,10,Sun,Premier League,Matchweek 23,Home,W 3-0,Manchester Utd,West Ham,DM,90,0,1,0,0,0,0,0,0,100,3,0,5,0.0,0.0,0.1,2,1,71,83,85.5,5,61,0,0,0,Match Report
+Y,11,Sun,Premier League,Matchweek 24,Away,W 2-1,Manchester Utd,Aston Villa,DM,90,0,0,0,0,2,0,1,0,63,9,0,1,0.0,0.0,0.1,2,0,35,44,79.5,1,38,0,1,0,Match Report
+Y,12,Sun,Premier League,Matchweek 25,Away,W 2-1,Manchester Utd,Luton Town,DM,45,0,0,0,0,1,0,1,0,42,1,1,3,0.0,0.0,0.0,2,0,22,27,81.5,4,21,0,1,0,Match Report
+Y,13,Sat,Premier League,Matchweek 26,Home,L 1-2,Manchester Utd,Fulham,DM,52,0,0,0,0,1,0,0,0,38,4,0,1,0.0,0.0,0.1,1,0,24,27,88.9,1,21,0,3,1,Match Report
+Y,14,Sun,Premier League,Matchweek 27,Away,L 1-3,Manchester Utd,Manchester City,CM,90,0,0,0,0,1,0,0,0,51,4,1,6,0.0,0.0,0.0,0,0,31,34,91.2,1,17,0,2,2,Match Report
+Y,15,Sat,Premier League,Matchweek 28,Home,W 2-0,Manchester Utd,Everton,CM,90,0,0,0,0,2,1,0,0,86,3,1,7,0.1,0.1,0.1,1,0,53,70,75.7,1,45,0,0,0,Match Report
+N,16,Sat,Premier League,Matchweek 30,Away,D 1-1,Manchester Utd,Brentford,DM,11,0,1,0,0,0,0,0,0,17,0,0,1,0.0,0.0,0.1,2,2,11,15,73.3,3,7,0,0,0,Match Report
+Y,17,Thu,Premier League,Matchweek 31,Away,L 3-4,Manchester Utd,Chelsea,DM,74,0,0,0,0,1,0,0,0,53,0,0,4,0.1,0.1,0.0,0,0,39,46,84.8,7,32,0,1,1,Match Report
+Y,18,Sun,Premier League,Matchweek 32,Home,D 2-2,Manchester Utd,Liverpool,DM,90,0,0,0,0,1,0,1,0,70,4,1,4,0.2,0.2,0.0,3,0,36,52,69.2,5,24,0,0,0,Match Report
+Y,19,Sat,Premier League,Matchweek 33,Away,D 2-2,Manchester Utd,Bournemouth,DM,90,0,0,0,0,0,0,0,0,91,4,1,3,0.0,0.0,0.2,2,0,59,73,80.8,7,44,0,3,1,Match Report
+Y,20,Wed,Premier League,Matchweek 29,Home,W 4-2,Manchester Utd,Sheffield Utd,CB,90,0,0,0,0,2,0,0,0,140,3,2,2,0.3,0.3,0.0,3,0,109,129,84.5,3,98,1,0,0,Match Report
+Y,21,Sat,Premier League,Matchweek 35,Home,D 1-1,Manchester Utd,Burnley,CB,90,0,0,0,0,3,1,0,0,74,3,0,4,0.1,0.1,0.0,1,0,43,61,70.5,2,40,1,0,0,Match Report
+Y,22,Mon,Premier League,Matchweek 36,Away,L 0-4,Manchester Utd,Crystal Palace,CB,90,0,0,0,0,2,1,0,0,125,7,1,0,0.1,0.1,0.0,1,0,95,110,86.4,4,76,0,0,0,Match Report
+Y,23,Sun,Premier League,Matchweek 37,Home,L 0-1,Manchester Utd,Arsenal,CB,90,0,0,0,0,2,1,0,0,92,3,0,0,0.0,0.0,0.0,2,0,65,82,79.3,3,58,2,0,0,Match Report
+Y,24,Wed,Premier League,Matchweek 34,Home,W 3-2,Manchester Utd,Newcastle Utd,CB,90,0,0,0,0,2,0,1,0,45,3,1,2,0.2,0.2,0.0,3,1,22,31,71.0,2,24,0,0,0,Match Report
+Y,25,Sun,Premier League,Matchweek 38,Away,W 2-0,Manchester Utd,Brighton,"CB,DM",90,0,0,0,0,0,0,1,0,77,6,1,7,0.0,0.0,0.1,2,0,52,58,89.7,5,39,0,1,1,Match Report

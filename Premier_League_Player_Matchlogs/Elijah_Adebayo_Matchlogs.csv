@@ -1,0 +1,28 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sat,Premier League,Matchweek 1,Away,L 1-4,Luton Town,Brighton,FW,63,0,0,0,0,0,0,0,0,16,0,1,0,0.0,0.0,0.0,1,0,7,10,70.0,4,7,1,3,0,Match Report
+Y,2,Fri,Premier League,Matchweek 3,Away,L 0-3,Luton Town,Chelsea,FW,69,0,0,0,0,0,0,0,0,20,0,0,1,0.0,0.0,0.1,1,0,13,15,86.7,1,12,0,2,1,Match Report
+Y,3,Fri,Premier League,Matchweek 4,Home,L 1-2,Luton Town,West Ham,FW,70,0,0,0,0,3,0,0,0,22,0,0,0,0.4,0.4,0.0,1,0,4,6,66.7,0,12,0,5,2,Match Report
+N,4,Sat,Premier League,Matchweek 5,Away,L 0-1,Luton Town,Fulham,"FW,CM",17,0,0,0,0,0,0,0,0,8,0,0,0,0.0,0.0,0.0,2,0,4,4,100.0,0,4,0,0,0,Match Report
+N,5,Sat,Premier League,Matchweek 6,Home,D 1-1,Luton Town,Wolves,LW,6,0,0,0,0,0,0,0,0,1,0,0,0,0.0,0.0,0.0,0,0,0,1,0.0,0,0,0,0,0,Match Report
+N,6,Sat,Premier League,Matchweek 7,Away,W 2-1,Luton Town,Everton,FW,13,0,0,0,0,0,0,0,0,7,0,0,0,0.0,0.0,0.0,0,0,1,1,100.0,0,3,0,1,0,Match Report
+N,7,Tue,Premier League,Matchweek 2,Home,L 1-2,Luton Town,Burnley,WB,29,1,0,0,0,2,1,0,0,16,0,0,0,0.2,0.2,0.0,1,0,4,5,80.0,0,9,1,4,1,Match Report
+Y,8,Sat,Premier League,Matchweek 8,Home,L 0-1,Luton Town,Tottenham,FW,66,0,0,0,0,0,0,0,0,22,1,2,1,0.0,0.0,0.1,1,0,2,6,33.3,1,10,1,3,0,Match Report
+N,9,Sat,Premier League,Matchweek 9,Away,D 2-2,Luton Town,Nott'ham Forest,FW,19,1,0,0,0,2,1,0,0,15,0,0,0,0.6,0.6,0.1,1,0,7,8,87.5,1,7,0,0,0,Match Report
+N,10,Sun,Premier League,Matchweek 10,Away,L 1-3,Luton Town,Aston Villa,FW,15,0,0,0,0,1,0,0,0,4,0,0,0,0.1,0.1,0.0,0,0,0,1,0.0,0,2,1,0,0,Match Report
+N,11,Sun,Premier League,Matchweek 11,Home,D 1-1,Luton Town,Liverpool,FW,16,0,0,0,0,0,0,0,0,4,0,0,0,0.0,0.0,0.0,0,0,0,0,,0,3,0,2,0,Match Report
+N,12,Sat,Premier League,Matchweek 12,Away,L 0-1,Luton Town,Manchester Utd,"AM,WB",5,0,0,0,0,0,0,0,0,4,0,0,0,0.0,0.0,0.0,1,0,2,3,66.7,0,4,0,0,0,Match Report
+N,13,Sat,Premier League,Matchweek 13,Home,W 2-1,Luton Town,Crystal Palace,FW,17,0,0,0,0,0,0,1,0,9,0,1,0,0.0,0.0,0.0,0,0,2,3,66.7,0,2,0,0,0,Match Report
+N,14,Sat,Premier League,Matchweek 14,Away,L 1-3,Luton Town,Brentford,FW,31,0,0,0,0,1,0,0,0,11,0,0,0,0.0,0.0,0.0,0,0,4,10,40.0,2,4,1,0,0,Match Report
+Y,15,Tue,Premier League,Matchweek 15,Home,L 3-4,Luton Town,Arsenal,FW,60,1,0,0,0,1,1,0,0,20,0,0,0,0.2,0.2,0.0,1,0,5,12,41.7,0,11,0,2,0,Match Report
+Y,16,Sun,Premier League,Matchweek 16,Home,L 1-2,Luton Town,Manchester City,FW,90,1,0,0,0,1,1,0,0,30,0,0,4,0.3,0.3,0.0,1,0,11,14,78.6,2,17,0,3,1,Match Report
+Y,17,Sat,Premier League,Matchweek 18,Home,W 1-0,Luton Town,Newcastle Utd,FW,79,0,0,0,0,3,1,0,0,20,0,0,1,0.6,0.6,0.1,4,0,6,6,100.0,1,15,0,3,3,Match Report
+Y,18,Tue,Premier League,Matchweek 19,Away,W 3-2,Luton Town,Sheffield Utd,FW,70,0,0,0,0,1,1,0,0,30,0,0,1,0.1,0.1,0.1,3,0,9,10,90.0,1,18,1,6,1,Match Report
+Y,19,Sat,Premier League,Matchweek 20,Home,L 2-3,Luton Town,Chelsea,FW,90,1,0,0,0,3,1,0,0,30,0,0,0,1.1,1.1,0.0,1,1,16,17,94.1,1,16,1,3,0,Match Report
+Y,20,Fri,Premier League,Matchweek 21,Away,D 1-1,Luton Town,Burnley,FW,90,0,0,0,0,0,0,0,0,19,0,0,0,0.0,0.0,0.1,2,0,7,9,77.8,1,12,2,0,0,Match Report
+Y,21,Tue,Premier League,Matchweek 22,Home,W 4-0,Luton Town,Brighton,AM,70,3,0,0,0,4,3,0,0,23,0,0,0,1.5,1.5,0.1,4,1,8,10,80.0,3,16,4,7,3,Match Report
+Y,22,Sat,Premier League,Matchweek 23,Away,D 4-4,Luton Town,Newcastle Utd,FW,87,1,0,0,0,2,1,0,0,31,0,1,0,0.2,0.2,0.0,0,0,9,11,81.8,1,17,1,4,1,Match Report
+Y,23,Sat,Premier League,Matchweek 24,Home,L 1-3,Luton Town,Sheffield Utd,FW,90,0,0,0,0,4,1,0,0,33,0,0,0,0.3,0.3,0.0,1,1,7,15,46.7,0,19,0,5,1,Match Report
+N,24,Sat,Premier League,Matchweek 35,Away,L 1-2,Luton Town,Wolves,FW,13,0,0,0,0,0,0,0,0,7,0,0,0,0.0,0.0,0.0,0,0,4,4,100.0,0,7,0,2,1,Match Report
+Y,25,Fri,Premier League,Matchweek 36,Home,D 1-1,Luton Town,Everton,FW,79,1,0,0,0,1,1,0,0,19,2,1,1,0.1,0.1,0.0,0,0,3,6,50.0,1,10,1,2,1,Match Report
+Y,26,Sat,Premier League,Matchweek 37,Away,L 1-3,Luton Town,West Ham,FW,90,0,0,0,0,1,0,0,0,26,1,0,3,0.0,0.0,0.0,2,1,7,11,63.6,2,18,1,4,1,Match Report
+Y,27,Sun,Premier League,Matchweek 38,Home,L 2-4,Luton Town,Fulham,FW,75,0,0,0,0,1,1,0,0,15,0,0,1,0.1,0.1,0.0,3,1,2,6,33.3,1,10,0,6,1,Match Report

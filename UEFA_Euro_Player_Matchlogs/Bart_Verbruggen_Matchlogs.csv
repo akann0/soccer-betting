@@ -1,0 +1,6 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,match_report
+Y,1,Sun,UEFA Euro,Group stage,Neutral,W 2-1,nl Netherlands,pl Poland,GK,90,Match Report
+Y,2,Fri,UEFA Euro,Group stage,Neutral,D 0-0,nl Netherlands,fr France,GK,90,Match Report
+Y,3,Tue,UEFA Euro,Group stage,Neutral,L 2-3,nl Netherlands,at Austria,GK,90,Match Report
+Y,4,Tue,UEFA Euro,Round of 16,Neutral,W 3-0,nl Netherlands,ro Romania,GK,90,Match Report
+Y,5,Sat,UEFA Euro,Quarter-finals,Neutral,W 2-1,nl Netherlands,tr Türkiye,GK,90,Match Report

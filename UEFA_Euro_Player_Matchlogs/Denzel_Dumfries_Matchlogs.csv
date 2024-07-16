@@ -1,0 +1,5 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sun,UEFA Euro,Group stage,Neutral,W 2-1,nl Netherlands,pl Poland,RB,90,0,0,0,0,2,0,0,0,85,3,1,0,0.2,0.2,0.1,5,0,60,78,76.9,9,46,2,2,1,Match Report
+Y,2,Fri,UEFA Euro,Group stage,Neutral,D 0-0,nl Netherlands,fr France,"RB,RW",90,0,0,0,0,0,0,0,0,50,0,0,1,0.0,0.0,0.0,0,0,41,47,87.2,4,35,0,1,0,Match Report
+Y,3,Tue,UEFA Euro,Round of 16,Neutral,W 3-0,nl Netherlands,ro Romania,RB,90,0,0,0,0,0,0,1,0,71,2,1,1,0.0,0.0,0.5,3,0,50,63,79.4,4,35,4,1,1,Match Report
+Y,4,Sat,UEFA Euro,Quarter-finals,Neutral,W 2-1,nl Netherlands,tr Türkiye,RB,90,0,0,0,0,0,0,0,0,59,1,1,2,0.0,0.0,0.1,1,0,44,53,83.0,1,41,1,2,0,Match Report

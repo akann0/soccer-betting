@@ -1,0 +1,31 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Fri,Premier League,Matchweek 1,Away,W 3-0,Manchester City,Burnley,"CB,RB",90,0,0,0,0,0,0,0,0,109,3,0,2,0.0,0.0,0.0,1,0,89,102,87.3,2,78,1,0,0,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Home,W 1-0,Manchester City,Newcastle Utd,CB,90,0,0,0,0,1,0,0,0,68,1,2,2,0.0,0.0,0.1,1,0,57,60,95.0,4,30,0,0,0,Match Report
+Y,3,Sat,Premier League,Matchweek 4,Home,W 5-1,Manchester City,Fulham,CB,90,0,0,0,0,0,0,0,0,114,2,1,0,0.0,0.0,0.0,3,2,98,106,92.5,3,73,1,0,0,Match Report
+Y,4,Sat,Premier League,Matchweek 5,Away,W 3-1,Manchester City,West Ham,CB,90,0,0,0,0,0,0,0,0,97,2,2,1,0.0,0.0,0.0,4,0,88,89,98.9,7,83,5,0,0,Match Report
+Y,5,Sat,Premier League,Matchweek 6,Home,W 2-0,Manchester City,Nott'ham Forest,CB,90,0,0,0,0,0,0,1,0,89,0,1,2,0.0,0.0,0.0,0,0,79,82,96.3,5,72,1,0,0,Match Report
+Y,6,Sat,Premier League,Matchweek 7,Away,L 1-2,Manchester City,Wolves,CB,90,0,0,0,0,3,1,0,0,112,4,0,1,0.1,0.1,0.0,3,0,92,101,91.1,5,70,2,1,1,Match Report
+Y,7,Sat,Premier League,Matchweek 9,Home,W 2-1,Manchester City,Brighton,CB,89,0,0,0,0,0,0,2,1,87,1,0,2,0.0,0.0,0.0,1,0,81,81,100.0,1,53,1,0,0,Match Report
+Y,8,Sat,Premier League,Matchweek 11,Home,W 6-1,Manchester City,Bournemouth,CB,90,1,0,0,0,1,1,0,0,86,1,0,1,0.0,0.0,0.1,1,0,73,81,90.1,6,70,1,0,0,Match Report
+Y,9,Sun,Premier League,Matchweek 12,Away,D 4-4,Manchester City,Chelsea,DM,90,1,0,0,0,1,1,0,0,71,2,3,1,0.3,0.3,0.0,0,0,57,61,93.4,7,38,1,0,0,Match Report
+Y,10,Sat,Premier League,Matchweek 13,Home,D 1-1,Manchester City,Liverpool,DM,90,0,0,0,0,0,0,0,0,96,2,0,0,0.0,0.0,0.0,3,0,75,84,89.3,6,57,1,0,0,Match Report
+Y,11,Sun,Premier League,Matchweek 14,Home,D 3-3,Manchester City,Tottenham,DM,90,0,0,0,0,1,0,0,0,64,0,0,0,0.2,0.2,0.0,1,0,52,59,88.1,3,43,0,0,0,Match Report
+Y,12,Wed,Premier League,Matchweek 15,Away,L 0-1,Manchester City,Aston Villa,DM,90,0,0,0,0,0,0,0,0,74,1,0,1,0.0,0.0,0.0,0,0,56,65,86.2,2,48,1,0,0,Match Report
+N,13,Sun,Premier League,Matchweek 16,Away,W 2-1,Manchester City,Luton Town,CB,1,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,0,0,0,,0,0,0,0,0,Match Report
+Y,14,Wed,Premier League,Matchweek 19,Away,W 3-1,Manchester City,Everton,CB,90,0,0,0,0,0,0,1,0,97,0,1,0,0.0,0.0,0.0,1,0,84,88,95.5,5,44,1,0,0,Match Report
+Y,15,Sat,Premier League,Matchweek 20,Home,W 2-0,Manchester City,Sheffield Utd,"CB,DM",90,0,0,0,0,0,0,0,0,144,0,1,1,0.0,0.0,0.0,4,1,132,139,95.0,9,94,3,0,0,Match Report
+Y,16,Sat,Premier League,Matchweek 24,Home,W 2-0,Manchester City,Everton,"CB,LB",56,0,0,0,0,1,0,0,0,69,0,1,1,0.2,0.2,0.0,1,0,52,58,89.7,2,43,0,1,0,Match Report
+Y,17,Sat,Premier League,Matchweek 25,Home,D 1-1,Manchester City,Chelsea,CB,90,0,0,0,0,0,0,0,0,74,1,1,2,0.0,0.0,0.0,1,0,64,67,95.5,7,40,1,0,0,Match Report
+Y,18,Tue,Premier League,Matchweek 18,Home,W 1-0,Manchester City,Brentford,LB,90,0,0,0,0,2,1,0,0,121,1,2,2,0.1,0.1,0.0,5,0,108,112,96.4,13,93,13,0,0,Match Report
+Y,19,Sat,Premier League,Matchweek 26,Away,W 1-0,Manchester City,Bournemouth,RB,90,0,0,0,0,0,0,0,0,76,3,2,2,0.0,0.0,0.0,3,0,56,64,87.5,6,36,0,1,1,Match Report
+Y,20,Sun,Premier League,Matchweek 28,Away,D 1-1,Manchester City,Liverpool,CB,90,0,0,0,0,0,0,0,0,69,1,3,0,0.0,0.0,0.0,0,0,54,58,93.1,0,38,0,0,0,Match Report
+Y,21,Sun,Premier League,Matchweek 30,Home,D 0-0,Manchester City,Arsenal,"CB,RB",90,0,0,0,0,0,0,0,0,79,0,0,0,0.0,0.0,0.0,5,0,69,77,89.6,8,51,0,1,0,Match Report
+Y,22,Wed,Premier League,Matchweek 31,Home,W 4-1,Manchester City,Aston Villa,CB,90,0,0,0,0,0,0,0,0,85,3,0,2,0.0,0.0,0.0,3,0,75,76,98.7,9,51,3,0,0,Match Report
+N,23,Sat,Premier League,Matchweek 32,Away,W 4-2,Manchester City,Crystal Palace,LB,45,0,0,0,0,0,0,0,0,67,1,0,0,0.0,0.0,0.0,1,1,62,67,92.5,4,51,4,0,0,Match Report
+Y,24,Sat,Premier League,Matchweek 33,Home,W 5-1,Manchester City,Luton Town,CB,90,0,0,0,0,1,0,0,0,102,3,2,0,0.1,0.1,0.0,6,0,90,94,95.7,10,77,1,0,0,Match Report
+Y,25,Thu,Premier League,Matchweek 29,Away,W 4-0,Manchester City,Brighton,CB,90,0,0,0,0,0,0,0,0,104,2,0,1,0.0,0.0,0.0,1,0,94,98,95.9,2,79,0,0,0,Match Report
+Y,26,Sun,Premier League,Matchweek 35,Away,W 2-0,Manchester City,Nott'ham Forest,CB,90,0,0,0,0,0,0,0,0,62,2,0,1,0.0,0.0,0.0,1,0,56,58,96.6,2,24,0,0,0,Match Report
+Y,27,Sat,Premier League,Matchweek 36,Home,W 5-1,Manchester City,Wolves,CB,90,0,0,0,0,1,0,0,0,86,2,1,1,0.3,0.3,0.1,1,0,71,78,91.0,5,42,1,0,0,Match Report
+Y,28,Sat,Premier League,Matchweek 37,Away,W 4-0,Manchester City,Fulham,"CB,RB",90,0,0,0,0,1,0,0,0,102,2,0,0,0.5,0.5,0.0,0,0,90,95,94.7,8,72,3,0,0,Match Report
+Y,29,Tue,Premier League,Matchweek 34,Away,W 2-0,Manchester City,Tottenham,CB,90,0,0,0,0,0,0,0,0,59,1,0,2,0.0,0.0,0.0,1,0,52,55,94.5,2,33,0,0,0,Match Report
+Y,30,Sun,Premier League,Matchweek 38,Home,W 3-1,Manchester City,West Ham,CB,70,0,0,0,0,2,1,0,0,81,1,0,0,0.1,0.1,0.0,3,0,74,79,93.7,5,56,1,0,0,Match Report

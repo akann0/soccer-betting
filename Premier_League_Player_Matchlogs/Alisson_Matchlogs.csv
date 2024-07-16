@@ -1,0 +1,29 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,match_report
+Y,1,Sun,Premier League,Matchweek 1,Away,D 1-1,Liverpool,Chelsea,GK,90,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Home,W 3-1,Liverpool,Bournemouth,GK,90,Match Report
+Y,3,Sun,Premier League,Matchweek 3,Away,W 2-1,Liverpool,Newcastle Utd,GK,90,Match Report
+Y,4,Sun,Premier League,Matchweek 4,Home,W 3-0,Liverpool,Aston Villa,GK,90,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Away,W 3-1,Liverpool,Wolves,GK,90,Match Report
+Y,6,Sun,Premier League,Matchweek 6,Home,W 3-1,Liverpool,West Ham,GK,90,Match Report
+Y,7,Sat,Premier League,Matchweek 7,Away,L 1-2,Liverpool,Tottenham,GK,90,Match Report
+Y,8,Sun,Premier League,Matchweek 8,Away,D 2-2,Liverpool,Brighton,GK,90,Match Report
+Y,9,Sat,Premier League,Matchweek 9,Home,W 2-0,Liverpool,Everton,GK,90,Match Report
+Y,10,Sun,Premier League,Matchweek 10,Home,W 3-0,Liverpool,Nott'ham Forest,GK,90,Match Report
+Y,11,Sun,Premier League,Matchweek 11,Away,D 1-1,Liverpool,Luton Town,GK,90,Match Report
+Y,12,Sun,Premier League,Matchweek 12,Home,W 3-0,Liverpool,Brentford,GK,90,Match Report
+Y,13,Sat,Premier League,Matchweek 13,Away,D 1-1,Liverpool,Manchester City,GK,90,Match Report
+Y,14,Sat,Premier League,Matchweek 16,Away,W 2-1,Liverpool,Crystal Palace,GK,90,Match Report
+Y,15,Sun,Premier League,Matchweek 17,Home,D 0-0,Liverpool,Manchester Utd,GK,90,Match Report
+Y,16,Sat,Premier League,Matchweek 18,Home,D 1-1,Liverpool,Arsenal,GK,90,Match Report
+Y,17,Tue,Premier League,Matchweek 19,Away,W 2-0,Liverpool,Burnley,GK,90,Match Report
+Y,18,Mon,Premier League,Matchweek 20,Home,W 4-2,Liverpool,Newcastle Utd,GK,90,Match Report
+Y,19,Sun,Premier League,Matchweek 21,Away,W 4-0,Liverpool,Bournemouth,GK,90,Match Report
+Y,20,Wed,Premier League,Matchweek 22,Home,W 4-1,Liverpool,Chelsea,GK,90,Match Report
+Y,21,Sun,Premier League,Matchweek 23,Away,L 1-3,Liverpool,Arsenal,GK,90,Match Report
+Y,22,Sun,Premier League,Matchweek 33,Home,L 0-1,Liverpool,Crystal Palace,GK,90,Match Report
+Y,23,Sun,Premier League,Matchweek 34,Away,W 3-1,Liverpool,Fulham,GK,90,Match Report
+Y,24,Wed,Premier League,Matchweek 29,Away,L 0-2,Liverpool,Everton,GK,90,Match Report
+Y,25,Sat,Premier League,Matchweek 35,Away,D 2-2,Liverpool,West Ham,GK,90,Match Report
+Y,26,Sun,Premier League,Matchweek 36,Home,W 4-2,Liverpool,Tottenham,GK,90,Match Report
+Y,27,Mon,Premier League,Matchweek 37,Away,D 3-3,Liverpool,Aston Villa,GK,90,Match Report
+Y,28,Sun,Premier League,Matchweek 38,Home,W 2-0,Liverpool,Wolves,GK,90,Match Report

@@ -1,0 +1,5 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sat,UEFA Euro,Group stage,Neutral,W 3-0,es Spain,hr Croatia,LB,90,0,0,0,0,0,0,0,0,61,2,1,2,0.0,0.0,0.0,1,0,40,54,74.1,2,31,2,0,0,Match Report
+Y,2,Thu,UEFA Euro,Group stage,Neutral,W 1-0,es Spain,it Italy,LB,90,0,0,0,0,0,0,0,0,67,5,3,1,0.0,0.0,0.5,6,0,56,58,96.6,8,41,1,0,0,Match Report
+Y,3,Sun,UEFA Euro,Round of 16,Neutral,W 4-1,es Spain,ge Georgia,LB,65,0,0,0,0,1,1,0,0,106,3,0,0,0.0,0.0,0.1,4,0,92,97,94.8,8,72,8,0,0,Match Report
+Y,4,Fri,UEFA Euro,Quarter-finals,Neutral,W 2-1,es Spain,de Germany,LB,120,0,0,0,0,0,0,0,0,72,1,2,4,0.0,0.0,0.0,2,1,50,55,90.9,5,45,4,0,0,Match Report

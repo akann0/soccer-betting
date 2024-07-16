@@ -1,0 +1,39 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,match_report
+Y,1,Sat,Premier League,Matchweek 1,Away,L 1-4,Luton Town,Brighton,GK,90,Match Report
+Y,2,Fri,Premier League,Matchweek 3,Away,L 0-3,Luton Town,Chelsea,GK,90,Match Report
+Y,3,Fri,Premier League,Matchweek 4,Home,L 1-2,Luton Town,West Ham,GK,90,Match Report
+Y,4,Sat,Premier League,Matchweek 5,Away,L 0-1,Luton Town,Fulham,GK,90,Match Report
+Y,5,Sat,Premier League,Matchweek 6,Home,D 1-1,Luton Town,Wolves,GK,90,Match Report
+Y,6,Sat,Premier League,Matchweek 7,Away,W 2-1,Luton Town,Everton,GK,90,Match Report
+Y,7,Tue,Premier League,Matchweek 2,Home,L 1-2,Luton Town,Burnley,GK,90,Match Report
+Y,8,Sat,Premier League,Matchweek 8,Home,L 0-1,Luton Town,Tottenham,GK,90,Match Report
+Y,9,Sat,Premier League,Matchweek 9,Away,D 2-2,Luton Town,Nott'ham Forest,GK,90,Match Report
+Y,10,Sun,Premier League,Matchweek 10,Away,L 1-3,Luton Town,Aston Villa,GK,90,Match Report
+Y,11,Sun,Premier League,Matchweek 11,Home,D 1-1,Luton Town,Liverpool,GK,90,Match Report
+Y,12,Sat,Premier League,Matchweek 12,Away,L 0-1,Luton Town,Manchester Utd,GK,90,Match Report
+Y,13,Sat,Premier League,Matchweek 13,Home,W 2-1,Luton Town,Crystal Palace,GK,90,Match Report
+Y,14,Sat,Premier League,Matchweek 14,Away,L 1-3,Luton Town,Brentford,GK,90,Match Report
+Y,15,Tue,Premier League,Matchweek 15,Home,L 3-4,Luton Town,Arsenal,GK,90,Match Report
+Y,16,Sun,Premier League,Matchweek 16,Home,L 1-2,Luton Town,Manchester City,GK,90,Match Report
+Y,17,Sat,Premier League,Matchweek 18,Home,W 1-0,Luton Town,Newcastle Utd,GK,90,Match Report
+Y,18,Tue,Premier League,Matchweek 19,Away,W 3-2,Luton Town,Sheffield Utd,GK,90,Match Report
+Y,19,Sat,Premier League,Matchweek 20,Home,L 2-3,Luton Town,Chelsea,GK,90,Match Report
+Y,20,Fri,Premier League,Matchweek 21,Away,D 1-1,Luton Town,Burnley,GK,90,Match Report
+Y,21,Tue,Premier League,Matchweek 22,Home,W 4-0,Luton Town,Brighton,GK,90,Match Report
+Y,22,Sat,Premier League,Matchweek 23,Away,D 4-4,Luton Town,Newcastle Utd,GK,90,Match Report
+Y,23,Sat,Premier League,Matchweek 24,Home,L 1-3,Luton Town,Sheffield Utd,GK,90,Match Report
+Y,24,Sun,Premier League,Matchweek 25,Home,L 1-2,Luton Town,Manchester Utd,GK,90,Match Report
+Y,25,Wed,Premier League,Matchweek 26,Away,L 1-4,Luton Town,Liverpool,GK,90,Match Report
+Y,26,Sat,Premier League,Matchweek 27,Home,L 2-3,Luton Town,Aston Villa,GK,90,Match Report
+Y,27,Sat,Premier League,Matchweek 28,Away,D 1-1,Luton Town,Crystal Palace,GK,90,Match Report
+Y,28,Wed,Premier League,Matchweek 17,Away,L 3-4,Luton Town,Bournemouth,GK,90,Match Report
+Y,29,Sat,Premier League,Matchweek 29,Home,D 1-1,Luton Town,Nott'ham Forest,GK,90,Match Report
+Y,30,Sat,Premier League,Matchweek 30,Away,L 1-2,Luton Town,Tottenham,GK,90,Match Report
+Y,31,Wed,Premier League,Matchweek 31,Away,L 0-2,Luton Town,Arsenal,GK,90,Match Report
+Y,32,Sat,Premier League,Matchweek 32,Home,W 2-1,Luton Town,Bournemouth,GK,90,Match Report
+Y,33,Sat,Premier League,Matchweek 33,Away,L 1-5,Luton Town,Manchester City,GK,90,Match Report
+Y,34,Sat,Premier League,Matchweek 34,Home,L 1-5,Luton Town,Brentford,GK,90,Match Report
+Y,35,Sat,Premier League,Matchweek 35,Away,L 1-2,Luton Town,Wolves,GK,90,Match Report
+Y,36,Fri,Premier League,Matchweek 36,Home,D 1-1,Luton Town,Everton,GK,90,Match Report
+Y,37,Sat,Premier League,Matchweek 37,Away,L 1-3,Luton Town,West Ham,GK,90,Match Report
+Y,38,Sun,Premier League,Matchweek 38,Home,L 2-4,Luton Town,Fulham,GK,75,Match Report

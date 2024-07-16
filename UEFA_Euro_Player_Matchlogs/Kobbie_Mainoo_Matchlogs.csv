@@ -1,0 +1,5 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+N,1,Sun,UEFA Euro,Group stage,Neutral,W 1-0,eng England,rs Serbia,AM,5,0,0,0,0,0,0,0,0,2,0,0,0,0.0,0.0,0.0,0,0,2,2,100.0,0,2,0,0,0,Match Report
+N,2,Tue,UEFA Euro,Group stage,Neutral,D 0-0,eng England,si Slovenia,"RM,DM",45,0,0,0,0,0,0,0,0,38,1,0,0,0.0,0.0,0.0,2,0,34,35,97.1,2,26,0,1,0,Match Report
+Y,3,Sun,UEFA Euro,Round of 16,Neutral,W 2-1,eng England,sk Slovakia,DM,83,0,0,0,0,2,0,1,0,75,1,1,0,0.1,0.1,0.0,3,0,65,70,92.9,7,45,2,1,1,Match Report
+Y,4,Sat,UEFA Euro,Quarter-finals,Neutral,D 1 (5)-1 (3),eng England,ch Switzerland,CM,77,0,0,0,0,2,0,0,0,47,2,3,0,0.2,0.2,0.0,1,0,33,35,94.3,1,37,2,0,0,Match Report

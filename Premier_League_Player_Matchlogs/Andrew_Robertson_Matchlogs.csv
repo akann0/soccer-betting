@@ -1,0 +1,24 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sun,Premier League,Matchweek 1,Away,D 1-1,Liverpool,Chelsea,LB,90,0,0,0,0,0,0,0,0,74,2,2,2,0.0,0.0,0.0,2,0,41,60,68.3,6,35,1,0,0,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Home,W 3-1,Liverpool,Bournemouth,LB,90,0,0,0,0,0,0,0,0,90,3,1,0,0.0,0.0,0.3,3,0,71,83,85.5,8,50,4,1,0,Match Report
+Y,3,Sun,Premier League,Matchweek 3,Away,W 2-1,Liverpool,Newcastle Utd,LB,90,0,0,0,0,0,0,0,0,66,1,0,1,0.0,0.0,0.0,1,0,43,57,75.4,3,21,0,2,0,Match Report
+Y,4,Sun,Premier League,Matchweek 4,Home,W 3-0,Liverpool,Aston Villa,LB,90,0,0,0,0,0,0,0,0,119,2,1,0,0.0,0.0,0.0,3,0,101,112,90.2,8,95,0,0,0,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Away,W 3-1,Liverpool,Wolves,LB,90,1,0,0,0,1,1,0,0,101,2,2,0,0.4,0.4,0.2,3,1,83,94,88.3,10,48,3,0,0,Match Report
+Y,6,Sun,Premier League,Matchweek 6,Home,W 3-1,Liverpool,West Ham,LB,90,0,0,0,0,0,0,0,0,91,0,0,2,0.0,0.0,0.4,7,1,68,85,80.0,8,52,6,0,0,Match Report
+Y,7,Sat,Premier League,Matchweek 7,Away,L 1-2,Liverpool,Tottenham,"LB,WB",90,0,0,0,0,1,1,1,0,59,1,1,0,0.0,0.0,0.2,5,0,41,51,80.4,5,34,5,1,1,Match Report
+Y,8,Sun,Premier League,Matchweek 8,Away,D 2-2,Liverpool,Brighton,LB,90,0,0,0,0,0,0,0,0,51,4,1,1,0.0,0.0,0.1,3,0,37,45,82.2,1,25,0,0,0,Match Report
+N,9,Wed,Premier League,Matchweek 22,Home,W 4-1,Liverpool,Chelsea,LB,22,0,0,0,0,0,0,0,0,20,1,0,0,0.0,0.0,0.1,1,0,13,19,68.4,0,10,1,0,0,Match Report
+N,10,Sun,Premier League,Matchweek 23,Away,L 1-3,Liverpool,Arsenal,LB,33,0,0,0,0,0,0,0,0,29,0,0,1,0.0,0.0,0.0,0,0,20,26,76.9,0,18,0,0,0,Match Report
+Y,11,Sat,Premier League,Matchweek 24,Home,W 3-1,Liverpool,Burnley,LB,89,0,0,0,0,1,0,0,0,99,2,0,1,0.1,0.1,0.4,7,0,70,86,81.4,5,61,5,2,0,Match Report
+Y,12,Sat,Premier League,Matchweek 25,Away,W 4-1,Liverpool,Brentford,LB,90,0,0,0,0,0,0,0,0,94,4,1,0,0.0,0.0,0.1,2,0,71,87,81.6,6,59,4,1,1,Match Report
+N,13,Wed,Premier League,Matchweek 26,Home,W 4-1,Liverpool,Luton Town,LB,23,0,1,0,0,0,0,0,0,24,1,0,0,0.0,0.0,0.5,1,0,18,21,85.7,2,9,0,1,1,Match Report
+Y,14,Sat,Premier League,Matchweek 27,Away,W 1-0,Liverpool,Nott'ham Forest,LB,59,0,0,0,0,1,0,1,0,79,2,0,2,0.2,0.2,0.1,5,0,58,72,80.6,6,40,2,0,0,Match Report
+N,15,Sun,Premier League,Matchweek 28,Home,D 1-1,Liverpool,Manchester City,LB,30,0,0,0,0,0,0,0,0,33,1,0,0,0.0,0.0,0.4,3,0,19,29,65.5,1,15,0,1,0,Match Report
+N,16,Thu,Premier League,Matchweek 31,Home,W 3-1,Liverpool,Sheffield Utd,LB,31,0,1,0,0,1,0,0,0,50,0,0,0,0.0,0.0,0.1,2,1,36,48,75.0,9,32,5,0,0,Match Report
+Y,17,Sun,Premier League,Matchweek 32,Away,D 2-2,Liverpool,Manchester Utd,LB,90,0,0,0,0,2,0,0,0,77,1,0,0,0.1,0.1,0.8,8,1,49,69,71.0,4,44,7,2,1,Match Report
+Y,18,Sun,Premier League,Matchweek 33,Home,L 0-1,Liverpool,Crystal Palace,LB,90,0,0,0,0,0,0,0,0,116,1,1,2,0.0,0.0,0.3,7,0,87,104,83.7,11,79,5,1,0,Match Report
+Y,19,Sun,Premier League,Matchweek 34,Away,W 3-1,Liverpool,Fulham,LB,90,0,0,0,0,0,0,0,0,78,2,0,2,0.0,0.0,0.1,2,0,57,70,81.4,8,48,4,1,0,Match Report
+Y,20,Wed,Premier League,Matchweek 29,Away,L 0-2,Liverpool,Everton,LB,83,0,0,0,0,1,1,0,0,97,1,0,3,0.1,0.1,0.1,4,0,60,85,70.6,10,48,1,1,0,Match Report
+Y,21,Sat,Premier League,Matchweek 35,Away,D 2-2,Liverpool,West Ham,LB,90,1,0,0,0,2,2,0,0,104,1,1,0,0.1,0.1,0.3,9,1,76,95,80.0,9,69,3,0,0,Match Report
+Y,22,Sun,Premier League,Matchweek 36,Home,W 4-2,Liverpool,Tottenham,LB,63,1,0,0,0,2,1,0,0,60,2,2,2,0.9,0.9,0.3,4,0,39,51,76.5,2,29,2,2,0,Match Report
+Y,23,Sun,Premier League,Matchweek 38,Home,W 2-0,Liverpool,Wolves,LB,90,0,0,0,0,0,0,0,0,102,1,0,1,0.0,0.0,0.7,15,0,90,98,91.8,18,58,5,1,1,Match Report

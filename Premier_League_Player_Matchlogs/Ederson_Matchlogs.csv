@@ -1,0 +1,34 @@
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,match_report
+Y,1,Fri,Premier League,Matchweek 1,Away,W 3-0,Manchester City,Burnley,GK,90,Match Report
+Y,2,Sat,Premier League,Matchweek 2,Home,W 1-0,Manchester City,Newcastle Utd,GK,90,Match Report
+Y,3,Sun,Premier League,Matchweek 3,Away,W 2-1,Manchester City,Sheffield Utd,GK,90,Match Report
+Y,4,Sat,Premier League,Matchweek 4,Home,W 5-1,Manchester City,Fulham,GK,90,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Away,W 3-1,Manchester City,West Ham,GK,90,Match Report
+Y,6,Sat,Premier League,Matchweek 6,Home,W 2-0,Manchester City,Nott'ham Forest,GK,90,Match Report
+Y,7,Sat,Premier League,Matchweek 7,Away,L 1-2,Manchester City,Wolves,GK,90,Match Report
+Y,8,Sun,Premier League,Matchweek 8,Away,L 0-1,Manchester City,Arsenal,GK,90,Match Report
+Y,9,Sun,Premier League,Matchweek 10,Away,W 3-0,Manchester City,Manchester Utd,GK,90,Match Report
+Y,10,Sat,Premier League,Matchweek 11,Home,W 6-1,Manchester City,Bournemouth,GK,90,Match Report
+Y,11,Sun,Premier League,Matchweek 12,Away,D 4-4,Manchester City,Chelsea,GK,90,Match Report
+Y,12,Sat,Premier League,Matchweek 13,Home,D 1-1,Manchester City,Liverpool,GK,90,Match Report
+Y,13,Sun,Premier League,Matchweek 14,Home,D 3-3,Manchester City,Tottenham,GK,90,Match Report
+Y,14,Wed,Premier League,Matchweek 15,Away,L 0-1,Manchester City,Aston Villa,GK,90,Match Report
+Y,15,Sun,Premier League,Matchweek 16,Away,W 2-1,Manchester City,Luton Town,GK,90,Match Report
+Y,16,Sat,Premier League,Matchweek 17,Home,D 2-2,Manchester City,Crystal Palace,GK,90,Match Report
+Y,17,Wed,Premier League,Matchweek 19,Away,W 3-1,Manchester City,Everton,GK,90,Match Report
+Y,18,Sat,Premier League,Matchweek 20,Home,W 2-0,Manchester City,Sheffield Utd,GK,90,Match Report
+Y,19,Sat,Premier League,Matchweek 21,Away,W 3-2,Manchester City,Newcastle Utd,GK,7,Match Report
+Y,20,Wed,Premier League,Matchweek 22,Home,W 3-1,Manchester City,Burnley,GK,90,Match Report
+Y,21,Mon,Premier League,Matchweek 23,Away,W 3-1,Manchester City,Brentford,GK,90,Match Report
+Y,22,Sat,Premier League,Matchweek 24,Home,W 2-0,Manchester City,Everton,GK,90,Match Report
+Y,23,Sat,Premier League,Matchweek 25,Home,D 1-1,Manchester City,Chelsea,GK,90,Match Report
+Y,24,Tue,Premier League,Matchweek 18,Home,W 1-0,Manchester City,Brentford,GK,90,Match Report
+Y,25,Sat,Premier League,Matchweek 26,Away,W 1-0,Manchester City,Bournemouth,GK,90,Match Report
+Y,26,Sun,Premier League,Matchweek 27,Home,W 3-1,Manchester City,Manchester Utd,GK,90,Match Report
+Y,27,Sun,Premier League,Matchweek 28,Away,D 1-1,Manchester City,Liverpool,GK,55,Match Report
+Y,28,Sat,Premier League,Matchweek 33,Home,W 5-1,Manchester City,Luton Town,GK,90,Match Report
+Y,29,Thu,Premier League,Matchweek 29,Away,W 4-0,Manchester City,Brighton,GK,90,Match Report
+Y,30,Sun,Premier League,Matchweek 35,Away,W 2-0,Manchester City,Nott'ham Forest,GK,45,Match Report
+Y,31,Sat,Premier League,Matchweek 36,Home,W 5-1,Manchester City,Wolves,GK,90,Match Report
+Y,32,Sat,Premier League,Matchweek 37,Away,W 4-0,Manchester City,Fulham,GK,90,Match Report
+Y,33,Tue,Premier League,Matchweek 34,Away,W 2-0,Manchester City,Tottenham,GK,68,Match Report
