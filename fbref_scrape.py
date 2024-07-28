@@ -6,11 +6,11 @@ from constants import *
 import os, sys
 
 TEAMS_TO_FIND = 1
-PLAYERS_PER_TEAM = 15
+PLAYERS_PER_TEAM = 1
 
 #Anything with x=0 should only print if something doesn't work as expected
 def test_print(response, x):
-    to_test = [0]
+    to_test = [0, 4]
     if x in to_test:
         if isinstance(response, list):
             for i in range(min(len(response), 10)):
@@ -53,7 +53,7 @@ class SoccerLeague:
         if "list_teams" in constants:
             self.list_teams = constants["list_teams"]
         if "file_location" in constants:
-            self.location = constants["file_location"]
+            self.file_location = constants["file_location"]
 
         test_print(self.stats_wanted, 2)
 
@@ -161,8 +161,8 @@ class SoccerLeague:
     
     
     def save_stats(self):
-        if self.location != "":
-            os.chdir(self.location)
+        if self.file_location != "":
+            os.chdir(self.file_location)
         
         self.save_league_stats()
         self.save_player_stats()
@@ -365,7 +365,7 @@ class SoccerTeam():
     def get_url(self):
         return self.url
 
-    # TEST_NUMBER = 30
+    # TEST_NUMBER = 30, 44
     def gen_player_stats(self):
         player_stats_index_map = {}
         player_stats = []
@@ -375,8 +375,8 @@ class SoccerTeam():
             player_stats_index_map[player] = len(player_stats) - 1
 
 
-        test_print(player_stats, 4)
-        test_print(player_stats_index_map, 4)
+        test_print(player_stats, 44)
+        test_print(player_stats_index_map, 44)
 
         stats_wanted = list(self.player_stats_wanted.keys())
         test_print(stats_wanted, 3)
@@ -407,6 +407,7 @@ class SoccerTeam():
 
 class SoccerPlayer():
     def constants(self):
+        self.tables_and_stats_wanted = stats_wanted
         self.stats_wanted = get_stats_wanted("fbref") + ["game_started"]
         self.matchlog_stats = ['dayofweek', 'comp', 'round', 'venue', 'result', 'team', 'opponent', 'game_started', 'position', 'minutes', 'goals', 'assists', 'pens_made', 'pens_att', 'shots', 'shots_on_target', 'cards_yellow', 'cards_red', 'touches', 'tackles', 'interceptions', 'blocks', 'xg', 'npxg', 'xg_assist', 'sca', 'gca', 'passes_completed', 'passes', 'passes_pct', 'progressive_passes', 'carries', 'progressive_carries', 'take_ons', 'take_ons_won', 'match_report']
         self.year = year
@@ -421,11 +422,12 @@ class SoccerPlayer():
         self.team = team
         self.league = league[0]  
         self.year = league[1]
-        if scrape:
+        if scrape or True:  #TODO: change back to False
             self.response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             requests_test(self.response, self.url)
             self.soup = bs(self.response.content, "html.parser")
             self.tables = self.gen_tables()
+            self.show_tables()
             self.player = url.split("/")[-1].replace("-", " ")
             self.stats = self.gen_stats()
         if matchlog:
@@ -448,13 +450,15 @@ class SoccerPlayer():
 
     def gen_stats(self):
         stats = {"name": self.player}
-        stats_wanted = self.stats_wanted.copy()
+        stats_wanted = stats_wanted.copy() #NOTE: this is a dictionary, different than self.stats_wanted
+        test_print(stats_wanted, 4)
         for table in self.tables:
             if table not in stats_wanted:
                 continue
             stats_wanted.remove(table)
             # Find the row that corresponds to the most recent season
             for row in self.tables[table].find_all("tr"):
+                test_print(row.get_text(), 4)
                 if self.year in row.get_text():
                     # Find the column that corresponds to the stats we want
                     for col in row.find_all("td"):
@@ -462,11 +466,12 @@ class SoccerPlayer():
                             stats[col.get("data-stat")] = int(col.get_text().replace(",", ""))
 
         # If we didn't find the stats we wanted, add them to the dict with a value of 0
-        for table in stats_wanted:
-            for stat in self.stats_wanted[table]:
-                stats[stat] = 0
+        # for table in stats_wanted:
+        #     for stat in self.stats_wanted[table]:
+        #         stats[stat] = 0
 
-                            
+        # for stat in self.stats_wanted[table]:
+        # TypeError: list indices must be integers or slices, not str
 
         test_print("Stats: " + str(stats), 4)
         return stats
@@ -642,8 +647,8 @@ class SoccerPlayer():
         return matchlog
 
 
-# # Create an instance of the SoccerLeague class
-# premier_league = SoccerLeague(premier_league_url)
+# Create an instance of the SoccerLeague class/
+premier_league = SoccerLeague(premier_league_url, {})
 # premier_league.save_league_stats()
 
 # euros = SoccerLeague("https://fbref.com/en/comps/676/stats/UEFA-Euro-Stats", [6, 7, 12, 20], "nat_tm")
