@@ -1,30 +1,30 @@
-game_started,game_count,games,minutes,gk_saves,clearances,tackles,assisted_shots,fouled,shots,crosses,shots_on_target,passes,interceptions,fouls,goals,assists,cards_yellow,dayofweek,comp,round,venue,result,team,opponent,position,pens_made,pens_att,cards_red,touches,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
-Y,1,0,90,0,0,4,0,0,2,0,1,28,0,0,0,0,0,Sat,Premier League,Matchweek 1,Away,W 1-0,Crystal Palace,Sheffield Utd,LW,0,0,0,40,0,0.1,0.1,0.0,4,0,17,60.7,3,30,0,4,3,Match Report
-Y,2,0,73,0,0,1,0,0,0,0,0,16,0,0,0,0,0,Mon,Premier League,Matchweek 2,Home,L 0-1,Crystal Palace,Arsenal,LW,0,0,0,24,0,0.0,0.0,0.1,2,0,14,87.5,4,8,0,3,1,Match Report
-Y,3,0,70,0,0,1,0,0,1,0,0,25,0,0,0,0,0,Sat,Premier League,Matchweek 3,Away,D 1-1,Crystal Palace,Brentford,LW,0,0,0,35,1,0.0,0.0,0.2,2,0,21,84.0,3,23,1,1,1,Match Report
-Y,4,0,70,0,0,0,0,0,2,0,2,14,1,0,0,0,0,Sun,Premier League,Matchweek 4,Home,W 3-2,Crystal Palace,Wolves,LW,0,0,0,23,0,0.2,0.2,0.2,1,0,10,71.4,0,13,0,1,0,Match Report
-Y,5,0,90,0,0,3,0,0,0,0,0,23,0,0,0,0,0,Sat,Premier League,Matchweek 5,Away,L 1-3,Crystal Palace,Aston Villa,"RW,LM",0,0,0,38,1,0.0,0.0,0.0,1,0,15,65.2,3,19,0,2,0,Match Report
-Y,6,0,69,0,0,1,0,0,0,0,0,17,0,0,0,0,0,Sat,Premier League,Matchweek 6,Home,D 0-0,Crystal Palace,Fulham,AM,0,0,0,30,2,0.0,0.0,0.1,3,0,12,70.6,2,20,1,4,1,Match Report
-Y,7,0,77,0,0,2,0,0,2,0,0,10,0,0,0,0,0,Sat,Premier League,Matchweek 7,Away,W 1-0,Crystal Palace,Manchester Utd,LW,0,0,0,25,1,0.1,0.1,0.0,0,0,7,70.0,0,15,3,2,0,Match Report
-Y,8,0,25,0,0,1,0,0,0,0,0,3,0,0,0,0,0,Sat,Premier League,Matchweek 8,Home,D 0-0,Crystal Palace,Nott'ham Forest,RM,0,0,0,7,0,0.0,0.0,0.0,0,0,3,100.0,0,3,0,1,0,Match Report
-Y,9,0,59,0,0,1,0,0,0,0,0,6,1,0,0,0,0,Fri,Premier League,Matchweek 10,Home,L 1-2,Crystal Palace,Tottenham,LW,0,0,0,20,2,0.0,0.0,0.0,0,0,2,33.3,0,11,2,4,1,Match Report
-Y,10,0,69,0,0,2,0,0,1,0,1,9,0,0,1,0,0,Sat,Premier League,Matchweek 11,Away,W 2-0,Crystal Palace,Burnley,LW,0,0,0,20,2,0.8,0.8,0.0,0,0,7,77.8,1,8,0,1,0,Match Report
-Y,11,0,66,0,0,1,0,0,0,0,0,24,1,0,0,0,0,Sat,Premier League,Matchweek 12,Home,L 2-3,Crystal Palace,Everton,LW,0,0,0,32,0,0.0,0.0,0.1,0,0,19,79.2,0,16,2,1,1,Match Report
-Y,12,0,79,0,0,0,0,0,2,0,1,23,1,0,0,0,0,Sat,Premier League,Matchweek 13,Away,L 1-2,Crystal Palace,Luton Town,LW,0,0,0,33,0,0.2,0.2,0.0,2,0,17,73.9,2,20,3,4,2,Match Report
-Y,13,0,68,0,0,7,0,0,0,0,0,26,0,0,0,0,0,Wed,Premier League,Matchweek 15,Home,L 0-2,Crystal Palace,Bournemouth,AM,0,0,0,35,0,0.0,0.0,0.0,1,0,24,92.3,4,22,0,1,1,Match Report
-Y,14,0,83,0,0,3,0,0,2,0,1,15,2,0,0,0,0,Sat,Premier League,Matchweek 16,Home,L 1-2,Crystal Palace,Liverpool,LW,0,0,0,29,0,0.1,0.1,0.0,2,0,11,73.3,3,14,2,2,1,Match Report
-Y,15,0,80,0,0,2,0,0,1,0,0,7,1,0,0,1,0,Sat,Premier League,Matchweek 17,Away,D 2-2,Crystal Palace,Manchester City,LM,0,0,0,19,1,0.0,0.0,0.9,1,1,6,85.7,0,11,1,0,0,Match Report
-N,16,0,12,0,0,1,0,0,0,0,0,2,0,0,0,0,0,Wed,Premier League,Matchweek 19,Away,L 1-2,Crystal Palace,Chelsea,"LW,LM",0,0,0,5,0,0.0,0.0,0.1,1,0,2,100.0,1,1,0,0,0,Match Report
-N,17,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Sat,Premier League,Matchweek 20,Home,W 3-1,Crystal Palace,Brentford,LW,0,0,0,2,0,0.0,0.0,0.0,0,0,1,100.0,0,0,0,0,0,Match Report
-Y,18,0,75,0,0,1,0,0,2,0,1,21,0,0,0,0,0,Sat,Premier League,Matchweek 21,Away,L 0-5,Crystal Palace,Arsenal,RW,0,0,0,27,2,0.1,0.1,0.0,2,0,18,85.7,1,11,2,2,1,Match Report
-N,19,0,22,0,0,2,0,0,0,0,0,9,0,0,0,0,0,Tue,Premier League,Matchweek 22,Home,W 3-2,Crystal Palace,Sheffield Utd,LW,0,0,0,11,0,0.0,0.0,0.0,0,0,3,33.3,1,5,0,1,1,Match Report
-Y,20,0,45,0,0,2,0,0,2,0,2,12,0,0,0,0,0,Sat,Premier League,Matchweek 23,Away,L 1-4,Crystal Palace,Brighton,LW,0,0,0,15,0,0.1,0.1,0.0,1,0,7,58.3,0,7,1,0,0,Match Report
-N,21,0,25,0,0,0,0,0,0,0,0,5,0,0,0,0,1,Sat,Premier League,Matchweek 30,Away,D 1-1,Crystal Palace,Nott'ham Forest,AM,0,0,0,9,0,0.0,0.0,0.0,1,0,5,100.0,1,3,0,1,0,Match Report
-N,22,0,21,0,0,0,0,0,0,0,0,6,0,0,0,0,0,Tue,Premier League,Matchweek 31,Away,L 0-1,Crystal Palace,Bournemouth,LW,0,0,0,12,0,0.0,0.0,0.0,0,0,4,66.7,0,5,1,3,1,Match Report
-N,23,0,27,0,0,0,0,0,1,0,1,4,0,0,0,1,0,Sat,Premier League,Matchweek 32,Home,L 2-4,Crystal Palace,Manchester City,"LW,RW",0,0,0,6,0,0.0,0.0,0.4,1,1,3,75.0,0,5,0,0,0,Match Report
-N,24,0,14,0,0,0,0,0,0,0,0,5,0,0,0,0,0,Sun,Premier League,Matchweek 33,Away,W 1-0,Crystal Palace,Liverpool,LW,0,0,0,8,1,0.0,0.0,0.0,0,0,2,40.0,1,3,0,0,0,Match Report
-N,25,0,10,0,0,1,0,0,0,0,0,7,0,0,0,0,0,Sun,Premier League,Matchweek 34,Home,W 5-2,Crystal Palace,West Ham,AM,0,0,0,8,0,0.0,0.0,0.0,0,0,5,71.4,0,2,0,0,0,Match Report
-N,26,0,8,0,0,0,0,0,0,0,0,4,0,0,0,0,0,Wed,Premier League,Matchweek 29,Home,W 2-0,Crystal Palace,Newcastle Utd,AM,0,0,0,4,0,0.0,0.0,0.0,2,1,3,75.0,1,3,1,1,1,Match Report
-N,27,0,15,0,0,1,0,0,1,0,1,9,1,0,1,0,0,Sat,Premier League,Matchweek 35,Away,D 1-1,Crystal Palace,Fulham,"LW,AM",0,0,0,14,0,0.1,0.1,0.1,1,0,7,77.8,1,6,0,2,1,Match Report
-N,28,0,6,0,0,1,0,0,0,0,0,3,0,0,0,0,0,Mon,Premier League,Matchweek 36,Home,W 4-0,Crystal Palace,Manchester Utd,AM,0,0,0,5,0,0.0,0.0,0.0,0,0,2,66.7,1,4,0,0,0,Match Report
-N,29,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sat,Premier League,Matchweek 37,Away,W 3-1,Crystal Palace,Wolves,CM,0,0,0,0,0,0.0,0.0,0.0,0,0,0,,0,0,0,0,0,Match Report
+game_started,game_count,dayofweek,comp,round,venue,result,team,opponent,position,minutes,goals,assists,pens_made,pens_att,shots,shots_on_target,cards_yellow,cards_red,touches,tackles,interceptions,blocks,xg,npxg,xg_assist,sca,gca,passes_completed,passes,passes_pct,progressive_passes,carries,progressive_carries,take_ons,take_ons_won,match_report
+Y,1,Sat,Premier League,Matchweek 1,Away,W 1-0,Crystal Palace,Sheffield Utd,LW,90,0,0,0,0,2,1,0,0,40,4,0,0,0.1,0.1,0.0,4,0,17,28,60.7,3,30,0,4,3,Match Report
+Y,2,Mon,Premier League,Matchweek 2,Home,L 0-1,Crystal Palace,Arsenal,LW,73,0,0,0,0,0,0,0,0,24,1,0,0,0.0,0.0,0.1,2,0,14,16,87.5,4,8,0,3,1,Match Report
+Y,3,Sat,Premier League,Matchweek 3,Away,D 1-1,Crystal Palace,Brentford,LW,70,0,0,0,0,1,0,0,0,35,1,0,1,0.0,0.0,0.2,2,0,21,25,84.0,3,23,1,1,1,Match Report
+Y,4,Sun,Premier League,Matchweek 4,Home,W 3-2,Crystal Palace,Wolves,LW,70,0,0,0,0,2,2,0,0,23,0,1,0,0.2,0.2,0.2,1,0,10,14,71.4,0,13,0,1,0,Match Report
+Y,5,Sat,Premier League,Matchweek 5,Away,L 1-3,Crystal Palace,Aston Villa,"RW,LM",90,0,0,0,0,0,0,0,0,38,3,0,1,0.0,0.0,0.0,1,0,15,23,65.2,3,19,0,2,0,Match Report
+Y,6,Sat,Premier League,Matchweek 6,Home,D 0-0,Crystal Palace,Fulham,AM,69,0,0,0,0,0,0,0,0,30,1,0,2,0.0,0.0,0.1,3,0,12,17,70.6,2,20,1,4,1,Match Report
+Y,7,Sat,Premier League,Matchweek 7,Away,W 1-0,Crystal Palace,Manchester Utd,LW,77,0,0,0,0,2,0,0,0,25,2,0,1,0.1,0.1,0.0,0,0,7,10,70.0,0,15,3,2,0,Match Report
+Y,8,Sat,Premier League,Matchweek 8,Home,D 0-0,Crystal Palace,Nott'ham Forest,RM,25,0,0,0,0,0,0,0,0,7,1,0,0,0.0,0.0,0.0,0,0,3,3,100.0,0,3,0,1,0,Match Report
+Y,9,Fri,Premier League,Matchweek 10,Home,L 1-2,Crystal Palace,Tottenham,LW,59,0,0,0,0,0,0,0,0,20,1,1,2,0.0,0.0,0.0,0,0,2,6,33.3,0,11,2,4,1,Match Report
+Y,10,Sat,Premier League,Matchweek 11,Away,W 2-0,Crystal Palace,Burnley,LW,69,1,0,0,0,1,1,0,0,20,2,0,2,0.8,0.8,0.0,0,0,7,9,77.8,1,8,0,1,0,Match Report
+Y,11,Sat,Premier League,Matchweek 12,Home,L 2-3,Crystal Palace,Everton,LW,66,0,0,0,0,0,0,0,0,32,1,1,0,0.0,0.0,0.1,0,0,19,24,79.2,0,16,2,1,1,Match Report
+Y,12,Sat,Premier League,Matchweek 13,Away,L 1-2,Crystal Palace,Luton Town,LW,79,0,0,0,0,2,1,0,0,33,0,1,0,0.2,0.2,0.0,2,0,17,23,73.9,2,20,3,4,2,Match Report
+Y,13,Wed,Premier League,Matchweek 15,Home,L 0-2,Crystal Palace,Bournemouth,AM,68,0,0,0,0,0,0,0,0,35,7,0,0,0.0,0.0,0.0,1,0,24,26,92.3,4,22,0,1,1,Match Report
+Y,14,Sat,Premier League,Matchweek 16,Home,L 1-2,Crystal Palace,Liverpool,LW,83,0,0,0,0,2,1,0,0,29,3,2,0,0.1,0.1,0.0,2,0,11,15,73.3,3,14,2,2,1,Match Report
+Y,15,Sat,Premier League,Matchweek 17,Away,D 2-2,Crystal Palace,Manchester City,LM,80,0,1,0,0,1,0,0,0,19,2,1,1,0.0,0.0,0.9,1,1,6,7,85.7,0,11,1,0,0,Match Report
+N,16,Wed,Premier League,Matchweek 19,Away,L 1-2,Crystal Palace,Chelsea,"LW,LM",12,0,0,0,0,0,0,0,0,5,1,0,0,0.0,0.0,0.1,1,0,2,2,100.0,1,1,0,0,0,Match Report
+N,17,Sat,Premier League,Matchweek 20,Home,W 3-1,Crystal Palace,Brentford,LW,1,0,0,0,0,0,0,0,0,2,0,0,0,0.0,0.0,0.0,0,0,1,1,100.0,0,0,0,0,0,Match Report
+Y,18,Sat,Premier League,Matchweek 21,Away,L 0-5,Crystal Palace,Arsenal,RW,75,0,0,0,0,2,1,0,0,27,1,0,2,0.1,0.1,0.0,2,0,18,21,85.7,1,11,2,2,1,Match Report
+N,19,Tue,Premier League,Matchweek 22,Home,W 3-2,Crystal Palace,Sheffield Utd,LW,22,0,0,0,0,0,0,0,0,11,2,0,0,0.0,0.0,0.0,0,0,3,9,33.3,1,5,0,1,1,Match Report
+Y,20,Sat,Premier League,Matchweek 23,Away,L 1-4,Crystal Palace,Brighton,LW,45,0,0,0,0,2,2,0,0,15,2,0,0,0.1,0.1,0.0,1,0,7,12,58.3,0,7,1,0,0,Match Report
+N,21,Sat,Premier League,Matchweek 30,Away,D 1-1,Crystal Palace,Nott'ham Forest,AM,25,0,0,0,0,0,0,1,0,9,0,0,0,0.0,0.0,0.0,1,0,5,5,100.0,1,3,0,1,0,Match Report
+N,22,Tue,Premier League,Matchweek 31,Away,L 0-1,Crystal Palace,Bournemouth,LW,21,0,0,0,0,0,0,0,0,12,0,0,0,0.0,0.0,0.0,0,0,4,6,66.7,0,5,1,3,1,Match Report
+N,23,Sat,Premier League,Matchweek 32,Home,L 2-4,Crystal Palace,Manchester City,"LW,RW",27,0,1,0,0,1,1,0,0,6,0,0,0,0.0,0.0,0.4,1,1,3,4,75.0,0,5,0,0,0,Match Report
+N,24,Sun,Premier League,Matchweek 33,Away,W 1-0,Crystal Palace,Liverpool,LW,14,0,0,0,0,0,0,0,0,8,0,0,1,0.0,0.0,0.0,0,0,2,5,40.0,1,3,0,0,0,Match Report
+N,25,Sun,Premier League,Matchweek 34,Home,W 5-2,Crystal Palace,West Ham,AM,10,0,0,0,0,0,0,0,0,8,1,0,0,0.0,0.0,0.0,0,0,5,7,71.4,0,2,0,0,0,Match Report
+N,26,Wed,Premier League,Matchweek 29,Home,W 2-0,Crystal Palace,Newcastle Utd,AM,8,0,0,0,0,0,0,0,0,4,0,0,0,0.0,0.0,0.0,2,1,3,4,75.0,1,3,1,1,1,Match Report
+N,27,Sat,Premier League,Matchweek 35,Away,D 1-1,Crystal Palace,Fulham,"LW,AM",15,1,0,0,0,1,1,0,0,14,1,1,0,0.1,0.1,0.1,1,0,7,9,77.8,1,6,0,2,1,Match Report
+N,28,Mon,Premier League,Matchweek 36,Home,W 4-0,Crystal Palace,Manchester Utd,AM,6,0,0,0,0,0,0,0,0,5,1,0,0,0.0,0.0,0.0,0,0,2,3,66.7,1,4,0,0,0,Match Report
+N,29,Sat,Premier League,Matchweek 37,Away,W 3-1,Crystal Palace,Wolves,CM,3,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0,0,0,0,,0,0,0,0,0,Match Report

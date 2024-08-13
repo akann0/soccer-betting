@@ -1,5 +1,6 @@
 premier_league_url = "https://fbref.com/en/comps/9/Premier-League-Stats"
 la_liga_url = "https://fbref.com/en/comps/12/La-Liga-Stats"
+premier_league_24_url = "https://fbref.com/en/comps/9/2023-2024/2023-2024-Premier-League-Stats"
 
 stats_wanted = {
     "Standard Stats": ["games", "minutes", "goals", "assists", "cards_yellow"],

@@ -5,12 +5,12 @@ from unidecode import unidecode
 from constants import *
 import os, sys
 
-TEAMS_TO_FIND = 1
-PLAYERS_PER_TEAM = 1
+TEAMS_TO_FIND = 20
+PLAYERS_PER_TEAM = 15
 
 #Anything with x=0 should only print if something doesn't work as expected
 def test_print(response, x):
-    to_test = [0, 4]
+    to_test = [0, 40]
     if x in to_test:
         if isinstance(response, list):
             for i in range(min(len(response), 10)):
@@ -70,7 +70,7 @@ class SoccerLeague:
         test_print(["Tables: ", self.tables.keys(), len(self.tables)], 2)
         self.table = self.gen_table()
 
-        self.league = url.split("/")[-1][:url.split("/")[-1].index("-Stats")].replace("-", " ")
+        self.league = self.name_league(url.split("/")[-1][:url.split("/")[-1].index("-Stats")].replace("-", " "))
         self.team_objs = self.gen_teams()
         test_print(["team objs", self.team_objs], 2)
         self.team_names = [unidecode(team.text.strip()) for team in self.team_objs]
@@ -82,9 +82,25 @@ class SoccerLeague:
 
         if self.list_teams == None:
             self.list_teams = range(len(self.team_names))
-        
+
+        test_print(["league name", self.league], 2)
+
         self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], [self.league, self.year]) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
         self.save_stats()
+
+    # TEST_NUMBER = 23
+    #2023 2024 Premier League -> Premier League
+    #Premier League -> Premier League
+    def name_league(self, league):
+        ans = ""
+        split = league.split(" ")
+        for i in range(len(split)):
+            if split[i].isdigit():
+                continue
+            ans += split[i] + " "
+        return ans.strip()
+        
+
 
     # TEST_NUMBER = 6
     def gen_tables(self):
@@ -178,17 +194,26 @@ class SoccerLeague:
             # writing data rows
             writer.writerows(self.team_stats)
 
-    
+    # TEST_NUMBER = 18
     def save_player_stats(self):
-
         league_stats = []
+        if os.path.exists(self.league.replace(" ", "_") + "_Player_Stats.csv"):
+            with open(self.league.replace(" ", "_") + "_Player_Stats.csv", "r") as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    league_stats.append(row)
+
+        test_print(league_stats, 18)
+
         for team in self.teams:
             for player in team.player_objs:
                 league_stats.append(player.get_stats())
 
+        test_print(league_stats, 18)
+
         with open(self.league.replace(" ", "_") + "_Player_Stats.csv", "w") as csvfile:
             # creating a csv dict writer object
-            writer = csv.DictWriter(csvfile, fieldnames=get_stats_wanted("fbref"))
+            writer = csv.DictWriter(csvfile, fieldnames=league_stats[0].keys())
             # writing headers (field names)
             writer.writeheader()
             # writing data rows
@@ -211,6 +236,7 @@ class SoccerLeague:
             # writing data rows
             writer.writerows(league_stats)
 
+    # TEST_NUMBER = 50
     def save_player_matchlogs(self):
         folder_name = self.league.replace(" ", "_") + "_Player_Matchlogs"
         try:
@@ -219,6 +245,11 @@ class SoccerLeague:
             pass
         for team in self.teams:
             for player in team.player_objs:
+                test_print(player.player, 50)
+                test_print(player.matchlogs, 50)
+                if len(player.matchlogs) == 0:
+                    test_print("No matchlogs found for " + player.player, 0)
+                    continue
                 with open(folder_name + "/" + player.player.replace(" ", "_") + "_Matchlogs.csv", "w") as csvfile:
                     # creating a csv dict writer object
                     writer = csv.DictWriter(csvfile, fieldnames=player.matchlogs[0].keys())
@@ -422,12 +453,13 @@ class SoccerPlayer():
         self.team = team
         self.league = league[0]  
         self.year = league[1]
+        self.year_previous = "2022-2023"
         if scrape or True:  #TODO: change back to False
             self.response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             requests_test(self.response, self.url)
             self.soup = bs(self.response.content, "html.parser")
             self.tables = self.gen_tables()
-            self.show_tables()
+            # self.show_tables()
             self.player = url.split("/")[-1].replace("-", " ")
             self.stats = self.gen_stats()
         if matchlog:
@@ -450,25 +482,31 @@ class SoccerPlayer():
 
     def gen_stats(self):
         stats = {"name": self.player}
-        stats_wanted = stats_wanted.copy() #NOTE: this is a dictionary, different than self.stats_wanted
-        test_print(stats_wanted, 4)
+        stats_wanted_cpy = stats_wanted.copy() #NOTE: this is a dictionary, different than self.stats_wanted
+        test_print(stats_wanted_cpy, 4)
         for table in self.tables:
-            if table not in stats_wanted:
+            if table not in stats_wanted_cpy:
                 continue
-            stats_wanted.remove(table)
+            # stats_wanted_cpy.remove(table)
+            del stats_wanted_cpy[table]
             # Find the row that corresponds to the most recent season
             for row in self.tables[table].find_all("tr"):
-                test_print(row.get_text(), 4)
-                if self.year in row.get_text():
+                if self.year_previous in row.get_text():
                     # Find the column that corresponds to the stats we want
                     for col in row.find_all("td"):
-                        if col.get("data-stat") in self.stats_wanted[table]:
-                            stats[col.get("data-stat")] = int(col.get_text().replace(",", ""))
+                        if col.get("data-stat") in stats_wanted[table]:
+                            stats[col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
+                        if col.get("data-stat") == "team":
+                            test_print([col.get_text(), self.team], 40)
+                            stats["same_team"] = True if col.get_text() == self.team else False
+                        if col.get("data-stat") == "comp_level":
+                            test_print([col.get_text(), self.league], 40)
+                            stats["same_league"] = True if col.get_text() == self.league else False
 
         # If we didn't find the stats we wanted, add them to the dict with a value of 0
-        # for table in stats_wanted:
-        #     for stat in self.stats_wanted[table]:
-        #         stats[stat] = 0
+        for stat in get_stats_wanted("fbref"):
+            if stat not in stats:
+                stats[stat] = 0
 
         # for stat in self.stats_wanted[table]:
         # TypeError: list indices must be integers or slices, not str
@@ -598,6 +636,7 @@ class SoccerPlayer():
             
             ans = False
             for col in row.find_all(["th", "td"]):
+                test_print([col.get("data-stat"), col.get_text()], 14)
                 # automatically returns false for internatinonal games
                 # if col.get("data-stat") == "team" and col.get_text() != self.team:
                 #     return False
@@ -616,10 +655,11 @@ class SoccerPlayer():
                     ans = True
             return ans
         
-        # test_print(row, 13)
+        test_print("row-", 13)
+        test_print(row, 13)
         if not is_valid_matchlog(row):
             return None
-        # test_print(row, 13)
+        test_print(row, 13)
 
         # creates a new dictionary with empty values, to be replaced
         matchlog = {
@@ -643,12 +683,16 @@ class SoccerPlayer():
                 else:
                     matchlog[col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text().isdigit() else col.get_text()
 
-        test_print(matchlog, 13)
+        test_print(["matchlog-", matchlog], 13)
+        # test_print(matchlog, 13)
         return matchlog
 
 
 # Create an instance of the SoccerLeague class/
-premier_league = SoccerLeague(premier_league_url, {})
+# premier_league = SoccerLeague(premier_league_24_url, {
+#     "year": "2023-2024",
+#     "list_teams": [16, 17, ],
+# })
 # premier_league.save_league_stats()
 
 # euros = SoccerLeague("https://fbref.com/en/comps/676/stats/UEFA-Euro-Stats", [6, 7, 12, 20], "nat_tm")
