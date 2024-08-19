@@ -10,7 +10,7 @@ PLAYERS_PER_TEAM = 15
 
 #Anything with x=0 should only print if something doesn't work as expected
 def test_print(response, x):
-    to_test = [0, 40]
+    to_test = [0]
     if x in to_test:
         if isinstance(response, list):
             for i in range(min(len(response), 10)):
@@ -85,7 +85,7 @@ class SoccerLeague:
 
         test_print(["league name", self.league], 2)
 
-        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], [self.league, self.year]) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
+        self.teams = [SoccerTeam("https://fbref.com" + self.team_objs[team].a["href"], self.team_stats[team], self) for team in self.list_teams] #TODO: change back once Arsenal glitch is gone
         self.save_stats()
 
     # TEST_NUMBER = 23
@@ -335,7 +335,7 @@ class SoccerTeam():
         self.player_names = [unidecode(player.text) for player in self.players]
         self.player_links = [player.a["href"] for player in self.players]
         self.player_stats = self.gen_player_stats()
-        self.player_objs = [SoccerPlayer("https://fbref.com" + self.players[player].a["href"], self.player_stats[player], self.team, league, False) for player in range(min(PLAYERS_PER_TEAM ,len(self.players)))]
+        self.player_objs = [SoccerPlayer("https://fbref.com" + self.players[player].a["href"], self.player_stats[player], self, league, False) for player in range(min(PLAYERS_PER_TEAM ,len(self.players)))]
         
 
     def gen_table(self):
@@ -451,9 +451,9 @@ class SoccerPlayer():
         test_print(self.player, 11)
         self.stats = stats
         self.team = team
-        self.league = league[0]  
-        self.year = league[1]
-        self.year_previous = "2022-2023"
+        self.league = league 
+        self.year = league.year
+        self.year_previous = "2022-2023" #TODO: fix
         if scrape or True:  #TODO: change back to False
             self.response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             requests_test(self.response, self.url)
@@ -497,11 +497,14 @@ class SoccerPlayer():
                         if col.get("data-stat") in stats_wanted[table]:
                             stats[col.get("data-stat")] = int(col.get_text().replace(",", "")) if col.get_text().isdigit() else 0
                         if col.get("data-stat") == "team":
-                            test_print([col.get_text(), self.team], 40)
-                            stats["same_team"] = True if col.get_text() == self.team else False
+                            test_print([col.get_text(), self.team.team, col.a["href"], self.team.url], 40)
+                            stats["same_team"] = self.urls_are_same_league(col.a["href"], self.team.url)
                         if col.get("data-stat") == "comp_level":
-                            test_print([col.get_text(), self.league], 40)
-                            stats["same_league"] = True if col.get_text() == self.league else False
+                            test_print([col.get_text(), self.league.league, col.a["href"], self.league.url], 40)
+                            stats["same_league"] =  self.urls_are_same_league(col.a["href"], self.league.url)
+
+                    test_print(stats["same_team"], 40)
+                    test_print(stats["same_league"], 40)
 
         # If we didn't find the stats we wanted, add them to the dict with a value of 0
         for stat in get_stats_wanted("fbref"):
@@ -513,6 +516,15 @@ class SoccerPlayer():
 
         test_print("Stats: " + str(stats), 4)
         return stats
+    
+    def urls_are_same_league(self, url1, url2):
+        # "https://fbref.com/en/squads/18bb7c10"
+        if url1 == url2:
+            return True
+        url1 = url1.split("/")
+        url2 = url2.split("/")
+        test_print([url1[3], url2[5]], 40)
+        return url1[3] == url2[5]
     
     def __str__(self):
         return self.player
@@ -576,7 +588,7 @@ class SoccerPlayer():
 
     
     def gen_l5_table(self):
-        last_five_games_totals = {"name": self.player, "team": self.team, "league": self.league}
+        last_five_games_totals = {"name": self.player, "team": self.team.team, "league": self.league.league}
         for stat in self.stats_wanted:
             if stat in ["name", "team"]:
                 continue
@@ -641,7 +653,7 @@ class SoccerPlayer():
                 # if col.get("data-stat") == "team" and col.get_text() != self.team:
                 #     return False
                 # automatically return false for games out of league (ie FA Cup)
-                if col.get("data-stat") == "comp" and col.get_text() != self.league:
+                if col.get("data-stat") == "comp" and col.get_text() != self.league.league:
                     # test_print([col.get_text(), self.league], 14)
                     return False
                 #if the date is not in the current year, then the matchlog is invalid
