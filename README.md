@@ -1,6 +1,6 @@
 Hello to all who come across this page!!!!
 
-I decided to spend my summer analyzing data amongst soccer leagues, in order to be able to better spot descrepancies between betting lines and reality. 
+My name is Aaron Kann, and I decided to spend my summer analyzing data amongst soccer leagues, in order to be able to better spot descrepancies between betting lines and reality. 
 I also had some questions about soccer data that I wanted to answer in an informed way!
 
 Within this repository lie three unique questions about soccer data that I wanted answers.  
