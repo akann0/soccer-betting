@@ -16,4 +16,4 @@ The final one (so far) is about a player's previous year statistics.  At the ver
 or truly a sustainable improvement.  I seeked to determine if there was a definitive point where a player's to date statistics were a better predictor of future outcomes than a player's previous year statistics
 (i.e. a point where a player's change in stats can be considered legitimate).  
 
-All data scraped from (https://fbref.com/en/)[Football Reference].
+All data scraped from [Football Reference](https://fbref.com/en/).
