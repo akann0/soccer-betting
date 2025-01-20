@@ -1,4 +1,4 @@
-from selenium import webdriver
+from curl_cffi import requests
 import json, csv
 from unidecode import unidecode
 from constants import *
@@ -33,6 +33,11 @@ def get_data_scrape():
     driver.quit()
     return json.loads(jsonified)
 
+def get_data_scrape_cffi():
+    url = "https://api.prizepicks.com/projections"
+    response = requests.get(url, impersonate="safari_ios")
+    return response.json()
+
 # Save data to a file
 def save_data_file(data, filename):
     with open(filename, 'w') as f:
@@ -55,7 +60,7 @@ def is_sport(datapoint, sport_id = "82"):
 
 # Get the data
 def get_data(sport_id = "82"):
-    data = get_data_scrape()
+    data = get_data_scrape_cffi()
     # data = get_data_file("pp_sample_web_data.json")
 
     # Sort the data into relevant lists, depending on category
