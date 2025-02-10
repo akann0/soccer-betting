@@ -1,0 +1,360 @@
+name,same_team,same_league,gk_saves,games,minutes,goals,assists,cards_yellow,passes,assisted_shots,tackles,interceptions,clearances,fouls,fouled,team,crosses,shots,shots_on_target
+Guglielmo Vicario,False,False,95,31,0,0,0,3,1277,0,1,0,15,0,8,0,0,0,0
+Pedro Porro,False,False,0,15,0,3,3,0,648,25,25,15,24,12,16,0,0,26,0
+Son Heung min,False,False,0,36,0,10,6,2,909,61,24,13,6,13,36,0,0,81,0
+Cristian Romero,False,False,0,27,0,0,1,11,1606,8,68,44,102,42,12,0,0,11,0
+Dejan Kulusevski,False,False,0,30,0,2,7,2,746,47,38,13,7,36,25,0,0,43,0
+Destiny Udogie,False,False,0,33,0,3,4,5,1127,34,71,36,25,37,58,0,0,27,0
+Micky van de Ven,False,False,0,33,0,1,1,5,1758,6,45,26,108,23,27,0,0,16,0
+Pape Matar Sarr,False,False,0,11,218,0,1,1,154,2,7,6,6,4,3,0,0,2,0
+James Maddison,False,False,0,30,0,10,9,10,1150,69,51,13,6,31,79,0,0,83,0
+Yves Bissouma,False,False,0,23,0,0,0,6,733,8,16,12,10,17,10,0,0,6,0
+Brennan Johnson,False,False,0,38,0,8,3,6,505,28,34,5,7,37,21,0,0,52,0
+Richarlison,False,False,0,27,0,1,3,3,279,16,21,5,10,14,22,0,0,27,0
+Rodrigo Bentancur,False,False,0,18,0,5,2,8,880,11,45,20,22,24,8,0,0,15,0
+Ben Davies,False,False,0,31,0,2,2,4,1281,20,28,18,72,30,17,0,0,14,0
+Emerson,False,False,0,26,0,2,1,2,1060,9,54,18,75,21,33,0,0,17,0
+Vladimir Coufal,False,False,0,27,0,0,1,5,1174,26,58,38,70,30,21,0,0,6,0
+Emerson Palmieri,False,False,0,22,0,1,0,2,729,13,26,15,36,13,15,0,0,11,0
+Jarrod Bowen,False,False,0,38,0,6,5,2,881,48,39,36,25,26,69,0,0,73,0
+James Ward Prowse,False,False,0,38,0,9,4,6,2176,74,65,55,48,34,19,0,0,40,0
+Tomas Soucek,False,False,0,36,0,2,3,3,994,15,77,53,71,50,16,0,0,34,0
+Kurt Zouma,False,False,0,25,0,2,0,0,831,1,9,30,120,14,7,0,0,19,0
+Alphonse Areola,False,False,9,5,309,0,0,0,92,0,0,0,0,1,0,0,0,0,0
+Lucas Paqueta,False,False,0,28,0,4,3,5,1157,32,71,16,31,50,30,0,0,52,0
+Edson Alvarez,False,False,0,31,0,3,3,10,2411,28,71,36,76,34,14,0,0,63,0
+Mohammed Kudus,False,False,0,30,0,11,3,1,657,29,25,7,13,26,42,0,0,69,0
+Nayef Aguerd,False,False,0,18,0,2,0,4,763,6,27,18,79,8,8,0,0,12,0
+Michail Antonio,False,False,0,33,0,5,3,2,348,15,14,5,9,28,44,0,0,39,0
+Konstantinos Mavropanos,False,False,0,28,0,2,1,9,1512,15,50,63,99,24,23,0,0,48,0
+Lukasz Fabianski,False,False,106,36,0,0,0,1,930,0,2,0,10,0,4,0,0,0,0
+Angelo Ogbonna,False,False,0,16,0,0,0,0,415,3,11,17,74,2,4,0,0,3,0
+Max Kilman,False,False,0,37,0,0,0,3,2107,4,36,19,164,18,12,0,0,14,0
+Nelson Semedo,False,False,0,36,0,0,1,11,1499,11,71,29,83,47,24,0,0,9,0
+Jose Sa,False,False,105,36,0,0,0,2,1200,0,1,0,10,1,8,0,0,0,0
+Mario Lemina,False,False,0,19,0,0,1,4,651,3,38,14,24,18,9,0,0,9,0
+Joao Gomes,False,False,0,11,653,1,0,5,322,5,29,4,11,17,16,0,0,4,0
+Toti Gomes,False,False,0,17,984,1,0,6,555,4,15,11,51,16,5,0,0,5,0
+Matheus Cunha,False,False,0,17,965,2,0,1,234,7,7,9,11,20,21,0,0,26,0
+Rayan Ait Nouri,False,False,0,21,0,1,0,4,578,7,33,9,28,15,11,0,0,10,0
+Craig Dawson,False,False,0,17,0,1,0,4,926,1,9,12,74,11,10,0,0,11,0
+Hwang Hee chan,False,False,0,27,0,3,1,1,280,10,20,5,5,20,19,0,0,18,0
+Pablo Sarabia,False,False,0,13,765,1,0,3,365,11,12,2,4,13,8,0,0,20,0
+Pedro Neto,False,False,0,18,964,0,0,1,384,20,11,4,4,8,15,0,0,17,0
+Tommy Doyle,False,False,0,33,0,3,4,4,1144,35,31,17,33,15,17,0,0,44,0
+Jean Ricner Bellegarde,False,False,0,30,0,2,6,5,1242,57,47,26,22,36,73,0,0,38,0
+Matt Doherty,False,False,0,2,18,0,0,0,9,0,0,0,0,1,0,0,0,0,0
+William Saliba,True,False,0,27,0,2,1,4,1865,6,34,19,85,19,13,0,0,6,0
+Declan Rice,False,False,0,37,0,4,1,5,2135,37,79,63,58,23,11,0,0,35,0
+Martin Odegaard,True,False,0,37,0,15,7,4,1804,76,36,6,12,30,26,0,0,93,0
+Ben White,True,False,0,38,0,2,5,5,2242,26,60,22,79,28,30,0,0,10,0
+Bukayo Saka,True,False,0,38,0,14,11,6,1430,75,63,14,19,43,65,0,0,86,0
+Gabriel Magalhaes,True,False,0,38,0,3,0,5,2411,5,48,32,125,25,40,0,0,32,0
+David Raya,False,False,154,38,0,0,0,1,1640,2,0,1,10,0,6,0,0,1,0
+Kai Havertz,False,False,0,35,0,7,1,5,894,38,34,7,41,60,25,0,0,70,0
+Gabriel Martinelli,True,False,0,36,0,15,5,3,1107,59,31,9,14,39,37,0,0,79,0
+Oleksandr Zinchenko,True,False,0,27,0,1,2,3,1911,19,40,22,38,6,11,0,0,28,0
+Leandro Trossard,True,False,0,20,931,1,10,0,452,22,12,6,3,9,17,0,0,17,0
+Gabriel Jesus,True,False,0,26,0,11,6,6,699,31,33,11,15,43,56,0,0,76,0
+Jakub Kiwior,True,False,0,7,427,1,0,0,205,1,7,6,10,1,1,0,0,1,0
+Takehiro Tomiyasu,True,False,0,21,663,0,1,2,474,4,27,14,15,6,3,0,0,3,0
+Eddie Nketiah,True,False,0,30,0,4,1,3,255,9,13,1,7,30,25,0,0,41,0
+Ezri Konsa,True,False,38,0,0,0,6,8,1898,8,42,26,120,12,64,0,0,0,0
+John McGinn,True,False,34,0,1,3,7,42,1028,18,66,24,19,41,66,0,0,0,0
+Douglas Luiz,True,False,37,0,6,6,6,34,1812,45,72,40,27,48,42,0,0,0,0
+Emiliano Martinez,True,False,36,0,0,0,7,0,1388,2,0,1,23,1,6,0,0,0,97
+Pau Torres,False,False,34,0,1,0,10,12,2179,14,43,13,146,20,17,0,0,0,0
+Lucas Digne,True,False,28,0,1,0,5,8,927,18,30,18,45,19,23,0,0,0,0
+Moussa Diaby,False,False,33,0,9,8,4,79,1003,58,14,5,3,18,24,0,0,0,0
+Matty Cash,True,False,26,0,0,1,4,7,1006,8,55,26,43,21,15,0,0,0,0
+Leon Bailey,True,False,33,0,4,4,4,51,547,30,14,6,12,29,22,0,0,0,0
+Diego Carlos,True,False,3,205,0,0,0,4,142,1,1,1,2,2,0,0,0,0,0
+Boubacar Kamara,True,False,24,0,0,1,4,4,941,7,58,19,24,34,31,0,0,0,0
+Youri Tielemans,False,False,31,0,3,2,4,29,1623,30,66,28,24,33,25,0,0,0,0
+Clement Lenglet,False,False,26,0,0,2,4,13,1465,6,38,18,68,23,17,0,0,0,0
+Alex Moreno,True,False,19,0,0,3,3,13,745,22,23,7,37,17,11,0,0,0,0
+Illia Zabarnyi,True,False,5,299,0,0,0,0,200,0,4,3,14,1,2,0,0,0,0
+Dominic Solanke,True,False,33,0,6,7,2,76,533,21,15,6,46,40,53,0,0,0,0
+Ryan Christie,True,False,32,0,1,1,2,33,651,30,34,26,20,36,45,0,0,0,0
+Neto,True,False,27,0,0,0,4,0,833,0,3,0,10,0,4,0,0,0,100
+Lewis Cook,True,False,28,0,0,2,4,6,751,24,37,23,31,15,10,0,0,0,0
+Marcos Senesi,True,False,31,0,2,0,7,8,1322,5,50,43,146,29,13,0,0,0,0
+Justin Kluivert,False,False,26,0,6,0,4,43,399,23,17,7,4,24,19,0,0,0,0
+Adam Smith,True,False,37,0,0,1,11,5,1264,16,49,25,81,29,27,0,0,0,0
+Marcus Tavernier,True,False,23,0,5,4,1,37,724,19,33,9,23,21,28,0,0,0,0
+Antoine Semenyo,True,False,11,258,1,0,0,3,57,2,1,2,4,6,5,0,0,0,0
+Milos Kerkez,False,False,33,0,3,1,4,25,1592,31,54,31,59,38,37,0,0,0,0
+Lloyd Kelly,True,False,23,0,0,2,3,3,1164,7,33,26,101,17,5,0,0,0,0
+Philip Billing,True,False,36,0,7,1,5,38,1055,26,63,31,58,30,35,0,0,0,0
+Max Aarons,False,False,45,0,1,3,10,20,2536,40,84,48,75,23,57,0,0,0,0
+Dango Ouattara,True,False,19,0,1,3,1,26,334,18,28,13,29,6,15,0,0,0,0
+Mark Flekken,False,False,34,0,0,0,0,0,1468,4,0,0,9,0,3,0,0,0,106
+Vitaly Janelt,True,False,35,0,3,1,3,14,1020,16,54,29,26,22,21,0,0,0,0
+Christian Norgaard,True,False,22,0,1,3,6,19,812,12,52,34,41,35,20,0,0,0,0
+Nathan Collins,False,False,26,0,0,0,2,3,1138,2,27,21,84,17,9,0,0,0,0
+Yoane Wissa,True,False,38,0,7,3,3,32,344,13,17,6,15,21,26,0,0,0,0
+Ethan Pinnock,True,False,30,0,3,0,0,15,1149,8,52,35,215,6,10,0,0,0,0
+Mathias Jensen,True,False,37,0,5,6,5,23,1566,48,71,32,24,32,25,0,0,0,0
+Mads Roerslev,True,False,20,0,0,0,0,3,303,8,22,9,38,4,3,0,0,0,0
+Bryan Mbeumo,True,False,38,0,9,8,5,70,991,51,26,13,21,27,23,0,0,0,0
+Kristoffer Ajer,True,False,9,763,0,0,0,1,345,1,11,7,22,5,8,0,0,0,0
+Ivan Toney,True,False,33,0,20,4,9,87,787,27,23,14,36,52,74,0,0,0,0
+Keane Lewis Potter,True,False,10,321,0,1,0,7,86,5,1,0,2,1,4,0,0,0,0
+Ben Mee,True,False,37,0,3,1,2,28,1761,8,45,48,122,14,15,0,0,0,0
+Sergio Reguilon,False,False,11,309,0,0,3,3,147,7,7,2,4,4,6,0,0,0,0
+Neal Maupay,False,False,27,0,1,0,4,32,253,7,11,5,0,14,21,0,0,0,0
+Pascal Gross,False,False,37,0,9,8,6,39,2347,80,59,13,21,35,18,0,0,0,0
+Lewis Dunk,False,False,36,0,1,0,4,22,3223,9,30,34,81,18,27,0,0,0,0
+Jan Paul van Hecke,False,False,8,295,0,0,2,2,248,0,8,6,9,7,4,0,0,0,0
+Simon Adingra,False,False,30,0,10,8,1,40,724,37,20,12,10,20,21,0,0,0,0
+Billy Gilmour,False,False,14,507,0,1,1,6,408,2,5,6,5,8,3,0,0,0,0
+Bart Verbruggen,False,False,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Danny Welbeck,False,False,31,0,6,3,0,62,442,30,15,5,20,25,18,0,0,0,0
+Joao Pedro,False,False,35,0,11,4,7,82,1334,45,56,23,25,39,79,0,0,0,0
+Igor,False,False,27,0,0,0,10,7,1324,3,43,25,56,29,13,0,0,0,0
+Joel Veltman,False,False,31,0,1,1,6,15,1512,10,62,19,51,27,38,0,0,0,0
+Jason Steele,False,False,15,0,0,1,1,0,541,1,0,0,6,1,1,0,0,0,36
+Facundo Buonanotte,False,False,13,565,1,1,2,11,194,6,2,4,3,9,7,0,0,0,0
+Kaoru Mitoma,False,False,33,0,7,5,0,52,977,41,44,17,10,29,27,0,0,0,0
+Evan Ferguson,False,False,19,950,6,2,1,36,225,11,6,2,6,9,11,0,0,0,0
+Carlos Baleba,False,False,19,478,0,0,3,12,300,2,13,1,3,13,18,0,0,0,0
+Ollie Watkins,True,False,37,0,15,6,4,84,566,31,19,10,39,26,39,0,0,0,0
+Ezri Konsa,True,False,38,0,0,0,6,8,1898,8,42,26,120,12,64,0,0,0,0
+John McGinn,True,False,34,0,1,3,7,42,1028,18,66,24,19,41,66,0,0,0,0
+Douglas Luiz,True,False,37,0,6,6,6,34,1812,45,72,40,27,48,42,0,0,0,0
+Emiliano Martinez,True,False,36,0,0,0,7,0,1388,2,0,1,23,1,6,0,0,0,97
+Pau Torres,False,False,34,0,1,0,10,12,2179,14,43,13,146,20,17,0,0,0,0
+Lucas Digne,True,False,28,0,1,0,5,8,927,18,30,18,45,19,23,0,0,0,0
+Moussa Diaby,False,False,33,0,9,8,4,79,1003,58,14,5,3,18,24,0,0,0,0
+Matty Cash,True,False,26,0,0,1,4,7,1006,8,55,26,43,21,15,0,0,0,0
+Leon Bailey,True,False,33,0,4,4,4,51,547,30,14,6,12,29,22,0,0,0,0
+Diego Carlos,True,False,3,205,0,0,0,4,142,1,1,1,2,2,0,0,0,0,0
+Boubacar Kamara,True,False,24,0,0,1,4,4,941,7,58,19,24,34,31,0,0,0,0
+Youri Tielemans,False,False,31,0,3,2,4,29,1623,30,66,28,24,33,25,0,0,0,0
+Clement Lenglet,False,False,26,0,0,2,4,13,1465,6,38,18,68,23,17,0,0,0,0
+Alex Moreno,True,False,19,0,0,3,3,13,745,22,23,7,37,17,11,0,0,0,0
+Illia Zabarnyi,True,False,5,299,0,0,0,0,200,0,4,3,14,1,2,0,0,0,0
+Dominic Solanke,True,False,33,0,6,7,2,76,533,21,15,6,46,40,53,0,0,0,0
+Ryan Christie,True,False,32,0,1,1,2,33,651,30,34,26,20,36,45,0,0,0,0
+Neto,True,False,27,0,0,0,4,0,833,0,3,0,10,0,4,0,0,0,100
+Lewis Cook,True,False,28,0,0,2,4,6,751,24,37,23,31,15,10,0,0,0,0
+Marcos Senesi,True,False,31,0,2,0,7,8,1322,5,50,43,146,29,13,0,0,0,0
+Justin Kluivert,False,False,26,0,6,0,4,43,399,23,17,7,4,24,19,0,0,0,0
+Adam Smith,True,False,37,0,0,1,11,5,1264,16,49,25,81,29,27,0,0,0,0
+Marcus Tavernier,True,False,23,0,5,4,1,37,724,19,33,9,23,21,28,0,0,0,0
+Antoine Semenyo,True,False,11,258,1,0,0,3,57,2,1,2,4,6,5,0,0,0,0
+Milos Kerkez,False,False,33,0,3,1,4,25,1592,31,54,31,59,38,37,0,0,0,0
+Lloyd Kelly,True,False,23,0,0,2,3,3,1164,7,33,26,101,17,5,0,0,0,0
+Philip Billing,True,False,36,0,7,1,5,38,1055,26,63,31,58,30,35,0,0,0,0
+Max Aarons,False,False,45,0,1,3,10,20,2536,40,84,48,75,23,57,0,0,0,0
+Dango Ouattara,True,False,19,0,1,3,1,26,334,18,28,13,29,6,15,0,0,0,0
+Mark Flekken,False,False,34,0,0,0,0,0,1468,4,0,0,9,0,3,0,0,0,106
+Vitaly Janelt,True,False,35,0,3,1,3,14,1020,16,54,29,26,22,21,0,0,0,0
+Christian Norgaard,True,False,22,0,1,3,6,19,812,12,52,34,41,35,20,0,0,0,0
+Nathan Collins,False,False,26,0,0,0,2,3,1138,2,27,21,84,17,9,0,0,0,0
+Yoane Wissa,True,False,38,0,7,3,3,32,344,13,17,6,15,21,26,0,0,0,0
+Ethan Pinnock,True,False,30,0,3,0,0,15,1149,8,52,35,215,6,10,0,0,0,0
+Mathias Jensen,True,False,37,0,5,6,5,23,1566,48,71,32,24,32,25,0,0,0,0
+Mads Roerslev,True,False,20,0,0,0,0,3,303,8,22,9,38,4,3,0,0,0,0
+Bryan Mbeumo,True,False,38,0,9,8,5,70,991,51,26,13,21,27,23,0,0,0,0
+Kristoffer Ajer,True,False,9,763,0,0,0,1,345,1,11,7,22,5,8,0,0,0,0
+Ivan Toney,True,False,33,0,20,4,9,87,787,27,23,14,36,52,74,0,0,0,0
+Keane Lewis Potter,True,False,10,321,0,1,0,7,86,5,1,0,2,1,4,0,0,0,0
+Ben Mee,True,False,37,0,3,1,2,28,1761,8,45,48,122,14,15,0,0,0,0
+Sergio Reguilon,False,False,11,309,0,0,3,3,147,7,7,2,4,4,6,0,0,0,0
+Neal Maupay,False,False,27,0,1,0,4,32,253,7,11,5,0,14,21,0,0,0,0
+Pascal Gross,False,False,37,0,9,8,6,39,2347,80,59,13,21,35,18,0,0,0,0
+Lewis Dunk,False,False,36,0,1,0,4,22,3223,9,30,34,81,18,27,0,0,0,0
+Jan Paul van Hecke,False,False,8,295,0,0,2,2,248,0,8,6,9,7,4,0,0,0,0
+Simon Adingra,False,False,30,0,10,8,1,40,724,37,20,12,10,20,21,0,0,0,0
+Billy Gilmour,False,False,14,507,0,1,1,6,408,2,5,6,5,8,3,0,0,0,0
+Bart Verbruggen,False,False,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Danny Welbeck,False,False,31,0,6,3,0,62,442,30,15,5,20,25,18,0,0,0,0
+Joao Pedro,False,False,35,0,11,4,7,82,1334,45,56,23,25,39,79,0,0,0,0
+Igor,False,False,27,0,0,0,10,7,1324,3,43,25,56,29,13,0,0,0,0
+Joel Veltman,False,False,31,0,1,1,6,15,1512,10,62,19,51,27,38,0,0,0,0
+Jason Steele,False,False,15,0,0,1,1,0,541,1,0,0,6,1,1,0,0,0,36
+Facundo Buonanotte,False,False,13,565,1,1,2,11,194,6,2,4,3,9,7,0,0,0,0
+Kaoru Mitoma,False,False,33,0,7,5,0,52,977,41,44,17,10,29,27,0,0,0,0
+Evan Ferguson,False,False,19,950,6,2,1,36,225,11,6,2,6,9,11,0,0,0,0
+Carlos Baleba,False,False,19,478,0,0,3,12,300,2,13,1,3,13,18,0,0,0,0
+Sander Berge,False,False,37,0,6,5,4,54,1402,39,45,14,24,29,17,0,0,0,0
+Dara OShea,False,False,37,0,2,1,7,25,2414,8,40,67,136,27,20,0,0,0,0
+James Trafford,False,False,45,0,0,1,3,0,0,0,0,1,0,1,16,0,0,0,126
+Zeki Amdouni,False,False,32,0,12,4,1,74,0,0,0,8,0,19,35,0,0,0,0
+Vitinho,True,False,35,0,3,1,1,29,1011,19,52,16,35,22,26,0,0,0,0
+Charlie Taylor,True,False,33,0,0,1,3,4,1462,8,30,31,66,7,18,0,0,0,0
+Wilson Odobert,False,False,32,0,4,2,0,27,538,23,20,15,5,9,16,0,0,0,0
+Josh Brownhill,True,False,41,0,7,8,9,57,2145,72,91,38,32,65,21,0,0,0,0
+Josh Cullen,True,False,43,0,1,4,8,29,3109,38,63,55,44,44,61,0,0,0,0
+Lyle Foster,True,False,11,365,1,0,0,10,104,5,10,0,2,8,4,0,0,0,0
+Jacob Bruun Larsen,False,False,12,328,1,0,0,7,88,7,4,1,0,1,1,0,0,0,0
+Maxime Esteve,False,False,23,0,0,0,3,6,748,1,24,34,90,18,7,0,0,0,0
+Lorenz Assignon,False,False,12,261,0,1,3,3,155,1,6,2,9,4,4,0,0,0,0
+Jordan Beyer,True,False,30,0,1,2,4,13,2269,8,63,37,66,15,24,0,0,0,0
+Luca Koleosho,False,False,4,59,1,0,0,1,28,0,2,0,0,1,0,0,0,0,0
+Conor Gallagher,True,False,0,35,0,3,1,11,871,21,46,23,18,35,35,0,0,28,0
+Moises Caicedo,False,False,0,37,0,1,1,10,2251,43,100,56,31,65,54,0,0,28,0
+Nicolas Jackson,False,False,0,26,0,12,4,6,325,21,14,2,4,32,26,0,0,41,0
+Cole Palmer,False,False,0,14,370,0,1,1,193,5,5,1,2,1,6,0,0,11,0
+Axel Disasi,False,False,0,38,0,3,3,3,1957,9,30,56,112,31,12,0,0,28,0
+Thiago Silva,True,False,0,27,0,0,2,2,2042,5,41,34,111,10,13,0,0,15,0
+Enzo Fernandez,True,False,0,18,0,0,2,3,1440,20,45,16,12,11,22,0,0,20,0
+Djordje Petrovic,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Raheem Sterling,True,False,0,28,0,6,3,4,685,34,18,2,5,21,32,0,0,42,0
+Levi Colwill,False,False,0,17,0,0,2,1,1165,7,8,15,37,8,10,0,0,8,0
+Marc Cucurella,True,False,0,24,0,0,2,4,1293,11,66,16,48,16,21,0,0,7,0
+Malo Gusto,False,False,0,21,0,0,1,1,1437,24,42,28,23,20,24,0,0,7,0
+Mykhailo Mudryk,True,False,0,15,657,0,2,1,216,10,11,0,3,8,12,0,0,14,0
+Robert Sanchez,False,False,46,23,0,0,0,2,781,0,1,3,9,1,0,0,0,0,0
+Benoit Badiashile,True,False,0,11,905,1,0,2,860,3,14,16,34,9,6,0,0,6,0
+Joachim Andersen,True,False,0,32,0,1,0,8,1972,12,42,24,188,27,16,0,0,22,0
+Tyrick Mitchell,True,False,0,36,0,0,2,5,1607,15,71,42,78,33,10,0,0,6,0
+Jordan Ayew,True,False,0,38,0,4,3,5,875,31,66,15,31,48,90,0,0,32,0
+Jefferson Lerma,False,False,0,37,0,5,0,7,1611,18,50,47,91,37,33,0,0,35,0
+Jean Philippe Mateta,True,False,0,29,770,2,0,3,149,5,7,3,18,16,8,0,0,27,0
+Eberechi Eze,True,False,0,38,0,10,4,3,1178,57,42,13,10,27,57,0,0,70,0
+Chris Richards,True,False,0,1,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Marc Guehi,True,False,0,37,0,1,0,8,2208,10,52,45,134,24,40,0,0,14,0
+Joel Ward,True,False,0,28,0,1,0,6,1223,9,50,25,80,29,11,0,0,8,0
+Will Hughes,True,False,0,27,842,1,1,4,373,6,29,16,9,19,7,0,0,6,0
+Sam Johnstone,True,False,25,9,810,0,0,1,280,0,0,0,5,1,0,0,0,0,0
+Dean Henderson,False,False,52,18,0,0,0,2,671,0,0,0,12,1,1,0,0,0,0
+Odsonne Edouard,True,False,0,35,0,5,2,3,412,17,25,3,22,28,17,0,0,39,0
+Jeffrey Schlupp,True,False,0,34,0,3,1,7,900,18,66,23,38,51,33,0,0,28,0
+Daniel Munoz,False,False,0,30,0,7,5,9,2002,28,66,52,58,43,24,0,0,32,0
+Jordan Pickford,True,False,123,37,0,0,1,6,1312,2,0,4,15,1,5,0,0,0,0
+James Tarkowski,True,False,0,38,0,1,1,6,1633,15,51,51,201,40,23,0,0,32,0
+Jarrad Branthwaite,False,False,0,27,0,2,1,2,1295,7,23,36,96,12,5,0,0,18,0
+James Garner,True,False,0,16,804,0,1,3,353,7,16,12,13,16,10,0,0,9,0
+Dwight McNeil,True,False,0,36,0,7,3,5,987,49,64,31,41,22,21,0,0,46,0
+Abdoulaye Doucoure,True,False,0,25,0,5,2,6,548,22,31,13,11,21,4,0,0,20,0
+Vitaliy Mykolenko,True,False,0,34,0,0,0,4,1292,19,58,46,99,29,21,0,0,10,0
+Ashley Young,False,False,0,29,0,1,0,7,1188,14,50,21,65,24,28,0,0,15,0
+Dominic Calvert Lewin,True,True,0,17,0,2,1,3,221,9,4,3,18,22,14,0,0,30,0
+Jack Harrison,False,False,0,36,0,5,7,2,1150,53,41,22,25,38,37,0,0,39,0
+Idrissa Gana Gueye,True,False,0,33,0,0,1,7,1226,12,97,56,34,43,50,0,0,15,0
+Amadou Onana,True,False,0,33,0,1,2,9,980,22,72,37,39,44,49,0,0,34,0
+Ben Godfrey,True,False,0,13,802,0,1,2,281,3,20,8,33,10,5,0,0,6,0
+Nathan Patterson,True,False,0,19,0,0,0,3,649,6,49,15,45,14,13,0,0,8,0
+Beto,False,False,0,33,0,10,1,2,299,23,16,6,30,36,26,0,0,60,0
+Bernd Leno,True,False,142,36,0,0,0,3,1397,1,0,0,18,1,3,0,0,0,0
+Antonee Robinson,True,False,0,35,0,0,1,8,1910,21,62,53,83,33,23,0,0,3,0
+Andreas Pereira,True,False,0,33,0,4,6,8,1068,60,18,6,8,41,31,0,0,61,0
+Joao Palhinha,True,False,0,35,0,3,0,14,1274,7,148,46,61,48,50,0,0,39,0
+Timothy Castagne,False,False,0,37,0,2,3,3,1836,22,87,43,110,25,15,0,0,19,0
+Calvin Bassey,False,False,0,25,0,1,3,0,1559,11,40,23,42,14,25,0,0,7,0
+Alex Iwobi,False,False,0,38,0,2,7,2,1536,64,69,25,29,19,15,0,0,42,0
+Willian,True,False,0,27,0,5,5,2,912,51,13,9,9,11,24,0,0,41,0
+Tosin Adarabioyo,True,False,0,25,0,1,0,4,1300,6,30,26,140,17,5,0,0,16,0
+Rodrigo Muniz,False,False,0,0,0,0,0,0,94,5,9,3,11,15,27,0,0,28,0
+Raul Jimenez,False,False,0,15,846,0,1,0,198,8,9,0,8,14,14,0,0,20,0
+Tim Ream,True,False,0,33,0,1,0,2,1922,3,30,41,116,18,7,0,0,3,0
+Bobby Reid,True,False,0,36,0,4,1,8,907,19,42,20,28,34,22,0,0,31,0
+Harry Wilson,True,False,0,29,0,2,3,1,404,12,21,6,14,11,32,0,0,18,0
+Issa Diop,True,False,0,25,0,1,0,2,1399,2,28,35,86,16,8,0,0,3,0
+Virgil van Dijk,True,False,0,32,0,3,1,3,2592,7,27,31,138,13,3,0,0,30,0
+Luis Diaz,True,False,0,17,996,4,2,2,462,13,17,6,2,20,24,0,0,27,0
+Alexis Mac Allister,False,False,0,35,0,10,2,8,1844,47,70,22,10,35,57,0,0,80,0
+Mohamed Salah,True,False,0,38,0,19,12,2,1185,65,21,6,4,20,33,0,0,121,0
+Alisson,True,False,105,37,0,0,1,1,1453,1,0,0,20,1,5,0,0,0,0
+Trent Alexander Arnold,True,False,0,37,0,2,9,5,2912,71,57,43,41,22,6,0,0,40,0
+Dominik Szoboszlai,False,False,0,31,0,6,8,5,1580,70,45,17,27,25,39,0,0,58,0
+Darwin Nunez,True,False,0,29,0,9,3,1,401,28,11,3,13,25,17,0,0,84,0
+Wataru Endo,False,False,0,33,0,5,4,3,1477,46,70,26,63,40,55,0,0,45,0
+Andrew Robertson,True,False,0,34,0,0,8,3,2265,52,38,18,50,22,10,0,0,13,0
+Joe Gomez,True,False,0,21,0,0,0,3,1361,1,28,24,51,13,4,0,0,6,0
+Cody Gakpo,True,False,0,21,0,7,2,0,392,23,26,4,2,26,33,0,0,39,0
+Ibrahima Konate,True,False,0,18,0,0,0,5,1135,1,38,26,61,29,15,0,0,11,0
+Curtis Jones,True,False,0,18,0,3,1,2,677,14,34,3,9,13,16,0,0,15,0
+Diogo Jota,True,False,0,22,0,7,4,2,381,17,23,3,11,19,15,0,0,35,0
+Thomas Kaminski,False,False,0,1,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Alfie Doughty,True,False,0,28,0,2,5,10,1228,54,55,20,37,38,5,0,0,28,0
+Carlton Morris,True,False,0,44,0,20,6,11,984,49,24,3,50,66,41,0,0,114,0
+Ross Barkley,False,False,0,27,960,4,2,1,497,31,16,8,6,14,15,0,0,38,0
+Teden Mengi,False,False,0,5,373,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Gabriel Osho,True,False,0,27,0,2,0,5,800,9,34,31,75,25,16,0,0,18,0
+Issa Kabore,False,False,0,22,0,1,0,1,567,13,33,12,21,24,19,0,0,8,0
+Amarii Bell,True,False,0,44,0,1,1,6,1792,29,78,47,102,56,62,0,0,15,0
+Chiedozie Ogbene,False,False,0,39,0,8,4,3,771,30,31,7,22,34,88,0,0,56,0
+Tahith Chong,False,False,0,38,0,4,5,4,807,45,52,13,13,18,73,0,0,58,0
+Reece Burke,True,False,0,20,0,2,0,3,698,3,22,12,67,18,6,0,0,2,0
+Elijah Adebayo,True,False,0,42,0,7,3,8,625,30,28,11,60,64,47,0,0,82,0
+Albert Sambi Lokonga,False,False,0,9,536,0,0,2,264,1,13,7,10,7,12,0,0,2,0
+Jordan Clark,True,False,0,38,0,2,4,5,1194,41,61,38,48,43,36,0,0,58,0
+Andros Townsend,False,False,0,1,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rodri,True,False,0,36,0,2,6,5,2987,32,67,33,43,47,20,0,0,50,0
+Phil Foden,True,False,0,32,0,11,6,1,1111,43,16,5,12,10,29,0,0,46,0
+Ederson,True,False,46,35,0,0,1,3,1257,1,3,1,10,1,4,0,0,0,0
+Julian Alvarez,True,False,0,31,0,9,0,0,503,18,26,2,6,21,14,0,0,46,0
+Kyle Walker,True,False,0,27,0,0,0,3,1892,6,13,18,22,15,10,0,0,5,0
+Bernardo Silva,True,False,0,34,0,4,5,5,1543,31,44,16,6,31,15,0,0,25,0
+Erling Haaland,True,False,0,35,0,36,8,5,500,29,3,3,14,31,24,0,0,116,0
+Ruben Dias,True,False,0,26,0,0,0,3,2080,3,21,18,56,19,7,0,0,10,0
+Manuel Akanji,True,False,0,29,0,0,1,2,2056,7,36,16,33,24,12,0,0,15,0
+Josko Gvardiol,False,False,0,30,0,1,0,2,2149,12,23,34,76,20,13,0,0,14,0
+Nathan Ake,True,False,0,26,0,1,0,2,1813,9,26,20,48,12,14,0,0,9,0
+Jeremy Doku,False,False,0,29,0,6,2,0,521,30,25,5,2,16,36,0,0,26,0
+Mateo Kovacic,False,False,0,27,0,1,2,8,1319,23,36,19,16,18,12,0,0,23,0
+Kevin De Bruyne,True,False,0,32,0,7,16,1,1626,96,28,9,10,20,29,0,0,65,0
+John Stones,True,False,0,23,0,2,2,2,1563,8,23,9,40,10,8,0,0,11,0
+Andre Onana,False,False,61,24,0,0,0,1,1030,3,0,0,5,0,3,0,0,0,0
+Diogo Dalot,False,False,0,26,0,1,2,6,1441,29,54,37,55,21,3,0,0,22,0
+Bruno Fernandes,False,False,0,37,0,8,8,6,2030,119,68,25,40,42,39,0,0,90,0
+Alejandro Garnacho,False,False,0,19,569,3,2,3,187,3,5,5,3,8,8,0,0,24,0
+Marcus Rashford,False,False,0,35,0,17,5,2,817,30,20,7,14,15,23,0,0,108,0
+Rasmus Hojlund,False,False,0,32,0,9,2,1,435,24,4,1,5,21,32,0,0,54,0
+Casemiro,False,False,0,28,0,4,3,7,1439,28,88,34,64,48,24,0,0,34,0
+Kobbie Mainoo,False,False,0,1,11,0,0,0,8,0,0,0,0,0,0,0,0,0,0
+Aaron Wan Bissaka,False,False,0,19,0,0,0,2,840,15,40,22,41,11,2,0,0,10,0
+Scott McTominay,False,False,0,24,0,1,0,8,432,8,32,14,45,28,16,0,0,13,0
+Harry Maguire,False,False,0,16,767,0,0,4,577,1,8,13,41,8,4,0,0,3,0
+Raphael Varane,False,False,0,24,0,0,0,1,1106,4,24,11,91,12,3,0,0,8,0
+Jonny Evans,False,False,0,13,0,0,0,1,789,1,13,18,51,9,7,0,0,1,0
+Antony,False,False,0,25,0,4,2,5,819,28,22,11,6,15,25,0,0,72,0
+Victor Lindelof,False,False,0,20,0,0,0,1,930,3,22,21,63,10,4,0,0,3,0
+Bruno Guimaraes,False,False,0,32,0,4,5,7,1668,42,78,36,22,45,83,0,0,28,0
+Fabian Schar,False,False,0,36,0,1,3,7,1846,19,47,52,139,20,27,0,0,56,0
+Anthony Gordon,False,False,0,16,487,1,0,1,198,6,14,2,1,7,8,0,0,8,0
+Dan Burn,False,False,0,38,0,1,0,5,1715,16,60,32,120,35,4,0,0,21,0
+Sean Longstaff,False,False,0,33,0,1,4,2,1163,23,42,16,23,29,39,0,0,33,0
+Alexander Isak,False,False,0,22,0,10,1,3,368,16,18,4,8,19,15,0,0,49,0
+Kieran Trippier,False,False,0,38,0,1,7,5,2788,110,71,43,84,48,29,0,0,14,0
+Miguel Almiron,False,False,0,34,0,11,2,2,982,26,46,10,17,22,33,0,0,69,0
+Martin Dubravka,False,False,9,2,157,0,0,0,54,0,0,0,1,0,0,0,0,0,0
+Sven Botman,False,False,0,36,0,0,0,2,1765,9,38,34,126,15,12,0,0,22,0
+Nick Pope,False,False,85,37,0,0,0,3,890,2,1,0,27,1,2,0,0,0,0
+Joelinton,False,False,0,32,0,6,1,12,1268,26,70,48,39,65,34,0,0,51,0
+Lewis Miley,False,False,0,1,15,0,0,0,6,0,0,0,0,0,0,0,0,1,0
+Jacob Murphy,False,False,0,36,0,4,2,0,448,19,15,7,3,8,14,0,0,29,0
+Jamaal Lascelles,False,False,0,7,218,0,0,4,93,0,1,0,17,6,2,0,0,2,0
+Morgan Gibbs White,False,False,0,35,0,5,8,5,1078,66,26,14,15,32,28,0,0,57,0
+Murillo,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Anthony Elanga,False,False,0,16,426,0,1,0,130,6,3,2,4,3,7,0,0,10,0
+Ryan Yates,False,False,0,26,0,0,2,5,592,7,38,10,44,50,53,0,0,26,0
+Callum Hudson Odoi,False,False,0,14,605,0,1,0,248,13,5,2,4,2,20,0,0,4,0
+Chris Wood,False,False,0,7,372,1,0,0,71,3,0,1,2,2,3,0,0,3,0
+Danilo,False,False,0,13,976,3,2,1,235,9,18,9,19,4,3,0,0,15,0
+Ola Aina,False,False,0,19,876,1,1,5,544,12,17,11,26,16,16,0,0,8,0
+Orel Mangala,False,False,0,27,0,1,1,3,514,3,28,23,15,22,23,0,0,9,0
+Nicolas Dominguez,False,False,0,31,0,3,2,10,1420,36,79,21,29,43,32,0,0,42,0
+Neco Williams,False,False,0,31,0,1,0,7,840,15,72,33,48,33,27,0,0,25,0
+Willy Boly,False,False,0,11,685,0,1,2,258,1,13,12,45,5,5,0,0,2,0
+Matt Turner,False,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Matz Sels,False,False,115,38,0,0,0,2,973,1,4,4,23,0,3,0,0,0,0
+Moussa Niakhate,False,False,0,14,0,0,0,1,391,1,18,19,60,12,6,0,0,6,0
+Morgan Gibbs White,True,True,0,35,0,5,8,5,1078,66,26,14,15,32,28,0,0,57,0
+Murillo,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Anthony Elanga,False,True,0,16,426,0,1,0,130,6,3,2,4,3,7,0,0,10,0
+Ryan Yates,True,True,0,26,0,0,2,5,592,7,38,10,44,50,53,0,0,26,0
+Callum Hudson Odoi,False,False,0,14,605,0,1,0,248,13,5,2,4,2,20,0,0,4,0
+Chris Wood,True,True,0,7,372,1,0,0,71,3,0,1,2,2,3,0,0,3,0
+Danilo,True,True,0,13,976,3,2,1,235,9,18,9,19,4,3,0,0,15,0
+Ola Aina,False,False,0,19,876,1,1,5,544,12,17,11,26,16,16,0,0,8,0
+Orel Mangala,True,True,0,27,0,1,1,3,514,3,28,23,15,22,23,0,0,9,0
+Nicolas Dominguez,False,False,0,31,0,3,2,10,1420,36,79,21,29,43,32,0,0,42,0
+Neco Williams,True,True,0,31,0,1,0,7,840,15,72,33,48,33,27,0,0,25,0
+Willy Boly,True,True,0,11,685,0,1,2,258,1,13,12,45,5,5,0,0,2,0
+Matt Turner,False,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Matz Sels,False,False,115,38,0,0,0,2,973,1,4,4,23,0,3,0,0,0,0
+Moussa Niakhate,True,True,0,14,0,0,0,1,391,1,18,19,60,12,6,0,0,6,0
