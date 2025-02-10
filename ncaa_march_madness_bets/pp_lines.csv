@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 19548aa (updated gitignore)
 name,opponent,Pts+Asts,Dunks,Free Throws Made,FG Attempted,Pts+Rebs+Asts,Fantasy Score,3-PT Attempted,Rebounds,Rebs+Asts,Points,Pts+Rebs,Assists,Blks+Stls,FG Made,3-PT Made,Offensive Rebounds,Defensive Rebounds,Steals,Turnovers,Blocked Shots
 Kevin Durant,CLE,31.5,0.5,5.5,19.5,37.5,43.5,5.5,6,10.5,27,33,,,,,,,,,
 Donovan Mitchell,PHX,31.5,,,,36,,,4.5,9,26.5,31,4.5,1.5,9.5,,,,,,
@@ -52,6 +55,7 @@ Kevin Porter Jr.,CHI,12.5,,,8,15.5,,,2.5,,8.5,11.5,,,3,,0.5,,0.5,,
 Kris Dunn,CHI,9.5,,,6.5,12.5,,,,,6.5,9.5,,,2.5,,0.5,,,,
 Nicolas Batum,CHI,4.5,,,3.5,7.5,,,2.5,,,,,,,,0.5,,,,
 Norman Powell,CHI,26.5,,3.5,17.5,29.5,33.5,8,3.5,5.5,24.5,28,,1.5,8.5,,,,,,
+<<<<<<< HEAD
 =======
 name,opponent,Fantasy Score,Rebounds,Pts+Rebs+Asts,Dunks,Points,Pts+Rebs,Pts+Asts,Rebs+Asts,Defensive Rebounds,Offensive Rebounds,FG Attempted,Assists,FG Made,3-PT Attempted,Free Throws Made,3-PT Made,Blks+Stls,Turnovers,Blocked Shots,Steals
 Jalen Duren,GSW,28,9.5,21.5,2.5,9.5,19.5,11.5,11.5,7,3.5,,,,,,,,,,
@@ -144,3 +148,5 @@ Kyle Filipowski,MIA,,5,15,,7.5,12.5,,,,,,,,,,,,,,
 Nikola Jovic,UTA,,4.5,18.5,,10.5,15,,,,,,,,,,,,,,
 Nickeil Alexander-Walker,ORL,,,10.5,,6,8.5,,,,,,,,,,,,,,
 >>>>>>> acb4960 (it's been a while)
+=======
+>>>>>>> 19548aa (updated gitignore)
